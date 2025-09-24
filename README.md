@@ -8,9 +8,6 @@ AVIS adalah asisten pencarian lokasi usaha dan manajemen properti berbasis LLaMA
 ```bash
 npm install
 composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
 npm run dev
 php artisan serve
 ```
