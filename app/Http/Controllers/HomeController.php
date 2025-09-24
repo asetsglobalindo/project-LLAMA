@@ -92,58 +92,7 @@ class HomeController extends Controller
         return view('detail-page-spbu', compact('listingDetail'));
     }
 
-    // public function GetAreaSizePrice(Request $request)
-    // {
-    //     $allAssets = [];
-    //     $currentPage = 1;
-    //     $baseUrl = 'https://pertare.asets.id/api/space-available';
-
-    //     do {
-    //         $response = Http::get($baseUrl, ['page' => $currentPage]);
-    //         $responseData = $response->json();
-    //         $assets = $responseData['data'] ?? [];
-    //         $pagination = $responseData['pagination'] ?? null;
-
-    //         $allAssets = array_merge($allAssets, $assets);
-    //         $currentPage++;
-    //     } while ($pagination && $pagination['next_page_url']);
-
-    //     $minAmount = $request->input('min_amount');
-    //     $maxAmount = $request->input('max_amount');
-    //     $area = $request->input('area');
-
-    //     $sizeRanges = [
-    //         'all_size' => [0, null],
-    //         '0-20' => [0, 20],
-    //         '20-50' => [20, 50],
-    //         '50-100' => [50, 100],
-    //         '100-200' => [100, 200],
-    //         '200+' => [200, null],
-    //     ];
-
-    //     $luas = $request->input('size');
-    //     $minLuas = $sizeRanges[$luas][0] ?? '';
-    //     $maxLuas = $sizeRanges[$luas][1] ?? '';
-
-    //     $filteredAssets = collect($allAssets)->filter(function ($asset) use ($minAmount, $maxAmount, $area, $minLuas, $maxLuas) {
-    //         $price = (int) $asset['price'];
-    //         $name = strtolower($asset['listing']['listing_address']);
-    //         $size = (int) $asset['size_sqm'];
-
-    //         $matchMinAmount = !$minAmount || $price >= (int)$minAmount;
-    //         $matchMaxAmount = !$maxAmount || $price <= (int)$maxAmount;
-    //         $matchArea = !$area || str_contains($name, strtolower($area));
-    //         $matchMinLuas = !$minLuas || $size >= (int)$minLuas;
-    //         $matchMaxLuas = !$maxLuas || $size <= (int)$maxLuas;
-
-    //         return $matchMinAmount && $matchMaxAmount && $matchArea && $matchMinLuas && $matchMaxLuas;
-    //     });
-
-    //     return view('space-results', [
-    //         'assets' => $filteredAssets,
-    //         'input' => $request->all()
-    //     ]);
-    // }
+   
 
     public function GetAreaSizePrice(Request $request)
     {
