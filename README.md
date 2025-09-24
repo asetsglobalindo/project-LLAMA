@@ -26,4 +26,5 @@ Link demo: https://drive.google.com/drive/folders/1g_tJyotmw9nViW1kfJjY8HXAucOnI
 
 ## Data Demo
 
-- [resources/views/data/merged_spaces_listings_picsum.json](resources/views/data/output_fixed_images.json)
+- [output_fixed_images](resources/views/data/output_fixed_images.json)
+- [merged_spaces_listings_picsum.json](resources/views/data/merged_spaces_listings_picsum.json)
