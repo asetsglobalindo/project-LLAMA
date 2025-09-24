@@ -1,0 +1,428 @@
+[
+  {
+    "space": {
+      "id": 6,
+      "code": "553",
+      "name": "Clarke Quay Central - Retail",
+      "type": "RUANGAN",
+      "price": "2100000.00",
+      "price_type": "sqm",
+      "size_sqm": 23,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 7,
+      "address": "6 Eu Tong Sen Street",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "AF1QipMK7ZccvFZniVm7oAzxzl2ZtRN7aBa2yLAquOlc=s680-w680-h510",
+        "url": "https://lh3.googleusercontent.com/p/AF1QipMK7ZccvFZniVm7oAzxzl2ZtRN7aBa2yLAquOlc=s680-w680-h510"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 1,
+      "code": "555",
+      "name": "RUANGAN NON SPBU 1",
+      "type": "RUANGAN",
+      "price": "3000000.00",
+      "price_type": "sqm",
+      "size_sqm": 1500,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 1,
+      "address": "Jl. Kuala Simpang Blok EC No.9, RT.005/RW.007, Jatiwaringin, Kec. Pd. Gede, Kota Bks, Jawa Barat 17411",
+      "city": ""
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "thumbnail",
+        "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=14.54483801528525&panoid=PizdEMsIsNgGOyZuAwyGLA&yaw=94.36213655467931"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 4,
+      "code": "551",
+      "name": "Duo Galleria - Retail",
+      "type": "RUANGAN",
+      "price": "2100000.00",
+      "price_type": "sqm",
+      "size_sqm": 23,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 5,
+      "address": "7 Fraser Street, Singapore",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "AF1QipNNEgxJBG_y3ESOyh7BENmI2pWXW5TLmRuqKCaE=s680-w680-h5107",
+        "url": "https://lh3.googleusercontent.com/p/AF1QipNNEgxJBG_y3ESOyh7BENmI2pWXW5TLmRuqKCaE=s680-w680-h5107"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 2,
+      "code": "551",
+      "name": "RUANGAN NON SPBU 2",
+      "type": "RUANGAN",
+      "price": "2100000.00",
+      "price_type": "sqm",
+      "size_sqm": 23,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 2,
+      "address": "Jl. Nangka 5 No.G2, RW.25, Pamulang Tim., Kec. Pamulang, Kota Tangerang Selatan, Banten 15417",
+      "city": "Tangerang"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "thumbnail",
+        "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=8.882977880895993&panoid=Kw7pVVIBFekSDykkIJLKgw&yaw=93.61032584587106"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 3,
+      "code": "551",
+      "name": "RUANGAN NON SPBU 2",
+      "type": "RUANGAN",
+      "price": "2100000.00",
+      "price_type": "sqm",
+      "size_sqm": 23,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 4,
+      "address": "Jl. H. Samanhudi , Krajan, Pacitan, Kec. Pacitan, Kabupaten Pacitan, Jawa Timur 63512",
+      "city": "Pacian"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "thumbnail",
+        "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=0&panoid=BBe-bpb46Fre3aIv5nU0GA&yaw=353.29257"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 5,
+      "code": "552",
+      "name": "Stamford Arts Centre - Retail",
+      "type": "RUANGAN",
+      "price": "2100000.00",
+      "price_type": "sqm",
+      "size_sqm": 23,
+      "min_period": "m"
+    },
+    "listing": {
+      "id": 6,
+      "address": "155 Waterloo Street",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "460px-Stamford_Arts_Centre%2C_Singapore_-_20070723.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Stamford_Arts_Centre%2C_Singapore_-_20070723.jpg/460px-Stamford_Arts_Centre%2C_Singapore_-_20070723.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 7,
+      "code": "601",
+      "name": "18 & 20 & 22 Cross Street and 181 South Bridge Road - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 8,
+      "address": "18 & 20 & 22 Cross Street and 181 South Bridge Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "18---20---22-Cross-Street-and-181-South-Bridge-Road---Retail_181306_20210910_001.jpg",
+        "url": "https://jll-global-gdim-res.cloudinary.com/image/upload/v1631269039/SG_ML20210910/18---20---22-Cross-Street-and-181-South-Bridge-Road---Retail_181306_20210910_001.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 8,
+      "code": "602",
+      "name": "Icon Village 2 - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 9,
+      "address": "16 Enggor Street",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "Icon-Village-2---Retail_189668_20210817_001.jpg",
+        "url": "https://jll-global-gdim-res.cloudinary.com/image/upload/c_fill,h_600,w_1200/v1629257009/SG_ML20210817/Icon-Village-2---Retail_189668_20210817_001.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 9,
+      "code": "603",
+      "name": "228 Orchard Road - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 10,
+      "address": "228 Orchard Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "228-Orchard-Road_7051_20180220_002.jpg",
+        "url": "https://jll-global-gdim-res.cloudinary.com/image/upload/v1519160198/SG_ML20180220/228-Orchard-Road_7051_20180220_002.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 10,
+      "code": "604",
+      "name": "One Raffles Place - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 11,
+      "address": "1 Raffles Place",
+      "city": "Singapore"
+    },
+    "media": []
+  },
+  {
+    "space": {
+      "id": 11,
+      "code": "605",
+      "name": "Robinson 77 - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 12,
+      "address": "77 Robinson Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "images",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNZGNGKKU7_M93wcED807QPlmH448sng1ow&s"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 12,
+      "code": "606",
+      "name": "CIMB Plaza - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 13,
+      "address": "30 Raffles Place",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "CIMB-plaza-26.jpg",
+        "url": "https://barrisol.com/projets/exception/301/CIMB-plaza-26.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 13,
+      "code": "701",
+      "name": "The Rail Mall - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 14,
+      "address": "380 Upper Bukit Timah Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "images",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4cBQGN2g12HAHRkAw3c7bnEpOECYMhrnMw&s"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 14,
+      "code": "702",
+      "name": "P&G Singapore Innovation Center - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 2,
+      "address": "70 Biopolis Street",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "0144893.jpg",
+        "url": "https://res.cloudinary.com/trends-publishing/image/upload/dpr_2.0,g_center,w_640/f_auto,q_auto:good/0144893.jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 15,
+      "code": "703",
+      "name": "25 Scotts Road - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 3,
+      "address": "25 Scotts Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "idx79ex5pehve9nakq4v.png",
+        "url": "https://res.cloudinary.com/jll-global-ods/image/upload/c_fill,h_600,w_1200/v1680758072/prd/Focus/Property/idx79ex5pehve9nakq4v.png"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 16,
+      "code": "704",
+      "name": "Village Hotel Albert Court - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 4,
+      "address": "180 Albert Street",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "Village-Hotel-Albert-Court-Exterior.jpg",
+        "url": "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/104/434/644/Facade_O/Village-Hotel-Albert-Court-Exterior.jpg?tr=w-780%2Ch-437%2Cfo-auto"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 17,
+      "code": "705",
+      "name": "Jurong Lake Gardens- Lakeside Garden - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 5,
+      "address": "Yuan Ching Road",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "img-3396-edit(1).jpg",
+        "url": "https://www.savills.com.sg/_images/img-3396-edit(1).jpg"
+      }
+    ]
+  },
+  {
+    "space": {
+      "id": 18,
+      "code": "706",
+      "name": "Parkland Green - Retail",
+      "type": "RUANGAN",
+      "price": "0.00",
+      "price_type": "",
+      "size_sqm": 0,
+      "min_period": ""
+    },
+    "listing": {
+      "id": 6,
+      "address": "920 East Coast Park",
+      "city": "Singapore"
+    },
+    "media": [
+      {
+        "id": "photo-0",
+        "file": "1703915804494",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQFjCD0lsGg6hA/feedshare-shrink_800/feedshare-shrink_800/0/1703915804494?e=2147483647&v=beta&t=tgKv1d-NsbN3dYbU1bGCbgHY3XDdcY_H6eMChcJg9fo"
+      }
+    ]
+  }
+]

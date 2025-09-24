@@ -1,0 +1,921 @@
+[
+  {
+    "id": 1,
+    "name": "RUANGAN NON SPBU 1",
+    "code": "555",
+    "slug": "555",
+    "size_sqm": 1500,
+    "price": "3000000.00",
+    "display_price": "IDR 3,000,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=14.54483801528525&panoid=PizdEMsIsNgGOyZuAwyGLA&yaw=94.36213655467931"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 1,
+      "listing_name": "Bekasi - Kuala Simpang",
+      "listing_slug": "Bekasi - Kuala Simpang",
+      "listing_region_id": 1,
+      "listing_region_name": "REGIONAL",
+      "listing_area_id": 11,
+      "listing_area_name": "",
+      "listing_rayon_id": 11,
+      "listing_rayon_name": "",
+      "listing_city_id": 111,
+      "listing_city_name": "",
+      "listing_address": "Jl. Kuala Simpang Blok EC No.9, RT.005/RW.007, Jatiwaringin, Kec. Pd. Gede, Kota Bks, Jawa Barat 17411",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        },
+        {
+          "facility_id": 7,
+          "facility_name": "Toilet",
+          "facility_icon": "https://pertare.asets.id/storage/6/icon-1727966196833.png"
+        },
+        {
+          "facility_id": 14,
+          "facility_name": "Penggunaan Voucher BBK (produk non subsidi)",
+          "facility_icon": "https://pertare.asets.id/storage/479/icon-1733731119218.jpg"
+        },
+        {
+          "facility_id": 16,
+          "facility_name": "Produk LPG",
+          "facility_icon": "https://pertare.asets.id/storage/482/icon-1733731176880.jpg"
+        },
+        {
+          "facility_id": 17,
+          "facility_name": "Produk Pelumas",
+          "facility_icon": "https://pertare.asets.id/storage/660/icon-1733897851319.jpg"
+        },
+        {
+          "facility_id": 19,
+          "facility_name": "Ruang Tenant",
+          "facility_icon": "https://pertare.asets.id/storage/550/icon-1733802141728.jpg"
+        },
+        {
+          "facility_id": 15,
+          "facility_name": "Penggunaan Kartu Pas RFID",
+          "facility_icon": "https://pertare.asets.id/storage/481/icon-1733731159111.jpg"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 327,
+          "surrounding_area_name": "Lapangan Campurejo Kediri",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/95/icon-173009157380.png"
+        },
+        {
+          "surrounding_area_id": 328,
+          "surrounding_area_name": "Rumah Sakit Umum Lirboyo",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Rumah Sakit",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/12/icon-1727966515750.png"
+        }
+      ],
+      "listing_photos": [
+        "https://pertare.asets.id/storage/672/1.JPG",
+        "https://pertare.asets.id/storage/675/cover-1733900027608.jpg"
+      ],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 2,
+    "name": "RUANGAN NON SPBU 2",
+    "code": "551",
+    "slug": "551",
+    "size_sqm": 23,
+    "price": "2100000.00",
+    "display_price": "IDR 210,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=8.882977880895993&panoid=Kw7pVVIBFekSDykkIJLKgw&yaw=93.61032584587106"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 2,
+      "listing_name": "Tanggerang Selatan - Nangka",
+      "listing_slug": "Tanggerang Selatan - Nangka",
+      "listing_region_id": 1,
+      "listing_region_name": "REGIONAL",
+      "listing_area_id": 11,
+      "listing_area_name": "Tangerang",
+      "listing_rayon_id": 11,
+      "listing_rayon_name": "JABODETABEK",
+      "listing_city_id": 111,
+      "listing_city_name": "Tangerang",
+      "listing_address": "Jl. Nangka 5 No.G2, RW.25, Pamulang Tim., Kec. Pamulang, Kota Tangerang Selatan, Banten 15417",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 327,
+          "surrounding_area_name": "Lapangan Campurejo Kediri",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/95/icon-173009157380.png"
+        },
+        {
+          "surrounding_area_id": 328,
+          "surrounding_area_name": "Rumah Sakit Umum Lirboyo",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Rumah Sakit",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/12/icon-1727966515750.png"
+        }
+      ],
+      "listing_photos": [
+        "https://pertare.asets.id/storage/672/1.JPG",
+        "https://pertare.asets.id/storage/675/cover-1733900027608.jpg"
+      ],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 3,
+    "name": "RUANGAN NON SPBU 2",
+    "code": "551",
+    "slug": "551",
+    "size_sqm": 23,
+    "price": "2100000.00",
+    "display_price": "IDR 210,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=900&h=600&pitch=0&panoid=BBe-bpb46Fre3aIv5nU0GA&yaw=353.29257"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 4,
+      "listing_name": "Pacitan - H. Samanhudi",
+      "listing_slug": "Pacitan - H. Samanhudi",
+      "listing_region_id": 1,
+      "listing_region_name": "REGIONAL",
+      "listing_area_id": 11,
+      "listing_area_name": "Pacian",
+      "listing_rayon_id": 11,
+      "listing_rayon_name": "JABODETABEK",
+      "listing_city_id": 111,
+      "listing_city_name": "Pacian",
+      "listing_address": "Jl. H. Samanhudi , Krajan, Pacitan, Kec. Pacitan, Kabupaten Pacitan, Jawa Timur 63512",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 327,
+          "surrounding_area_name": "Lapangan Campurejo Kediri",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/95/icon-173009157380.png"
+        },
+        {
+          "surrounding_area_id": 328,
+          "surrounding_area_name": "Rumah Sakit Umum Lirboyo",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Rumah Sakit",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/12/icon-1727966515750.png"
+        }
+      ],
+      "listing_photos": [
+        "https://pertare.asets.id/storage/672/1.JPG",
+        "https://pertare.asets.id/storage/675/cover-1733900027608.jpg"
+      ],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "Duo Galleria - Retail",
+    "code": "551",
+    "slug": "duo-galleria-retail",
+    "size_sqm": 23,
+    "price": "2100000.00",
+    "display_price": "IDR 210,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://lh3.googleusercontent.com/p/AF1QipNNEgxJBG_y3ESOyh7BENmI2pWXW5TLmRuqKCaE=s680-w680-h5107"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 5,
+      "listing_name": "Duo Galleria - Retail",
+      "listing_slug": "duo-galleria-retail",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 1,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "7 Fraser Street, Singapore",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 1,
+          "surrounding_area_name": "Gardens by the Bay",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/95/icon-173009157380.png"
+        },
+        {
+          "surrounding_area_id": 2,
+          "surrounding_area_name": "Singapore General Hospital",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Rumah Sakit",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/12/icon-1727966515750.png"
+        }
+      ],
+      "listing_photos": [
+        "https://pertare.asets.id/storage/672/1.JPG",
+        "https://pertare.asets.id/storage/675/cover-1733900027608.jpg"
+      ],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 5,
+    "name": "Stamford Arts Centre - Retail",
+    "code": "552",
+    "slug": "stamford-arts-centre-retail",
+    "size_sqm": 23,
+    "price": "2100000.00",
+    "display_price": "IDR 210,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Stamford_Arts_Centre%2C_Singapore_-_20070723.jpg/460px-Stamford_Arts_Centre%2C_Singapore_-_20070723.jpg"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 6,
+      "listing_name": "Stamford Arts Centre - Retail",
+      "listing_slug": "stamford-arts-centre-retail",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 2,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 2,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 2,
+      "listing_city_name": "Singapore",
+      "listing_address": "155 Waterloo Street",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 1,
+          "surrounding_area_name": "Gardens by the Bay",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/95/icon-173009157380.png"
+        },
+        {
+          "surrounding_area_id": 2,
+          "surrounding_area_name": "Singapore General Hospital",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Rumah Sakit",
+          "surrounding_area_legend_icon": "https://pertare.asets.id/storage/12/icon-1727966515750.png"
+        }
+      ],
+      "listing_photos": [
+        "https://pertare.asets.id/storage/672/1.JPG",
+        "https://pertare.asets.id/storage/675/cover-1733900027608.jpg"
+      ],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 6,
+    "name": "Clarke Quay Central - Retail",
+    "code": "553",
+    "slug": "clarke-quay-central-retail",
+    "size_sqm": 23,
+    "price": "2100000.00",
+    "display_price": "IDR 210,000 / m&sup2; / Bulan",
+    "price_type": "sqm",
+    "min_period": "m",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [
+      "https://lh3.googleusercontent.com/p/AF1QipMK7ZccvFZniVm7oAzxzl2ZtRN7aBa2yLAquOlc=s680-w680-h510"
+    ],
+    "attributes": [],
+    "listing": {
+      "listing_id": 7,
+      "listing_name": "Clarke Quay Central - Retail",
+      "listing_slug": "clarke-quay-central-retail",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 3,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 3,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 3,
+      "listing_city_name": "Singapore",
+      "listing_address": "6 Eu Tong Sen Street",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [
+        {
+          "facility_id": 6,
+          "facility_name": "24 Jam",
+          "facility_icon": "https://pertare.asets.id/storage/7/icon-1727966231148.svg"
+        },
+        {
+          "facility_id": 2,
+          "facility_name": "Musholla",
+          "facility_icon": "https://pertare.asets.id/storage/10/icon-1727966370694.svg"
+        },
+        {
+          "facility_id": 3,
+          "facility_name": "Parkir",
+          "facility_icon": "https://pertare.asets.id/storage/9/icon-1727966348861.png"
+        }
+      ],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [
+        {
+          "surrounding_area_id": 1,
+          "surrounding_area_name": "Gardens by the Bay",
+          "surrounding_area_note": null,
+          "surrounding_area_legend": "Tempat Wisata",
+          "surrounding_area_legend_icon": "https://pertare.as"
+        }
+      ]
+     }
+    },
+    {
+    "id": 7,
+    "name": "18 & 20 & 22 Cross Street and 181 South Bridge Road - Retail",
+    "code": "601",
+    "slug": "cross-street-exchange-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://jll-global-gdim-res.cloudinary.com/image/upload/v1631269039/SG_ML20210910/18---20---22-Cross-Street-and-181-South-Bridge-Road---Retail_181306_20210910_001.jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 8,
+      "listing_name": "Cross Street Exchange",
+      "listing_slug": "cross-street-exchange",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 1,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "18 & 20 & 22 Cross Street and 181 South Bridge Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 8,
+    "name": "Icon Village 2 - Retail",
+    "code": "602",
+    "slug": "icon-village-2-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://jll-global-gdim-res.cloudinary.com/image/upload/c_fill,h_600,w_1200/v1629257009/SG_ML20210817/Icon-Village-2---Retail_189668_20210817_001.jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 9,
+      "listing_name": "Icon Village 2",
+      "listing_slug": "icon-village-2",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 2,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "16 Enggor Street",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 9,
+    "name": "228 Orchard Road - Retail",
+    "code": "603",
+    "slug": "228-orchard-road-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://jll-global-gdim-res.cloudinary.com/image/upload/v1519160198/SG_ML20180220/228-Orchard-Road_7051_20180220_002.jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 10,
+      "listing_name": "228 Orchard Road",
+      "listing_slug": "228-orchard-road",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 3,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "228 Orchard Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 10,
+    "name": "One Raffles Place - Retail",
+    "code": "604",
+    "slug": "one-raffles-place-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": [],
+    "attributes": [],
+    "listing": {
+      "listing_id": 11,
+      "listing_name": "One Raffles Place",
+      "listing_slug": "one-raffles-place",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 4,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "1 Raffles Place",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": ["https://www.onerafflesplace.com.sg/shopping/Content/images/home/home-banner-img-02.jpg"],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 11,
+    "name": "Robinson 77 - Retail",
+    "code": "605",
+    "slug": "robinson-77-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNZGNGKKU7_M93wcED807QPlmH448sng1ow&s"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 12,
+      "listing_name": "Robinson 77",
+      "listing_slug": "robinson-77",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 5,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "77 Robinson Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 12,
+    "name": "CIMB Plaza - Retail",
+    "code": "606",
+    "slug": "cimb-plaza-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://barrisol.com/projets/exception/301/CIMB-plaza-26.jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 13,
+      "listing_name": "CIMB Plaza",
+      "listing_slug": "cimb-plaza",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Central Area",
+      "listing_rayon_id": 6,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "30 Raffles Place",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 13,
+    "name": "The Rail Mall - Retail",
+    "code": "701",
+    "slug": "the-rail-mall-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4cBQGN2g12HAHRkAw3c7bnEpOECYMhrnMw&s"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 14,
+      "listing_name": "The Rail Mall",
+      "listing_slug": "the-rail-mall",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 1,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "380 Upper Bukit Timah Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 2,
+    "name": "P&G Singapore Innovation Center - Retail",
+    "code": "702",
+    "slug": "pg-singapore-innovation-center-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://res.cloudinary.com/trends-publishing/image/upload/dpr_2.0,g_center,w_640/f_auto,q_auto:good/0144893.jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 2,
+      "listing_name": "P&G Singapore Innovation Center",
+      "listing_slug": "pg-singapore-innovation-center",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 2,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "70 Biopolis Street",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 3,
+    "name": "25 Scotts Road - Retail",
+    "code": "703",
+    "slug": "25-scotts-road-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://res.cloudinary.com/jll-global-ods/image/upload/c_fill,h_600,w_1200/v1680758072/prd/Focus/Property/idx79ex5pehve9nakq4v.png"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 3,
+      "listing_name": "25 Scotts Road",
+      "listing_slug": "25-scotts-road",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 3,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "25 Scotts Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "Village Hotel Albert Court - Retail",
+    "code": "704",
+    "slug": "village-hotel-albert-court-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/104/434/644/Facade_O/Village-Hotel-Albert-Court-Exterior.jpg?tr=w-780%2Ch-437%2Cfo-auto"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 4,
+      "listing_name": "Village Hotel Albert Court",
+      "listing_slug": "village-hotel-albert-court",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 4,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "180 Albert Street",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 5,
+    "name": "Jurong Lake Gardens- Lakeside Garden - Retail",
+    "code": "705",
+    "slug": "jurong-lake-gardens-lakeside-garden-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://www.savills.com.sg/_images/img-3396-edit(1).jpg"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 5,
+      "listing_name": "Jurong Lake Gardens- Lakeside Garden",
+      "listing_slug": "jurong-lake-gardens-lakeside-garden",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 5,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "Yuan Ching Road",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  },
+  {
+    "id": 6,
+    "name": "Parkland Green - Retail",
+    "code": "706",
+    "slug": "parkland-green-retail",
+    "size_sqm": 0,
+    "price": "0.00",
+    "display_price": "",
+    "price_type": "",
+    "min_period": "",
+    "virtual_tour_url": "",
+    "youtube_url": "",
+    "description": null,
+    "available": 1,
+    "photos": ["https://media.licdn.com/dms/image/v2/D5622AQFjCD0lsGg6hA/feedshare-shrink_800/feedshare-shrink_800/0/1703915804494?e=2147483647&v=beta&t=tgKv1d-NsbN3dYbU1bGCbgHY3XDdcY_H6eMChcJg9fo"],
+    "attributes": [],
+    "listing": {
+      "listing_id": 6,
+      "listing_name": "Parkland Green",
+      "listing_slug": "parkland-green",
+      "listing_region_id": 1,
+      "listing_region_name": "Singapore",
+      "listing_area_id": 1,
+      "listing_area_name": "Retail Spaces",
+      "listing_rayon_id": 6,
+      "listing_rayon_name": "Retail Spaces",
+      "listing_city_id": 1,
+      "listing_city_name": "Singapore",
+      "listing_address": "920 East Coast Park",
+      "listing_lat": "-",
+      "listing_long": "",
+      "listing_facilities": [],
+      "listing_attributes": [],
+      "listing_surrounding_areas": [],
+      "listing_photos": [],
+      "listing_contacts": []
+    }
+  }
+    
+] 

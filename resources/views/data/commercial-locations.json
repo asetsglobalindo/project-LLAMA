@@ -1,0 +1,1215 @@
+{
+  "commercial_locations": [
+    {
+      "id": 1,
+      "city": "Jakarta",
+      "area": "Kemang",
+      "address": "Jl. Kemang Sel., RT.1/RW.3, Cilandak Tim., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Bright Oil Mart (Nitrogen)",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Pejaten Village",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Dekoruma Experience Center",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Como Park",
+          "type": "Pusat Perbelanjaan"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.01.R.GF.25",
+          "size": 73,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 210000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Jakarta",
+      "area": "Menteng",
+      "address": "Jl. Menteng Raya No. 31, RT.1/RW.1, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "WiFi Gratis"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Taman Suropati",
+          "type": "Taman"
+        },
+        {
+          "name": "Menteng Plaza",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Rumah Sakit Cipto Mangunkusumo",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.02.R.GF.15",
+          "size": 45,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 350000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.02.R.GF.16",
+          "size": 60,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 350000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Jakarta",
+      "area": "Kemayoran",
+      "address": "Jl. Kemayoran Gempol No. 15, RT.5/RW.2, Kemayoran, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10620, Indonesia",
+      "total_spaces": 0,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "AC Central"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Jakarta International Expo",
+          "type": "Pusat Pameran"
+        },
+        {
+          "name": "Mall Kelapa Gading",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Rumah Sakit Medistra",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": []
+    },
+    {
+      "id": 4,
+      "city": "Jakarta",
+      "area": "Kebayoran Baru",
+      "address": "Jl. Kebayoran Baru Raya No. 88, RT.3/RW.1, Kramat Pela, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12130, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Bright Oil Mart (Nitrogen)",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Security 24 Jam"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Blok M Square",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Ayodya",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Pondok Indah",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.04.R.GF.10",
+          "size": 85,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 280000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "city": "Jakarta",
+      "area": "Cikini",
+      "address": "Jl. Cikini Raya No. 42, RT.2/RW.1, Cikini, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10330, Indonesia",
+      "total_spaces": 3,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "CCTV",
+        "Generator"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Taman Ismail Marzuki",
+          "type": "Pusat Kesenian"
+        },
+        {
+          "name": "Cikini Plaza",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Rumah Sakit Cikini",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.05.R.GF.20",
+          "size": 55,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 320000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.05.R.GF.21",
+          "size": 40,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 320000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.05.R.GF.22",
+          "size": 70,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 320000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "city": "Bogor",
+      "area": "Bogor Selatan",
+      "address": "Jl. Raya Bogor KM 30, RT.1/RW.1, Cipaku, Kec. Bogor Sel., Kota Bogor, Jawa Barat 16135, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Taman Hijau"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Botani Square",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Sempur",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Salak",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.06.R.GF.30",
+          "size": 65,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 180000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.06.R.GF.31",
+          "size": 50,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 180000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "city": "Bogor",
+      "area": "Bogor Utara",
+      "address": "Jl. Raya Pajajaran No. 15, RT.2/RW.3, Baranangsiang, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16143, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Kebun Raya View"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Bogor Trade Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Kebun Raya Bogor",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Hermina",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.07.R.GF.25",
+          "size": 80,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 190000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "city": "Bogor",
+      "area": "Bogor Timur",
+      "address": "Jl. Raya Tajur No. 88, RT.4/RW.2, Tajur, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16120, Indonesia",
+      "total_spaces": 0,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Area Hijau"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Tajur Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Suryakencana",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Azra",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": []
+    },
+    {
+      "id": 9,
+      "city": "Bogor",
+      "area": "Bogor Barat",
+      "address": "Jl. Raya Dramaga No. 25, RT.1/RW.1, Dramaga, Kec. Bogor Barat, Kota Bogor, Jawa Barat 16680, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Near University"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "IPB University",
+          "type": "Universitas"
+        },
+        {
+          "name": "Dramaga Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Rumah Sakit PMI",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.09.R.GF.35",
+          "size": 45,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 170000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.09.R.GF.36",
+          "size": 60,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 170000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "city": "Bogor",
+      "area": "Bogor Tengah",
+      "address": "Jl. Suryakencana No. 12, RT.3/RW.2, Suryakencana, Kec. Bogor Tengah, Kota Bogor, Jawa Barat 16122, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Central Location"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Plaza Bogor",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Kencana",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Bogor",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.10.R.GF.40",
+          "size": 70,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 200000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "city": "Depok",
+      "area": "Depok Selatan",
+      "address": "Jl. Raya Margonda No. 45, RT.2/RW.1, Margonda, Kec. Beji, Kota Depok, Jawa Barat 16424, Indonesia",
+      "total_spaces": 3,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Near UI"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Margonda City",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Lembah Gurame",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Universitas Indonesia",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.11.R.GF.50",
+          "size": 55,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 160000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.11.R.GF.51",
+          "size": 40,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 160000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.11.R.GF.52",
+          "size": 65,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 160000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "city": "Depok",
+      "area": "Depok Utara",
+      "address": "Jl. Raya Citayam No. 88, RT.1/RW.3, Citayam, Kec. Bojong Gede, Kota Depok, Jawa Barat 16913, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Akses Mudah"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Citayam Plaza",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Wiladatika",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Citayam",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.12.R.GF.55",
+          "size": 75,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 150000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "city": "Depok",
+      "area": "Depok Timur",
+      "address": "Jl. Raya Sawangan No. 22, RT.3/RW.2, Sawangan, Kec. Sawangan, Kota Depok, Jawa Barat 16519, Indonesia",
+      "total_spaces": 0,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Area Strategis"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Sawangan Square",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Sawangan",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Sawangan",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": []
+    },
+    {
+      "id": 14,
+      "city": "Depok",
+      "area": "Depok Barat",
+      "address": "Jl. Raya Cimanggis No. 35, RT.2/RW.1, Cimanggis, Kec. Tapos, Kota Depok, Jawa Barat 16452, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Modern Design"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Cimanggis Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Cimanggis",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Cimanggis",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.14.R.GF.60",
+          "size": 50,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 140000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.14.R.GF.61",
+          "size": 35,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 140000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "city": "Depok",
+      "area": "Depok Tengah",
+      "address": "Jl. Raya Depok No. 15, RT.1/RW.2, Depok, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16431, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Heart of Depok"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Depok Town Square",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Depok",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Depok",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.15.R.GF.65",
+          "size": 60,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 155000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "city": "Tangerang",
+      "area": "Bintaro Sektor 9",
+      "address": "Jl. Raya Bintaro Sektor IX, Pd. Pucung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15229, Indonesia",
+      "total_spaces": 0,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Parkir",
+        "Toilet",
+        "EV Battery Swap",
+        "Bright Store",
+        "Bright Wash",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Penggunaan Kartu Pas RFID",
+        "Produk LPG",
+        "Produk Pelumas",
+        "Ruang Tenant"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Transpark Mall Bintaro",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Hotel Astera Bintaro",
+          "type": "Hotel"
+        },
+        {
+          "name": "RSIA Bina Medika Bintaro",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": []
+    },
+    {
+      "id": 17,
+      "city": "Tangerang",
+      "area": "Serpong",
+      "address": "Jl. Raya Serpong No. 88, RT.2/RW.1, Serpong, Kec. Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Mall Access"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Summarecon Mall Serpong",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Serpong",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Eka Hospital",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.17.R.GF.70",
+          "size": 55,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 220000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.17.R.GF.71",
+          "size": 40,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 220000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "city": "Tangerang",
+      "area": "Cikupa",
+      "address": "Jl. Raya Cikupa No. 25, RT.1/RW.3, Cikupa, Kec. Cikupa, Kab. Tangerang, Banten 15710, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Industrial Area"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Cikupa Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Cikupa",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Cikupa",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.18.R.GF.75",
+          "size": 65,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 180000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "city": "Tangerang",
+      "area": "Tangerang Kota",
+      "address": "Jl. Raya Tangerang No. 42, RT.3/RW.2, Tangerang, Kec. Tangerang, Kota Tangerang, Banten 15118, Indonesia",
+      "total_spaces": 3,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "City Center"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Mall @ Alam Sutera",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Tangerang",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Siloam",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.19.R.GF.80",
+          "size": 50,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 200000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.19.R.GF.81",
+          "size": 35,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 200000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.19.R.GF.82",
+          "size": 70,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 200000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "city": "Tangerang",
+      "area": "BSD City",
+      "address": "Jl. Raya Serpong No. 15, RT.2/RW.1, BSD, Kec. Serpong, Kota Tangerang Selatan, Banten 15310, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Premium Location"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Mall BSD",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman BSD",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Omni",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.20.R.GF.85",
+          "size": 80,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 250000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "city": "Bandung",
+      "area": "Dago",
+      "address": "Jl. Dago No. 88, RT.1/RW.2, Dago, Kec. Coblong, Kota Bandung, Jawa Barat 40135, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Mountain View"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Dago Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Dago",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Hasan Sadikin",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.21.R.GF.90",
+          "size": 60,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 120000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.21.R.GF.91",
+          "size": 45,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 120000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "city": "Bandung",
+      "area": "Cihampelas",
+      "address": "Jl. Cihampelas No. 25, RT.2/RW.1, Cihampelas, Kec. Coblong, Kota Bandung, Jawa Barat 40131, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Shopping District"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Cihampelas Walk",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Cihampelas",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Cihampelas",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.22.R.GF.95",
+          "size": 70,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 110000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "city": "Bandung",
+      "area": "Dipatiukur",
+      "address": "Jl. Dipatiukur No. 15, RT.1/RW.3, Dipatiukur, Kec. Coblong, Kota Bandung, Jawa Barat 40132, Indonesia",
+      "total_spaces": 0,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "University Area"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Dipatiukur Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Dipatiukur",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Dipatiukur",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": []
+    },
+    {
+      "id": 24,
+      "city": "Bandung",
+      "area": "Cibiru",
+      "address": "Jl. Raya Cibiru No. 35, RT.2/RW.1, Cibiru, Kec. Cibiru, Kota Bandung, Jawa Barat 40614, Indonesia",
+      "total_spaces": 2,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Residential Area"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Cibiru Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Cibiru",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Cibiru",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.24.R.GF.100",
+          "size": 55,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 100000,
+          "status": "Available"
+        },
+        {
+          "id": "31.127.24.R.GF.101",
+          "size": 40,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 100000,
+          "status": "Available"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "city": "Bandung",
+      "area": "Cimahi",
+      "address": "Jl. Raya Cimahi No. 50, RT.1/RW.2, Cimahi, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40525, Indonesia",
+      "total_spaces": 1,
+      "facilities": [
+        "24 Jam",
+        "ATM",
+        "Musholla",
+        "Toilet",
+        "Parkir",
+        "EV Battery Swap",
+        "Bright Store",
+        "Penggunaan Voucher BBK (produk non subsidi)",
+        "Produk LPG",
+        "Penggunaan Kartu Pas RFID",
+        "Produk Pelumas",
+        "Ruang Tenant",
+        "Affordable Price"
+      ],
+      "surrounding_areas": [
+        {
+          "name": "Cimahi Mall",
+          "type": "Pusat Perbelanjaan"
+        },
+        {
+          "name": "Taman Cimahi",
+          "type": "Taman"
+        },
+        {
+          "name": "Rumah Sakit Cimahi",
+          "type": "Rumah Sakit"
+        }
+      ],
+      "spaces_available": [
+        {
+          "id": "31.127.25.R.GF.105",
+          "size": 65,
+          "type": "RUANGAN",
+          "price_type": "sqm",
+          "price": 95000,
+          "status": "Available"
+        }
+      ]
+    }
+  ]
+}

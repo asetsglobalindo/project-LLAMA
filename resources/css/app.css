@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.poppins-regular {
+    font-family: "Inter", sans-serif;
+}
+
+.poppins-medium {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+[x-cloak] {
+    display: none !important;
+}
