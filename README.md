@@ -19,3 +19,11 @@ php artisan serve
 
 Link demo: https://drive.google.com/drive/folders/1g_tJyotmw9nViW1kfJjY8HXAucOnIT5i?usp=sharing
 
+
+## Website
+
+- Website: [asets.co.id](https://asets.co.id/)
+
+## Data Demo
+
+- [resources/views/data/merged_spaces_listings_picsum.json](resources/views/data/output_fixed_images.json)
