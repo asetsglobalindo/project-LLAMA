@@ -20,7 +20,7 @@ Link demo: https://drive.google.com/drive/folders/1g_tJyotmw9nViW1kfJjY8HXAucOnI
 ## Website
 
 - Website: [asets.co.id](https://asets.co.id/)
-- Website Demo AI: [demo-avis.asets.id](http://demo-avis.asets.id/demo-avis/public/)
+- Website Demo AI: [demo-avis.asets.id](https://demo-avis.asets.id/)
 ## Data Demo
 
 - [output_fixed_images](resources/views/data/output_fixed_images.json)
