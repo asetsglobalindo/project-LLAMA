@@ -6,11 +6,18 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
+use App\Services\ExternalApiService;
 
 class AIController extends Controller
 {
     private string $groqApiUrl = 'https://api.groq.com/openai/v1/chat/completions';
     private string $model = 'llama-3.1-8b-instant';
+    private ExternalApiService $externalApiService;
+
+    public function __construct(ExternalApiService $externalApiService)
+    {
+        $this->externalApiService = $externalApiService;
+    }
 
     public function chat(Request $request): JsonResponse
     {
@@ -511,6 +518,58 @@ PROMPT;
     }
 
     /**
+     * Test external API integration
+     */
+    public function testExternalApi(): JsonResponse
+    {
+        try {
+            $listings = $this->externalApiService->fetchListings();
+            $spaces = $this->externalApiService->fetchSpaceAvailable();
+            
+            return response()->json([
+                'success' => true,
+                'data' => [
+                    'listings_count' => count($listings),
+                    'spaces_count' => count($spaces),
+                    'listings_sample' => array_slice($listings, 0, 3),
+                    'spaces_sample' => array_slice($spaces, 0, 3),
+                ],
+                'message' => 'External API integration test successful'
+            ]);
+        } catch (\Exception $e) {
+            Log::error('External API Test Error: ' . $e->getMessage());
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'External API test failed: ' . $e->getMessage(),
+                'data' => []
+            ]);
+        }
+    }
+
+    /**
+     * Clear external API cache
+     */
+    public function clearApiCache(): JsonResponse
+    {
+        try {
+            $this->externalApiService->clearCache();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'External API cache cleared successfully'
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Clear Cache Error: ' . $e->getMessage());
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to clear cache: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    /**
      * Rekomendasi lokal analitis berbasis file JSON komersial dengan analisis mendalam.
      */
     private function generateLocalRecommendations(string $userMessage, string $language = 'id', ?float $forcedBudget = null, ?string $forcedDirection = null): array
@@ -660,7 +719,7 @@ PROMPT;
                     'title' => $title,
                     'description' => $rec['address'] ?? '',
                     'price' => $priceLabel,
-                    'link' => '/detail-listing/' . $rec['id'],
+                    'link' => '/detail-spbu/' . $rec['id'],
                     'image' => $imageUrl,
                     'id' => $rec['id'],
                     'source' => $rec['source'] ?? 'private_sector',
@@ -1577,30 +1636,47 @@ PROMPT;
     }
 
     /**
-     * Load all location data from both JSON files
+     * Load all location data from external APIs
      */
     private function loadAllLocationData(): array
     {
+        try {
+            // Use ExternalApiService to fetch data from APIs
+            return $this->externalApiService->getAllLocationData();
+        } catch (\Exception $e) {
+            Log::error('Failed to load location data from external APIs', [
+                'message' => $e->getMessage()
+            ]);
+            
+            // Fallback to local JSON files if API fails
+            return $this->loadAllLocationDataFromFiles();
+        }
+    }
+
+    /**
+     * Fallback method to load data from local JSON files
+     */
+    private function loadAllLocationDataFromFiles(): array
+    {
         $allLocations = [];
         
-        // Load merged.json (SPBU locations) and transform to internal format
-        $path1 = base_path('resources/views/data/merged_spaces_listings_picsum.json');
-        if (file_exists($path1)) {
-            $json1 = json_decode(file_get_contents($path1), true);
-            if (is_array($json1)) {
-                $transformedSpbu = $this->transformSpbuData($json1);
-                $allLocations = array_merge($allLocations, $transformedSpbu);
+        // Load listings_export.json (Listings data)
+        $listingsPath = base_path('resources/views/data/listings_export.json');
+        if (file_exists($listingsPath)) {
+            $listingsData = json_decode(file_get_contents($listingsPath), true);
+            if (is_array($listingsData) && isset($listingsData['listings'])) {
+                $transformedListings = $this->transformListingsData($listingsData['listings']);
+                $allLocations = array_merge($allLocations, $transformedListings);
             }
         }
         
-        // Load output_fixed_images.json (External property data)
-        $path2 = base_path('resources/views/data/output_fixed_images.json');
-        if (file_exists($path2)) {
-            $json2 = json_decode(file_get_contents($path2), true);
-            if (is_array($json2)) {
-                // Transform external property data to match our format
-                $transformedData = $this->transformExternalPropertyData($json2);
-                $allLocations = array_merge($allLocations, $transformedData);
+        // Load spaces_export.json (Spaces data)
+        $spacesPath = base_path('resources/views/data/spaces_export.json');
+        if (file_exists($spacesPath)) {
+            $spacesData = json_decode(file_get_contents($spacesPath), true);
+            if (is_array($spacesData) && isset($spacesData['spaces'])) {
+                $transformedSpaces = $this->transformSpacesData($spacesData['spaces']);
+                $allLocations = array_merge($allLocations, $transformedSpaces);
             }
         }
         
@@ -1608,8 +1684,87 @@ PROMPT;
     }
 
     /**
-     * Transform external property data to match our internal format
+     * Transform listings data to match our internal format
      */
+    private function transformListingsData(array $listings): array
+    {
+        $transformedLocations = [];
+        
+        foreach ($listings as $listing) {
+            $transformedLocations[] = [
+                'id' => (string) ($listing['id'] ?? ''),
+                'name' => $listing['name'] ?? 'Unknown Listing',
+                'address' => $listing['address'] ?? '',
+                'city' => $this->extractCityFromAddress($listing['address'] ?? ''),
+                'cover' => $this->getFirstMediaUrl($listing['media'] ?? []),
+                'spaces' => [
+                    [
+                        'name' => $listing['name'] ?? 'Space',
+                        'price' => null, // No price info in listings data
+                        'price_type' => 'lot',
+                        'space_size' => null,
+                        'description' => '',
+                        'source' => $listing['source'] ?? 'pms',
+                        'spaces_count' => $listing['spaces'] ?? 0,
+                        'city_name' => $listing['city_name'] ?? '',
+                        'area_name' => $listing['area_name'] ?? ''
+                    ]
+                ]
+            ];
+        }
+        
+        return $transformedLocations;
+    }
+
+    /**
+     * Transform spaces data to match our internal format
+     */
+    private function transformSpacesData(array $spaces): array
+    {
+        $groupedByListing = [];
+        
+        foreach ($spaces as $space) {
+            $listingId = (string) ($space['listing_id'] ?? 'unknown');
+            
+            if (!isset($groupedByListing[$listingId])) {
+                $groupedByListing[$listingId] = [
+                    'id' => $listingId,
+                    'name' => 'Space Listing ' . $listingId,
+                    'address' => $space['listing_address'] ?? '',
+                    'city' => $this->extractCityFromAddress($space['listing_address'] ?? ''),
+                    'cover' => $this->getFirstMediaUrl($space['media'] ?? []),
+                    'spaces' => []
+                ];
+            }
+            
+            $groupedByListing[$listingId]['spaces'][] = [
+                'name' => $space['name'] ?? ($space['code'] ?? 'Space'),
+                'price' => isset($space['price']) ? (float) $space['price'] : null,
+                'price_type' => $space['price_type'] ?? 'm2',
+                'space_size' => isset($space['size_sqm']) ? (float) $space['size_sqm'] : null,
+                'description' => '',
+                'source' => $space['source'] ?? 'private_sector',
+                'type' => $space['type'] ?? '',
+                'min_period' => $space['min_period'] ?? '',
+                'code' => $space['code'] ?? ''
+            ];
+        }
+        
+        return array_values($groupedByListing);
+    }
+
+    /**
+     * Get the first media URL from media array
+     */
+    private function getFirstMediaUrl(array $media): ?string
+    {
+        if (empty($media) || !is_array($media)) {
+            return null;
+        }
+        
+        $firstMedia = reset($media);
+        return $firstMedia['url'] ?? null;
+    }
     private function transformExternalPropertyData(array $externalData): array
     {
         $transformedLocations = [];
@@ -2015,7 +2170,7 @@ PROMPT;
                 'min_price' => $minPrice,
                 'price_type' => $priceType,
                 'cover' => $loc['cover'] ?? null,
-                'link' => '/detail-listing/' . ($loc['id'] ?? ''),
+                'link' => '/detail-spbu/' . ($loc['id'] ?? ''),
             ];
         }
 

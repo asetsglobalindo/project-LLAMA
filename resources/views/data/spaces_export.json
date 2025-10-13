@@ -1,0 +1,4086 @@
+{
+  "export_timestamp": "2025-10-13T20:01:09.402114",
+  "spaces": [
+    {
+      "id": 24,
+      "code": "21.381.09.R.GF.09",
+      "name": "21.381.09.R.GF.09",
+      "type": "Co-working Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 10,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375605",
+      "media": [
+        {
+          "id": "1403",
+          "file": "inventory/space_photos/logo-asets-1_1750650696.png",
+          "url": "https://portal.asets.co.id/storage/inventory/space_photos/logo-asets-1_1750650696.png"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "code": "21.381.09.R.GF.01",
+      "name": "21.381.09.R.GF.01",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 60,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375688",
+      "media": []
+    },
+    {
+      "id": 26,
+      "code": "21.381.09.R.LO.08",
+      "name": "21.381.09.R.LO.08",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 90,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375715",
+      "media": []
+    },
+    {
+      "id": 27,
+      "code": "21.381.09.R.GF.07",
+      "name": "21.381.09.R.GF.07",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 105,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376012",
+      "media": []
+    },
+    {
+      "id": 28,
+      "code": "21.381.09.R.GF.06",
+      "name": "21.381.09.R.GF.06",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 308,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376036",
+      "media": []
+    },
+    {
+      "id": 29,
+      "code": "21.381.09.R.GF.05",
+      "name": "21.381.09.R.GF.05",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 63,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376059",
+      "media": []
+    },
+    {
+      "id": 30,
+      "code": "21.381.09.R.GF.04",
+      "name": "21.381.09.R.GF.04",
+      "type": "Meeting Room",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 15,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376285",
+      "media": []
+    },
+    {
+      "id": 31,
+      "code": "21.381.09.ATM.GF.03",
+      "name": "21.381.09.ATM.GF.03",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 27,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376302",
+      "media": []
+    },
+    {
+      "id": 32,
+      "code": "21.381.09.R.GF.02",
+      "name": "21.381.09.R.GF.02",
+      "type": "Event Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 165,
+      "min_period": "Bulan",
+      "listing_id": 7,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376317",
+      "media": [
+        {
+          "id": "1404",
+          "file": "inventory/space_photos/5168439rgf03-banyuwangi-15m2_1746675980.jpg",
+          "url": "https://portal.asets.co.id/storage/inventory/space_photos/5168439rgf03-banyuwangi-15m2_1746675980.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "code": "31.141.01.R.GF.01",
+      "name": "31.141.01.R.GF.01",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 15.9,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376595",
+      "media": []
+    },
+    {
+      "id": 34,
+      "code": "31.141.01.R.GF.02",
+      "name": "31.141.01.R.GF.02",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 12,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376661",
+      "media": []
+    },
+    {
+      "id": 35,
+      "code": "31.141.01.R.GF.03",
+      "name": "31.141.01.R.GF.03",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 6,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376677",
+      "media": []
+    },
+    {
+      "id": 36,
+      "code": "31.141.01.R.GF.04",
+      "name": "31.141.01.R.GF.04",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 4,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376895",
+      "media": []
+    },
+    {
+      "id": 37,
+      "code": "31.141.01.R.GF.05",
+      "name": "31.141.01.R.GF.05",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 98.28,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376912",
+      "media": []
+    },
+    {
+      "id": 38,
+      "code": "31.421.01.ATM.GF.10",
+      "name": "31.421.01.ATM.GF.10",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 78,
+      "listing_address": "Jl. Jenderal Ahmad Yani Serang, Sumurpecung, Kec. Serang, Kota Serang, Banten 42117, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381235",
+      "media": [
+        {
+          "id": "1084",
+          "file": "atm.jpg",
+          "url": "https://pertare.asets.co.id/storage/1084/atm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "code": "31.141.01.R.GF.07",
+      "name": "31.141.01.R.GF.07",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 12,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377185",
+      "media": []
+    },
+    {
+      "id": 40,
+      "code": "31.117.02.LO.GF.06",
+      "name": "31.117.02.LO.GF.06",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 31,
+      "min_period": "m",
+      "listing_id": 43,
+      "listing_address": "Jl. Raya Daan Mogot No.2, RT.3/RW.5, Kedaung Kali Angke, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11710",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381212",
+      "media": [
+        {
+          "id": "500",
+          "file": "Leonardo_Phoenix_A_small_and_vibrant_outdoor_kiosk_named_Soto_3_2_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/500/Leonardo_Phoenix_A_small_and_vibrant_outdoor_kiosk_named_Soto_3_2_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "code": "31.421.01.LO.GF.11",
+      "name": "31.421.01.LO.GF.11",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 78,
+      "listing_address": "Jl. Jenderal Ahmad Yani Serang, Sumurpecung, Kec. Serang, Kota Serang, Banten 42117, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381188",
+      "media": [
+        {
+          "id": "962",
+          "file": "31.421.01-SERANG.jpg",
+          "url": "https://pertare.asets.co.id/storage/962/31.421.01-SERANG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "code": "31.141.01.R.GF.10",
+      "name": "31.141.01.R.GF.10",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 6,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377536",
+      "media": []
+    },
+    {
+      "id": 43,
+      "code": "31.141.01.R.GF.11",
+      "name": "31.141.01.R.GF.11",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 3,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377553",
+      "media": []
+    },
+    {
+      "id": 44,
+      "code": "31.141.01.R.GF.12",
+      "name": "31.141.01.R.GF.12",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 16,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377569",
+      "media": []
+    },
+    {
+      "id": 45,
+      "code": "31.141.01.R.GF.13",
+      "name": "31.141.01.R.GF.13",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 150.91,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377823",
+      "media": []
+    },
+    {
+      "id": 46,
+      "code": "31.117.02.R.GF.09",
+      "name": "31.117.02.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 131,
+      "min_period": "m",
+      "listing_id": 43,
+      "listing_address": "Jl. Raya Daan Mogot No.2, RT.3/RW.5, Kedaung Kali Angke, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11710",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381165",
+      "media": [
+        {
+          "id": "1107",
+          "file": "31.102.02.-R.GF.18-6.5.jpg",
+          "url": "https://pertare.asets.co.id/storage/1107/31.102.02.-R.GF.18-6.5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "code": "31.141.01.R.GF.15",
+      "name": "31.141.01.R.GF.15",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 10,
+      "min_period": "Bulan",
+      "listing_id": 8,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377857",
+      "media": []
+    },
+    {
+      "id": 48,
+      "code": "31.164.01.R.GF.01",
+      "name": "31.164.01.R.GF.01",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 42.25,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378106",
+      "media": []
+    },
+    {
+      "id": 49,
+      "code": "31.164.01.ATM.GF.02",
+      "name": "31.164.01.ATM.GF.02",
+      "type": "Office Space",
+      "price": 3000000.0,
+      "price_type": "m2",
+      "size_sqm": 5.6,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378123",
+      "media": []
+    },
+    {
+      "id": 50,
+      "code": "31.164.01.R.GF.03",
+      "name": "31.164.01.R.GF.03",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 10,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378139",
+      "media": []
+    },
+    {
+      "id": 51,
+      "code": "31.164.01.R.GF.04",
+      "name": "31.164.01.R.GF.04",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 7,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378410",
+      "media": []
+    },
+    {
+      "id": 52,
+      "code": "31.164.01.P.GF.05",
+      "name": "31.164.01.P.GF.05",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 40,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378427",
+      "media": []
+    },
+    {
+      "id": 53,
+      "code": "31.164.01.R.GF.06",
+      "name": "31.164.01.R.GF.06",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 50,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378443",
+      "media": []
+    },
+    {
+      "id": 54,
+      "code": "31.164.01.R.GF.07",
+      "name": "31.164.01.R.GF.07",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 7,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378725",
+      "media": []
+    },
+    {
+      "id": 55,
+      "code": "31.164.01.LO.GF.08",
+      "name": "31.164.01.LO.GF.08",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 6,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378745",
+      "media": []
+    },
+    {
+      "id": 56,
+      "code": "31.164.01.R.GF.09",
+      "name": "31.164.01.R.GF.09",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 10,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378821",
+      "media": []
+    },
+    {
+      "id": 57,
+      "code": "31.401.01.R.GF.09",
+      "name": "31.401.01.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 90,
+      "min_period": "m",
+      "listing_id": 126,
+      "listing_address": "Jl. Ir. H. Juanda No.139, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381142",
+      "media": [
+        {
+          "id": "854",
+          "file": "5.jpg",
+          "url": "https://pertare.asets.co.id/storage/854/5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "code": "31.164.01.ATM.GF.11",
+      "name": "31.164.01.ATM.GF.11",
+      "type": "Office Space",
+      "price": 3000000.0,
+      "price_type": "m2",
+      "size_sqm": 5.6,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379262",
+      "media": []
+    },
+    {
+      "id": 59,
+      "code": "31.164.01.ATM.GF.12",
+      "name": "31.164.01.ATM.GF.12",
+      "type": "Office Space",
+      "price": 3000000.0,
+      "price_type": "m2",
+      "size_sqm": 5.6,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379279",
+      "media": []
+    },
+    {
+      "id": 60,
+      "code": "31.164.01.ATM.GF.13",
+      "name": "31.164.01.ATM.GF.13",
+      "type": "Office Space",
+      "price": 3000000.0,
+      "price_type": "m2",
+      "size_sqm": 5.6,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379524",
+      "media": []
+    },
+    {
+      "id": 61,
+      "code": "31.164.01.R.GF.14",
+      "name": "31.164.01.R.GF.14",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 10,
+      "min_period": "Bulan",
+      "listing_id": 9,
+      "listing_address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379541",
+      "media": []
+    },
+    {
+      "id": 62,
+      "code": "51.681.23.ATM.GF.01",
+      "name": "51.681.23ATM.GF.01",
+      "type": "Office Space",
+      "price": 3000000.0,
+      "price_type": "m2",
+      "size_sqm": 3,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379557",
+      "media": []
+    },
+    {
+      "id": 63,
+      "code": "51.681.23.LO.GF.02",
+      "name": "51.681.23.LO.GF.02",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 4,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379802",
+      "media": []
+    },
+    {
+      "id": 64,
+      "code": "51.681.23.LO.GF.03",
+      "name": "51.681.23.LO.GF.03",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 6,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379819",
+      "media": []
+    },
+    {
+      "id": 65,
+      "code": "51.681.23.R.GF.04",
+      "name": "51.681.23.R.GF.04",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 24,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379835",
+      "media": []
+    },
+    {
+      "id": 66,
+      "code": "51.681.23.R.GF.05",
+      "name": "51.681.23.R.GF.05",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 12,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380055",
+      "media": []
+    },
+    {
+      "id": 67,
+      "code": "51.681.23.R.GF.06",
+      "name": "51.681.23.R.GF.06",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 16,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380072",
+      "media": []
+    },
+    {
+      "id": 68,
+      "code": "51.681.23.R.GF.07",
+      "name": "51.681.23.R.GF.07",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 12,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380088",
+      "media": []
+    },
+    {
+      "id": 69,
+      "code": "51.681.23.R.GF.08",
+      "name": "51.681.23.R.GF.08",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 12.25,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380309",
+      "media": []
+    },
+    {
+      "id": 70,
+      "code": "51.681.23.R.GF.09",
+      "name": "51.681.23.R.GF.09",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 35,
+      "min_period": "Bulan",
+      "listing_id": 10,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380325",
+      "media": []
+    },
+    {
+      "id": 73,
+      "code": "61.711.001.R.GF.03",
+      "name": "61.711.001.R.GF.03",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 66.58,
+      "min_period": "Bulan",
+      "listing_id": 11,
+      "listing_address": "Jl. Brigjend H. Hasan Basry Km.3 Kel. Bitahan Kec. Lokpaikat Kab. Tapin Kalimantan Selatan 71154",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380341",
+      "media": []
+    },
+    {
+      "id": 76,
+      "code": "61.711.001.R.GF.06",
+      "name": "61.711.001.R.GF.06",
+      "type": "Office Space",
+      "price": 210000.0,
+      "price_type": "m2",
+      "size_sqm": 36,
+      "min_period": "Bulan",
+      "listing_id": 11,
+      "listing_address": "Jl. Brigjend H. Hasan Basry Km.3 Kel. Bitahan Kec. Lokpaikat Kab. Tapin Kalimantan Selatan 71154",
+      "listing_city": null,
+      "source": "private_sector",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380660",
+      "media": []
+    },
+    {
+      "id": 93,
+      "code": "33.171.01.ATM.GF.01",
+      "name": "33.171.01.ATM.GF.01",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 105,
+      "listing_address": "Jalan Ir. H Juanda Bekasi Timur, QX8V+GP5, RT.009/RW.003, Harapan Mulya, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17143, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381119",
+      "media": [
+        {
+          "id": "1233",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1233/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "code": "31.161.13.R.GF.04",
+      "name": "31.161.13.R.GF.04",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 15,
+      "min_period": "m",
+      "listing_id": 85,
+      "listing_address": "Jl. Tentara Pelajar Blok Kompleks Pertanian No.7, RT.05/RW.12, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381097",
+      "media": [
+        {
+          "id": "1266",
+          "file": "15-sqm.JPG",
+          "url": "https://pertare.asets.co.id/storage/1266/15-sqm.JPG"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "code": "31.161.13.R.GF.05",
+      "name": "31.161.13.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 120,
+      "min_period": "m",
+      "listing_id": 85,
+      "listing_address": "Jl. Tentara Pelajar Blok Kompleks Pertanian No.7, RT.05/RW.12, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381074",
+      "media": [
+        {
+          "id": "1262",
+          "file": "120-sqm.JPG",
+          "url": "https://pertare.asets.co.id/storage/1262/120-sqm.JPG"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "code": "11.294.703.R.GF.01",
+      "name": "11.294.703.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 225,
+      "min_period": "m",
+      "listing_id": 36,
+      "listing_address": "Jl. Yos Sudarso, Kp. Pelita, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381052",
+      "media": [
+        {
+          "id": "468",
+          "file": "Leonardo_Phoenix_A_250m_supermarket_located_within_SPBU_Palemb_6_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/468/Leonardo_Phoenix_A_250m_supermarket_located_within_SPBU_Palemb_6_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "code": "11.294.703.LO.GF.04",
+      "name": "11.294.703.LO.GF.04",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 36,
+      "listing_address": "Jl. Yos Sudarso, Kp. Pelita, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381030",
+      "media": [
+        {
+          "id": "439",
+          "file": "Leonardo_Phoenix_A_modern_outdoor_car_and_motorcycle_wash_stat_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/439/Leonardo_Phoenix_A_modern_outdoor_car_and_motorcycle_wash_stat_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "code": "31.116.01.LO.GF.02",
+      "name": "31.116.01.LO.GF.02",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 1000,
+      "min_period": "m",
+      "listing_id": 56,
+      "listing_address": "Jalan Meruya Utara, RT.4/RW.8, Jl. Meruya Ilir Raya, RT.13/RW.3, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.381007",
+      "media": [
+        {
+          "id": "612",
+          "file": "Leonardo_Phoenix_Create_an_image_of_a_1000m_outdoor_showroom_n_0_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/612/Leonardo_Phoenix_Create_an_image_of_a_1000m_outdoor_showroom_n_0_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "code": "31.451.01.R.GF.01",
+      "name": "31.451.01.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 66,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380985",
+      "media": [
+        {
+          "id": "1332",
+          "file": "120-sqm.JPG",
+          "url": "https://pertare.asets.co.id/storage/1332/120-sqm.JPG"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "code": "31.451.01.LO.GF.03",
+      "name": "31.451.01.LO.GF.03",
+      "type": "LOT OUTDOOR",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 15,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380964",
+      "media": [
+        {
+          "id": "1333",
+          "file": "31.421.01-SERANG.jpg",
+          "url": "https://pertare.asets.co.id/storage/1333/31.421.01-SERANG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "code": "31.451.01.ATM.GF.04",
+      "name": "31.451.01.ATM.GF.04",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 8,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380942",
+      "media": [
+        {
+          "id": "1334",
+          "file": "51.673.09.jpg",
+          "url": "https://pertare.asets.co.id/storage/1334/51.673.09.jpg"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "code": "31.451.01.R.GF.06",
+      "name": "31.451.01.R.GF.06",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 30,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380919",
+      "media": [
+        {
+          "id": "1335",
+          "file": "61.781.001.jpg",
+          "url": "https://pertare.asets.co.id/storage/1335/61.781.001.jpg"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "code": "31.451.01.R.GF.07",
+      "name": "31.451.01.R.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 30,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380896",
+      "media": [
+        {
+          "id": "1336",
+          "file": "31.139.02_28m2_No45.png",
+          "url": "https://pertare.asets.co.id/storage/1336/31.139.02_28m2_No45.png"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "code": "31.168.01.ATM.GF.07",
+      "name": "31.168.01.ATM.GF.07",
+      "type": "RUANGAN",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 90,
+      "listing_address": "Jalan Citra Indah City, Sukamaju, Kec. Jonggol, Kabupaten Bogor, Jawa Barat 16830, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380873",
+      "media": [
+        {
+          "id": "1080",
+          "file": "31.107.01.ATM.GF.06.jpg",
+          "url": "https://pertare.asets.co.id/storage/1080/31.107.01.ATM.GF.06.jpg"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "code": "51.601.108.LO.GF.08",
+      "name": "51.601.108.LO.GF.08",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 95,
+      "listing_address": "Kebraon, Karangpilang, Surabaya, East Java",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380850",
+      "media": [
+        {
+          "id": "1032",
+          "file": "51.601.108_4m2_No61_1.png",
+          "url": "https://pertare.asets.co.id/storage/1032/51.601.108_4m2_No61_1.png"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "code": "31.127.01.ATM.GF.02",
+      "name": "31.127.01.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 12.37,
+      "min_period": "m",
+      "listing_id": 68,
+      "listing_address": "Jl. Kemang Sel., RT.1/RW.3, Cilandak Tim., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380834",
+      "media": []
+    },
+    {
+      "id": 318,
+      "code": "11.294.701.R.GF.07",
+      "name": "11.294.701.R.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 25,
+      "min_period": "m",
+      "listing_id": 34,
+      "listing_address": "Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380813",
+      "media": [
+        {
+          "id": "1094",
+          "file": "61.761.03_1792_No50_1.png",
+          "url": "https://pertare.asets.co.id/storage/1094/61.761.03_1792_No50_1.png"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "code": "11.294.701.R.GF.08",
+      "name": "11.294.701.R.GF.08",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 129,
+      "min_period": "m",
+      "listing_id": 34,
+      "listing_address": "Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380790",
+      "media": [
+        {
+          "id": "1093",
+          "file": "31.126.01_14.79m2_No34.png",
+          "url": "https://pertare.asets.co.id/storage/1093/31.126.01_14.79m2_No34.png"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "code": "11.288.601.P.GF.03",
+      "name": "11.288.601.P.GF.03",
+      "type": "LAHAN PARKIR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 50,
+      "min_period": "m",
+      "listing_id": 33,
+      "listing_address": "Jl. Puteri Tujuh, Tlk. Binjai, Kec. Dumai Tim., Kota Dumai, Riau 28826, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380769",
+      "media": [
+        {
+          "id": "564",
+          "file": "Leonardo_Phoenix_A_vibrant_and_refreshing_container_booth_loca_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/564/Leonardo_Phoenix_A_vibrant_and_refreshing_container_booth_loca_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "code": "31.128.02.R.B.11",
+      "name": "31.128.02.R.B.11",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 71,
+      "listing_address": "Jl. Letjen M.T. Haryono, RT.11/RW.5, Tebet Bar., Jakarta Selatan, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 12810, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380746",
+      "media": [
+        {
+          "id": "1391",
+          "file": "31.114.03.ATM.GF.08.jpg",
+          "url": "https://pertare.asets.co.id/storage/1391/31.114.03.ATM.GF.08.jpg"
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "code": "21.351.05.R.GF.02",
+      "name": "21.351.05.R.GF.02",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 38,
+      "min_period": "m",
+      "listing_id": 12,
+      "listing_address": "Jl. Sultan Hasanudin, Kangkung, Kec. Bumi Waras, Kota Bandar Lampung, Lampung 35221",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380724",
+      "media": [
+        {
+          "id": "455",
+          "file": "Leonardo_Phoenix_A_25m_modern_beverage_booth_located_inside_SP_6_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/455/Leonardo_Phoenix_A_25m_modern_beverage_booth_located_inside_SP_6_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "code": "21.351.05.LO.GF.04",
+      "name": "21.351.05.LO.GF.04",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 10,
+      "min_period": "m",
+      "listing_id": 12,
+      "listing_address": "Jl. Sultan Hasanudin, Kangkung, Kec. Bumi Waras, Kota Bandar Lampung, Lampung 35221",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380701",
+      "media": [
+        {
+          "id": "586",
+          "file": "Leonardo_Phoenix_A_compact_and_charming_outdoor_kiosk_offering_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/586/Leonardo_Phoenix_A_compact_and_charming_outdoor_kiosk_offering_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "code": "21.351.05.LO.GF.05",
+      "name": "21.351.05.LO.GF.05",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 10,
+      "min_period": "m",
+      "listing_id": 12,
+      "listing_address": "Jl. Sultan Hasanudin, Kangkung, Kec. Bumi Waras, Kota Bandar Lampung, Lampung 35221",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380678",
+      "media": [
+        {
+          "id": "452",
+          "file": "Leonardo_Kino_XL_A_25m_nitrogen_filling_service_booth_located_5_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/452/Leonardo_Kino_XL_A_25m_nitrogen_filling_service_booth_located_5_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "code": "11.201.104.LO.GF.03",
+      "name": "11.201.104.LO.GF.03",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 8,
+      "min_period": "m",
+      "listing_id": 45,
+      "listing_address": "Jl. Gatot Subroto No.KM. 5 2, Sei Sikambing C. II, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20123",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380592",
+      "media": [
+        {
+          "id": "571",
+          "file": "Leonardo_Phoenix_A_cozy_outdoor_coffee_stall_specializing_in_K_0_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/571/Leonardo_Phoenix_A_cozy_outdoor_coffee_stall_specializing_in_K_0_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "code": "11.201.107.R.B.02",
+      "name": "11.201.107.R.B.02",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 42.25,
+      "min_period": "m",
+      "listing_id": 18,
+      "listing_address": "Jl. Prof. H. M. Yamin No.56, Kel. Sei Kera Hilir II, Kec. Medan Perjuangan, Kota Medan, Sumatera Utara 20222",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380571",
+      "media": []
+    },
+    {
+      "id": 413,
+      "code": "31.131.01.LO.GF.04",
+      "name": "31.131.01.LO.GF.04",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 9,
+      "min_period": "m",
+      "listing_id": 74,
+      "listing_address": "Jl. Pramuka No.13 1, RT.1/RW.2, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380514",
+      "media": [
+        {
+          "id": "1369",
+          "file": "34.jpg",
+          "url": "https://pertare.asets.co.id/storage/1369/34.jpg"
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "code": "31.131.01.R.GF.05",
+      "name": "31.131.01.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 19.6,
+      "min_period": "m",
+      "listing_id": 74,
+      "listing_address": "Jl. Pramuka No.13 1, RT.1/RW.2, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380491",
+      "media": [
+        {
+          "id": "1397",
+          "file": "17.jpg",
+          "url": "https://pertare.asets.co.id/storage/1397/17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "code": "31.134.01.ATM.GF.03",
+      "name": "31.134.01.ATM.GF.03",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 24,
+      "listing_address": "Jl. Bekasi Timur Raya No.Km. 17, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13250",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380637",
+      "media": [
+        {
+          "id": "521",
+          "file": "Leonardo_Phoenix_A_small_ATM_room_measuring_3_square_meters_lo_0-min.jpg",
+          "url": "https://pertare.asets.co.id/storage/521/Leonardo_Phoenix_A_small_ATM_room_measuring_3_square_meters_lo_0-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "code": "71.902.77.R.L2.12",
+      "name": "71.902.77.R.L2.12",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 120,
+      "min_period": "m",
+      "listing_id": 112,
+      "listing_address": "Jl. Perintis Kemerdekaan KM. 16 (Depan Mapolda Sulsel), Kel. Pai, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan 90243 ,",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380614",
+      "media": [
+        {
+          "id": "952",
+          "file": "71.902.77_120m2_no93_cp.PNG",
+          "url": "https://pertare.asets.co.id/storage/952/71.902.77_120m2_no93_cp.PNG"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "code": "61.706.01.R.GF.03",
+      "name": "61.706.01.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 46.86,
+      "min_period": "m",
+      "listing_id": 147,
+      "listing_address": "km 9.7, Jl. A. Yani, Simpang Empat, Kec. Kertak Hanyar, Kabupaten Banjar, Kalimantan Selatan 70654",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380418",
+      "media": [
+        {
+          "id": "947",
+          "file": "61.706.01_46.86m2_no91_cp.PNG",
+          "url": "https://pertare.asets.co.id/storage/947/61.706.01_46.86m2_no91_cp.PNG"
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "code": "61.706.01.R.GF.05",
+      "name": "61.706.01.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 9,
+      "min_period": "m",
+      "listing_id": 147,
+      "listing_address": "km 9.7, Jl. A. Yani, Simpang Empat, Kec. Kertak Hanyar, Kabupaten Banjar, Kalimantan Selatan 70654",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380285",
+      "media": [
+        {
+          "id": "949",
+          "file": "61.706.01_9m2_no92_cp.PNG",
+          "url": "https://pertare.asets.co.id/storage/949/61.706.01_9m2_no92_cp.PNG"
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "code": "61.707.01.R.GF.03",
+      "name": "61.707.01.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 48,
+      "min_period": "m",
+      "listing_id": 136,
+      "listing_address": "Jl. A. Yani No.KM 34, Loktabat Utara, Kec. Banjarbaru Utara, Kota Banjar Baru, Kalimantan Selatan 70714",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380257",
+      "media": [
+        {
+          "id": "1111",
+          "file": "31.171.03_2m2_no110_2.png",
+          "url": "https://pertare.asets.co.id/storage/1111/31.171.03_2m2_no110_2.png"
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "code": "61.707.01.R.GF.04",
+      "name": "61.707.01.R.GF.04",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 70,
+      "min_period": "m",
+      "listing_id": 136,
+      "listing_address": "Jl. A. Yani No.KM 34, Loktabat Utara, Kec. Banjarbaru Utara, Kota Banjar Baru, Kalimantan Selatan 70714",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380187",
+      "media": [
+        {
+          "id": "948",
+          "file": "61.707.01_70m2_No90_cp.PNG",
+          "url": "https://pertare.asets.co.id/storage/948/61.707.01_70m2_No90_cp.PNG"
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "code": "31.102.02.-ATM.GF.05",
+      "name": "31.102.02. ATM.GF.05",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 30,
+      "listing_address": "Jl. Abdul Muis No.59, RT.4/RW.3, Petojo Sel. Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380165",
+      "media": [
+        {
+          "id": "973",
+          "file": "Screenshot-2024-12-17-105456_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/973/Screenshot-2024-12-17-105456_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "code": "31.102.02.-ATM.GF.06",
+      "name": "31.102.02. ATM.GF.06",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 30,
+      "listing_address": "Jl. Abdul Muis No.59, RT.4/RW.3, Petojo Sel. Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380143",
+      "media": [
+        {
+          "id": "972",
+          "file": "Screenshot-2024-12-17-105431_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/972/Screenshot-2024-12-17-105431_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "code": "31.102.02.-ATM.GF.07",
+      "name": "31.102.02. ATM.GF.07",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 30,
+      "listing_address": "Jl. Abdul Muis No.59, RT.4/RW.3, Petojo Sel. Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380120",
+      "media": [
+        {
+          "id": "967",
+          "file": "illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(3)_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/967/illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(3)_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "code": "31.102.02.R.L2.13",
+      "name": "31.102.02.R.L2.13",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 93.6,
+      "min_period": "m",
+      "listing_id": 30,
+      "listing_address": "Jl. Abdul Muis No.59, RT.4/RW.3, Petojo Sel. Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380104",
+      "media": []
+    },
+    {
+      "id": 529,
+      "code": "31.107.02.ATM.GF.02",
+      "name": "31.107.02.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 47,
+      "listing_address": "Jl. H. Samanhudi No.20, RT.5/RW.3, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380033",
+      "media": [
+        {
+          "id": "982",
+          "file": "Screenshot-2024-12-17-132504_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/982/Screenshot-2024-12-17-132504_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "code": "31.107.02.ATM.GF.03",
+      "name": "31.107.02.ATM.GF.03",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 47,
+      "listing_address": "Jl. H. Samanhudi No.20, RT.5/RW.3, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.380005",
+      "media": [
+        {
+          "id": "981",
+          "file": "Screenshot-2024-12-17-132015_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/981/Screenshot-2024-12-17-132015_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 540,
+      "code": "51.614.24.R.GF.05",
+      "name": "51.614.24.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 15,
+      "min_period": "m",
+      "listing_id": 117,
+      "listing_address": "Jl. Raya Jombang - Mojokerto, Mojoagung, Kec. Mojoagung, Kabupaten Jombang, Jawa Timur 61461, Indonesia",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379946",
+      "media": [
+        {
+          "id": "857",
+          "file": "4.jpg",
+          "url": "https://pertare.asets.co.id/storage/857/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "code": "31.107.03.ATM.GF.01",
+      "name": "31.107.03.ATM.GF.01",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 50,
+      "listing_address": "Jl. Raya Mangga Besar No.140, RT.1/RW.1, Kartini, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 11160, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379923",
+      "media": [
+        {
+          "id": "985",
+          "file": "Screenshot-2024-12-17-133601_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/985/Screenshot-2024-12-17-133601_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 543,
+      "code": "51.614.24.LO.GF.07",
+      "name": "51.614.24.LO.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 117,
+      "listing_address": "Jl. Raya Jombang - Mojokerto, Mojoagung, Kec. Mojoagung, Kabupaten Jombang, Jawa Timur 61461, Indonesia",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379901",
+      "media": [
+        {
+          "id": "856",
+          "file": "15.jpg",
+          "url": "https://pertare.asets.co.id/storage/856/15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "code": "31.114.01.LO.GF.06",
+      "name": "31.114.01.LO.GF.06",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 195,
+      "min_period": "m",
+      "listing_id": 52,
+      "listing_address": "Blok G, Jl. Letjen S. Parman No.Kav 70 3, RT.3/RW.3, Slipi, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11410",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379878",
+      "media": [
+        {
+          "id": "433",
+          "file": "Leonardo_Phoenix_A_large_outdoor_professional_car_wash_and_det_2-(1)_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/433/Leonardo_Phoenix_A_large_outdoor_professional_car_wash_and_det_2-(1)_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "code": "31.114.04.ATM.GF.01",
+      "name": "31.114.04.ATM.GF.01",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 54,
+      "listing_address": "Jl. Tomang Raya No.42, RT.1/RW.3, Jatipulo, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11430, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379853",
+      "media": [
+        {
+          "id": "1008",
+          "file": "Screenshot-2024-12-18-121119_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1008/Screenshot-2024-12-18-121119_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "code": "31.114.04.ATM.GF.02",
+      "name": "31.114.04.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 54,
+      "listing_address": "Jl. Tomang Raya No.42, RT.1/RW.3, Jatipulo, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11430, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379777",
+      "media": [
+        {
+          "id": "1007",
+          "file": "Screenshot-2024-12-18-121131_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1007/Screenshot-2024-12-18-121131_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "code": "51.641.16.LO.GF.01",
+      "name": "51.641.16.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "fix",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 119,
+      "listing_address": "Jl. Dr. Sahardjo, Campurejo, Kec. Mojoroto, Kabupaten Kediri, Jawa Timur 64116",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379742",
+      "media": [
+        {
+          "id": "873",
+          "file": "13.jpg",
+          "url": "https://pertare.asets.co.id/storage/873/13.jpg"
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "code": "11.201.106.LO.GF.01",
+      "name": "11.201.106.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 80,
+      "min_period": "m",
+      "listing_id": 14,
+      "listing_address": "Jl. Mustang Kel. Suka Damai Kec. Medan Polonia Kota Medan, Sumatera Utara 20159, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379672",
+      "media": [
+        {
+          "id": "598",
+          "file": "Leonardo_Phoenix_An_80m_outdoor_car_wash_featuring_a_modern_an_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/598/Leonardo_Phoenix_An_80m_outdoor_car_wash_featuring_a_modern_an_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "code": "11.201.101.R.B.03",
+      "name": "11.201.101.R.B.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 133,
+      "min_period": "m",
+      "listing_id": 8,
+      "listing_address": "Jl. KL. Yos Sudarso No.6 Silalas Kec. Medan Barat Kota Medan, Sumatera Utara 20231, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379647",
+      "media": [
+        {
+          "id": "1091",
+          "file": "31.102.02.-R.GF.18-6.5.jpg",
+          "url": "https://pertare.asets.co.id/storage/1091/31.102.02.-R.GF.18-6.5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "code": "21.301.01.ATM.GF.02",
+      "name": "21.301.01.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 58,
+      "listing_address": "Jl. AKBP Cek Agus Jl. Komp. Pertamina Kenten No.10, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379624",
+      "media": [
+        {
+          "id": "1096",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1096/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 610,
+      "code": "21.301.01LO.GF.12",
+      "name": "21.301.01LO.GF.12",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 58,
+      "listing_address": "Jl. AKBP Cek Agus Jl. Komp. Pertamina Kenten No.10, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379600",
+      "media": [
+        {
+          "id": "460",
+          "file": "Leonardo_Phoenix_motorcycle_wash_outdoor_booth_named_Jet_Wash_6_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/460/Leonardo_Phoenix_motorcycle_wash_outdoor_booth_named_Jet_Wash_6_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "code": "21.302.04.LO.GF.02",
+      "name": "21.302.04.LO.GF.02",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 29,
+      "min_period": "m",
+      "listing_id": 64,
+      "listing_address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379574",
+      "media": [
+        {
+          "id": "604",
+          "file": "Leonardo_Phoenix_Booth_Penjualan_named_OlehOleh_palembangConto_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/604/Leonardo_Phoenix_Booth_Penjualan_named_OlehOleh_palembangConto_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 628,
+      "code": "21.302.04.R.GF.06",
+      "name": "21.302.04.R.GF.06",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 8,
+      "min_period": "m",
+      "listing_id": 64,
+      "listing_address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379501",
+      "media": [
+        {
+          "id": "1101",
+          "file": "JOMBANG.jpg",
+          "url": "https://pertare.asets.co.id/storage/1101/JOMBANG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 630,
+      "code": "21.302.04.R.GF.07",
+      "name": "21.302.04.R.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 16,
+      "min_period": "m",
+      "listing_id": 64,
+      "listing_address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379476",
+      "media": [
+        {
+          "id": "1100",
+          "file": "18.jpg",
+          "url": "https://pertare.asets.co.id/storage/1100/18.jpg"
+        }
+      ]
+    },
+    {
+      "id": 700,
+      "code": "61.761.02.LO.GF.04",
+      "name": "61.761.02.LO.GF.04",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 141,
+      "listing_address": "Jl. Marsma R. Iswahyudi No.65, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76115",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379450",
+      "media": [
+        {
+          "id": "1110",
+          "file": "31.107.02.LO.GF.07.jpg",
+          "url": "https://pertare.asets.co.id/storage/1110/31.107.02.LO.GF.07.jpg"
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "code": "61.761.02.ATM.GF.08",
+      "name": "61.761.02.ATM.GF.08",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 141,
+      "listing_address": "Jl. Marsma R. Iswahyudi No.65, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76115",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379371",
+      "media": [
+        {
+          "id": "1109",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1109/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 797,
+      "code": "31.137.01.LO.GF.10",
+      "name": "31.137.01.LO.GF.10",
+      "type": "LOT OUTDOOR",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 5,
+      "min_period": "m",
+      "listing_id": 38,
+      "listing_address": "5, Jl. Raya Bogor Blok Swadaya No.14, RT.2/RW.3, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379349",
+      "media": [
+        {
+          "id": "581",
+          "file": "41-BertaLeonardo_Phoenix_A_5squaremeter_empty_space_located_on_the_fir_1.jpg",
+          "url": "https://pertare.asets.co.id/storage/581/41-BertaLeonardo_Phoenix_A_5squaremeter_empty_space_located_on_the_fir_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 798,
+      "code": "31.137.01.LO.GF.11",
+      "name": "31.137.01.LO.GF.11",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 19.8,
+      "min_period": "m",
+      "listing_id": 38,
+      "listing_address": "5, Jl. Raya Bogor Blok Swadaya No.14, RT.2/RW.3, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379323",
+      "media": [
+        {
+          "id": "1069",
+          "file": "Leonardo_Phoenix_1_Konsep_Usaha_CarwashNama_UsahaCleanDrive_Au_0.jpg",
+          "url": "https://pertare.asets.co.id/storage/1069/Leonardo_Phoenix_1_Konsep_Usaha_CarwashNama_UsahaCleanDrive_Au_0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "code": "31.139.01.R.GF.10",
+      "name": "31.139.01.R.GF.10",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 8,
+      "min_period": "m",
+      "listing_id": 21,
+      "listing_address": "Jl. Raya Bekasi, RT.6/RW.5, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379297",
+      "media": [
+        {
+          "id": "580",
+          "file": "43-Berta-Leonardo_Phoenix_show_interior_an_eyecatching_empty_room_measu_0.jpg",
+          "url": "https://pertare.asets.co.id/storage/580/43-Berta-Leonardo_Phoenix_show_interior_an_eyecatching_empty_room_measu_0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 825,
+      "code": "61.761.03.LO.GF.05",
+      "name": "61.761.03.LO.GF.05",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 1792,
+      "min_period": "m",
+      "listing_id": 143,
+      "listing_address": "Jalan MT Haryono, Damai, Balikpapan Selatan, Damai, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76114",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379214",
+      "media": [
+        {
+          "id": "463",
+          "file": "Leonardo_Phoenix_An_empty_land_plot_measuring_1792_square_mete_31.JPG",
+          "url": "https://pertare.asets.co.id/storage/463/Leonardo_Phoenix_An_empty_land_plot_measuring_1792_square_mete_31.JPG"
+        }
+      ]
+    },
+    {
+      "id": 829,
+      "code": "61.761.03.LO.GF.07",
+      "name": "61.761.03.LO.GF.07",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 143,
+      "listing_address": "Jalan MT Haryono, Damai, Balikpapan Selatan, Damai, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76114",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379183",
+      "media": [
+        {
+          "id": "1377",
+          "file": "22.jpg",
+          "url": "https://pertare.asets.co.id/storage/1377/22.jpg"
+        },
+        {
+          "id": "1378",
+          "file": "44.jpg",
+          "url": "https://pertare.asets.co.id/storage/1378/44.jpg"
+        }
+      ]
+    },
+    {
+      "id": 851,
+      "code": "31.141.01.LO.GF.08",
+      "name": "31.141.01.LO.GF.08",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 9,
+      "min_period": "m",
+      "listing_id": 41,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379150",
+      "media": [
+        {
+          "id": "524",
+          "file": "Leonardo_Phoenix_A_stylish_eyecatching_empty_booth_room_measur_1-min.jpg",
+          "url": "https://pertare.asets.co.id/storage/524/Leonardo_Phoenix_A_stylish_eyecatching_empty_booth_room_measur_1-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "code": "31.141.01.R.GF.09",
+      "name": "31.141.01.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 11.5,
+      "min_period": "m",
+      "listing_id": 41,
+      "listing_address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.379027",
+      "media": [
+        {
+          "id": "1086",
+          "file": "31.103.03.ATM.GF.01.jpg",
+          "url": "https://pertare.asets.co.id/storage/1086/31.103.03.ATM.GF.01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 865,
+      "code": "61.761.01.ATM.GF.10",
+      "name": "61.761.01.ATM.GF.10",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 140,
+      "listing_address": "Jl. Letjen Suprapto No. 1 Kel. Baru Ilir Kec. Balikpapan Tengah Kota Balikpapan Prov. Kalimantan Timur 76122",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378987",
+      "media": [
+        {
+          "id": "1113",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1113/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "code": "31.115.01.ATM.GF.06",
+      "name": "31.115.01.ATM.GF.06",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 7,
+      "min_period": "m",
+      "listing_id": 26,
+      "listing_address": "(Kebon Jeruk, Jl. Kedoya Agave 6 No. 22), Jl. Kedoya Raya Blok C4 No.9 9, RT.9/RW.4, Kedoya Sel., Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378930",
+      "media": [
+        {
+          "id": "1009",
+          "file": "Screenshot-2024-12-18-121043_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1009/Screenshot-2024-12-18-121043_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "code": "33.142.01.LO.GF.07",
+      "name": "33.142.01.LO.GF.07",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 19,
+      "listing_address": "Jl. Pegangsaan Dua No.81 10, RT.10/RW.3, Pegangsaan Dua, Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14250",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378853",
+      "media": [
+        {
+          "id": "578",
+          "file": "48_Berta_Leonardo_Phoenix_An_external_empty_space_measuring_4_square_me_2-min.jpg",
+          "url": "https://pertare.asets.co.id/storage/578/48_Berta_Leonardo_Phoenix_An_external_empty_space_measuring_4_square_me_2-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "code": "33.142.01.LO.GF.08",
+      "name": "33.142.01.LO.GF.08",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 9,
+      "min_period": "m",
+      "listing_id": 19,
+      "listing_address": "Jl. Pegangsaan Dua No.81 10, RT.10/RW.3, Pegangsaan Dua, Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14250",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378672",
+      "media": [
+        {
+          "id": "576",
+          "file": "49_BertaLeonardo_Phoenix_An_external_empty_lot_measuring_9_square_mete_3.jpg",
+          "url": "https://pertare.asets.co.id/storage/576/49_BertaLeonardo_Phoenix_An_external_empty_lot_measuring_9_square_mete_3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 949,
+      "code": "61.781.01.R.L2.08",
+      "name": "61.781.01.R.L2.08",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 29.24,
+      "min_period": "m",
+      "listing_id": 144,
+      "listing_address": "Jalan Jenderal Ahmad Yani No.17, Bangka Belitung Laut, Pontianak Tenggara, Bangka Belitung Darat, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78124",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378649",
+      "media": [
+        {
+          "id": "931",
+          "file": "61.781.001.jpg",
+          "url": "https://pertare.asets.co.id/storage/931/61.781.001.jpg"
+        }
+      ]
+    },
+    {
+      "id": 960,
+      "code": "61.711.001.R.GF.03",
+      "name": "61.711.001.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 66.58,
+      "min_period": "m",
+      "listing_id": 148,
+      "listing_address": "Jl. Brigjend H. Hasan Basry Km.3 Kel. Bitahan Kec. Lokpaikat Kab. Tapin Kalimantan Selatan 71154",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378624",
+      "media": [
+        {
+          "id": "943",
+          "file": "61.781.01(-67-SQM)-min.jpg",
+          "url": "https://pertare.asets.co.id/storage/943/61.781.01(-67-SQM)-min.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "code": "31.151.05.ATM.GF.04",
+      "name": "31.151.05.ATM.GF.04",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 61,
+      "listing_address": "Jl. Perimeter Utara, RT.006/RW.007, Benda, Kec. Benda, Kota Tangerang, Banten 15126",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378528",
+      "media": [
+        {
+          "id": "1075",
+          "file": "51.673.09-(1).jpg",
+          "url": "https://pertare.asets.co.id/storage/1075/51.673.09-(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": 1029,
+      "code": "31.107.01.LO.GF.13",
+      "name": "31.107.01.LO.GF.13",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 150,
+      "min_period": "m",
+      "listing_id": 32,
+      "listing_address": "Jl. Industri Raya, RT.3/RW.2 Gn. Sahari Utara, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378505",
+      "media": [
+        {
+          "id": "1062",
+          "file": "CITRA-RAYA.jpg",
+          "url": "https://pertare.asets.co.id/storage/1062/CITRA-RAYA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1044,
+      "code": "31.157.01.ATM.B.06",
+      "name": "31.157.01.ATM.B.06",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 63,
+      "listing_address": "Jl. Citra Raya Utama Timur, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378482",
+      "media": [
+        {
+          "id": "1082",
+          "file": "51.673.09-(1).jpg",
+          "url": "https://pertare.asets.co.id/storage/1082/51.673.09-(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "code": "31.157.01.ATM.B.07",
+      "name": "31.157.01.ATM.B.07",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 63,
+      "listing_address": "Jl. Citra Raya Utama Timur, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378460",
+      "media": [
+        {
+          "id": "1083",
+          "file": "atm.jpg",
+          "url": "https://pertare.asets.co.id/storage/1083/atm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "code": "31.157.01.ATM.B.08",
+      "name": "31.157.01.ATM.B.08",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 63,
+      "listing_address": "Jl. Citra Raya Utama Timur, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378371",
+      "media": [
+        {
+          "id": "1081",
+          "file": "atm.jpg",
+          "url": "https://pertare.asets.co.id/storage/1081/atm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1050,
+      "code": "31.157.01.LO.B.09",
+      "name": "31.157.01.LO.B.09",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 42,
+      "min_period": "m",
+      "listing_id": 63,
+      "listing_address": "Jl. Citra Raya Utama Timur, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378348",
+      "media": [
+        {
+          "id": "848",
+          "file": "10.jpg",
+          "url": "https://pertare.asets.co.id/storage/848/10.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1133,
+      "code": "31.114.01.LO.GF.01",
+      "name": "31.114.01.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 21,
+      "min_period": "m",
+      "listing_id": 52,
+      "listing_address": "Blok G, Jl. Letjen S. Parman No.Kav 70 3, RT.3/RW.3, Slipi, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11410",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378323",
+      "media": [
+        {
+          "id": "1399",
+          "file": "Leonardo_Phoenix_A_large_outdoor_professional_car_wash_and_det_2-(1)_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1399/Leonardo_Phoenix_A_large_outdoor_professional_car_wash_and_det_2-(1)_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1155,
+      "code": "51.833.02.ATM.GF.02",
+      "name": "51.833.02.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 133,
+      "listing_address": "Jl. Raya Mantang, Peresak, Kec. Narmada, Kabupaten Lombok Barat, Nusa Tenggara Bar. 83371",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378231",
+      "media": [
+        {
+          "id": "1402",
+          "file": "31.141.01.R.GF.04---4m².jpg",
+          "url": "https://pertare.asets.co.id/storage/1402/31.141.01.R.GF.04---4m².jpg"
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "code": "51.833.02.R.GF.06",
+      "name": "51.833.02.R.GF.06",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 21,
+      "min_period": "m",
+      "listing_id": 133,
+      "listing_address": "Jl. Raya Mantang, Peresak, Kec. Narmada, Kabupaten Lombok Barat, Nusa Tenggara Bar. 83371",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378208",
+      "media": [
+        {
+          "id": "956",
+          "file": "Leonardo_Phoenix_Create_an_image_of_a_small_24m_indoor_restaur_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/956/Leonardo_Phoenix_Create_an_image_of_a_small_24m_indoor_restaur_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1180,
+      "code": "51.681.23.LO.GF.02",
+      "name": "51.681.23.LO.GF.02",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 152,
+      "listing_address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378185",
+      "media": [
+        {
+          "id": "957",
+          "file": "51.681.23-JEMBER-KENANGA.jpg",
+          "url": "https://pertare.asets.co.id/storage/957/51.681.23-JEMBER-KENANGA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1195,
+      "code": "51.801.30.LO.GF.13",
+      "name": "51.801.30.LO.GF.13",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 36,
+      "min_period": "m",
+      "listing_id": 132,
+      "listing_address": "Jl. Hayam Wuruk No.142, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378155",
+      "media": [
+        {
+          "id": "960",
+          "file": "Illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(6).jpg",
+          "url": "https://pertare.asets.co.id/storage/960/Illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(6).jpg"
+        },
+        {
+          "id": "961",
+          "file": "Illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(3).jpg",
+          "url": "https://pertare.asets.co.id/storage/961/Illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(3).jpg"
+        }
+      ]
+    },
+    {
+      "id": 1228,
+      "code": "51.614.24.ATM.GF.08",
+      "name": "51.614.24.ATM.GF.08",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 117,
+      "listing_address": "Jl. Raya Jombang - Mojokerto, Mojoagung, Kec. Mojoagung, Kabupaten Jombang, Jawa Timur 61461, Indonesia",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378083",
+      "media": [
+        {
+          "id": "1376",
+          "file": "31.107.03.ATM.GF.03.jpg",
+          "url": "https://pertare.asets.co.id/storage/1376/31.107.03.ATM.GF.03.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1250,
+      "code": "41.552.02.R.GF.09",
+      "name": "41.552.02.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 60,
+      "min_period": "m",
+      "listing_id": 73,
+      "listing_address": "Jl. HOS Cokroaminoto No.199, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55244",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378060",
+      "media": [
+        {
+          "id": "933",
+          "file": "illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(1)_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/933/illustration-by-asets.co.id.-Based-on-Available-Commercial-Spaces-(1)_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1252,
+      "code": "51.673.09.ATM.GF.02",
+      "name": "51.673.09.ATM.GF.02",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 128,
+      "listing_address": "Jalan Raya, Krajan, Nogosari, Rowokangkung, Lumajang Regency, East Java 67359",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.378036",
+      "media": [
+        {
+          "id": "959",
+          "file": "51.673.09.jpg",
+          "url": "https://pertare.asets.co.id/storage/959/51.673.09.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1255,
+      "code": "51.673.09.R.GF.05",
+      "name": "51.673.09.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 47,
+      "min_period": "m",
+      "listing_id": 128,
+      "listing_address": "Jalan Raya, Krajan, Nogosari, Rowokangkung, Lumajang Regency, East Java 67359",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377942",
+      "media": [
+        {
+          "id": "874",
+          "file": "7.jpg",
+          "url": "https://pertare.asets.co.id/storage/874/7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1264,
+      "code": "51.644.07.R.GF.12",
+      "name": "51.644.07.R.GF.12",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 120,
+      "listing_address": "Jl. Raya Guyangan, Morobau, Kerep Kidul, Kec. Bagor, Kabupaten Nganjuk, Jawa Timur 64461",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377920",
+      "media": [
+        {
+          "id": "689",
+          "file": "Leonardo_Phoenix_A_professional_nitrogen_refill_service_for_ve_1_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/689/Leonardo_Phoenix_A_professional_nitrogen_refill_service_for_ve_1_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1265,
+      "code": "51.644.07.R.GF.13",
+      "name": "51.644.07.R.GF.13",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 120,
+      "listing_address": "Jl. Raya Guyangan, Morobau, Kerep Kidul, Kec. Bagor, Kabupaten Nganjuk, Jawa Timur 64461",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377897",
+      "media": [
+        {
+          "id": "639",
+          "file": "Leonardo_Phoenix_Create_an_image_of_a_small_4m_minimarket_or_c_1-(1)_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/639/Leonardo_Phoenix_Create_an_image_of_a_small_4m_minimarket_or_c_1-(1)_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1271,
+      "code": "51.612.21.LO.GF.09",
+      "name": "51.612.21.LO.GF.09",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 109,
+      "listing_address": "Jl. Bypass Krian No.137, Sidotemo, Sidomulyo, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377874",
+      "media": [
+        {
+          "id": "852",
+          "file": "19.jpg",
+          "url": "https://pertare.asets.co.id/storage/852/19.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1272,
+      "code": "51.612.21.LO.GF.10",
+      "name": "51.612.21.LO.GF.10",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 109,
+      "listing_address": "Jl. Bypass Krian No.137, Sidotemo, Sidomulyo, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377798",
+      "media": [
+        {
+          "id": "958",
+          "file": "51.612.21-SIDOARJO.jpg",
+          "url": "https://pertare.asets.co.id/storage/958/51.612.21-SIDOARJO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1274,
+      "code": "21.353.10.R.GF.01",
+      "name": "21.353.10.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 39.16,
+      "min_period": "m",
+      "listing_id": 159,
+      "listing_address": "Jl. Alamsyah Ratu Prawiranegar, Hajimena, Kec. Natar, Kabupaten Lampung Selatan, Lampung 35145",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377775",
+      "media": [
+        {
+          "id": "1388",
+          "file": "2.jpg",
+          "url": "https://pertare.asets.co.id/storage/1388/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1277,
+      "code": "21.381.09.R.GF.02",
+      "name": "21.381.09.R.GF.02",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 165,
+      "min_period": "m",
+      "listing_id": 160,
+      "listing_address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377753",
+      "media": [
+        {
+          "id": "1389",
+          "file": "51.684.39.R.GF.03-BANYUWANGI-15M2.jpg",
+          "url": "https://pertare.asets.co.id/storage/1389/51.684.39.R.GF.03-BANYUWANGI-15M2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1279,
+      "code": "64.783.02.R.GF.01",
+      "name": "64.783.02.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 123,
+      "listing_address": "Wajok Hilir, Jongkat, Mempawah Regency, West Kalimantan 78351",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377728",
+      "media": [
+        {
+          "id": "968",
+          "file": "34.jpg",
+          "url": "https://pertare.asets.co.id/storage/968/34.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1281,
+      "code": "64.786.02.R.GF.01",
+      "name": "64.786.02.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 127,
+      "listing_address": "Ukoi River, Sungai Tebelian, Sintang Regency, West Kalimantan 78661",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377633",
+      "media": [
+        {
+          "id": "970",
+          "file": "39.jpg",
+          "url": "https://pertare.asets.co.id/storage/970/39.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1283,
+      "code": "61.783.01.R.GF.09",
+      "name": "61.783.01.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 30,
+      "min_period": "m",
+      "listing_id": 114,
+      "listing_address": "Jl. Raya Nusapati, Kec. Sungai Pinyuh, Kab. Mempawah, Kalimantan Barat 78353",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377610",
+      "media": [
+        {
+          "id": "936",
+          "file": "61.783.01r.gf.09.jpg",
+          "url": "https://pertare.asets.co.id/storage/936/61.783.01r.gf.09.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1289,
+      "code": "71.902.02.R.GF.07",
+      "name": "71.902.02.R.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 42,
+      "min_period": "m",
+      "listing_id": 111,
+      "listing_address": "Jl. Gatot Subroto (Samping Polsek Tallo), Kel. Ujung Pandang Baru, Kec. Tallo, Kota Makassar, Sulawesi Selatan 90217",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377585",
+      "media": [
+        {
+          "id": "950",
+          "file": "71.902.02_42m2_no96_cp1.PNG",
+          "url": "https://pertare.asets.co.id/storage/950/71.902.02_42m2_no96_cp1.PNG"
+        }
+      ]
+    },
+    {
+      "id": 1293,
+      "code": "71.951.03.ATM.GF.04",
+      "name": "71.951.03.ATM.GF.04",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 145,
+      "listing_address": "Boulevard Jl. Piere Tendean, Wenang Sel., Kec. Wenang, Kota Manado, Sulawesi Utara",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377514",
+      "media": [
+        {
+          "id": "1112",
+          "file": "31.107.01.ATM.GF.04.png",
+          "url": "https://pertare.asets.co.id/storage/1112/31.107.01.ATM.GF.04.png"
+        }
+      ]
+    },
+    {
+      "id": 1303,
+      "code": "61.707.01.ATM.GF.08",
+      "name": "61.707.01.ATM.GF.08",
+      "type": "RUANGAN",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 136,
+      "listing_address": "Jl. A. Yani No.KM 34, Loktabat Utara, Kec. Banjarbaru Utara, Kota Banjar Baru, Kalimantan Selatan 70714",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377492",
+      "media": [
+        {
+          "id": "1375",
+          "file": "31.107.03.ATM.GF.03.jpg",
+          "url": "https://pertare.asets.co.id/storage/1375/31.107.03.ATM.GF.03.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1308,
+      "code": "61.781.01.ATM.GF.12",
+      "name": "61.781.01.ATM.GF.12",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 8.6,
+      "min_period": "m",
+      "listing_id": 144,
+      "listing_address": "Jalan Jenderal Ahmad Yani No.17, Bangka Belitung Laut, Pontianak Tenggara, Bangka Belitung Darat, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78124",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377469",
+      "media": [
+        {
+          "id": "1079",
+          "file": "31.103.03.ATM.GF.01.jpg",
+          "url": "https://pertare.asets.co.id/storage/1079/31.103.03.ATM.GF.01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1309,
+      "code": "61.781.01.ATM.GF.14",
+      "name": "61.781.01.ATM.GF.14",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 144,
+      "listing_address": "Jalan Jenderal Ahmad Yani No.17, Bangka Belitung Laut, Pontianak Tenggara, Bangka Belitung Darat, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78124",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377444",
+      "media": [
+        {
+          "id": "1078",
+          "file": "31.107.01.ATM.GF.06.jpg",
+          "url": "https://pertare.asets.co.id/storage/1078/31.107.01.ATM.GF.06.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1311,
+      "code": "61.781.01.R.GF.10",
+      "name": "61.781.01.R.GF.10",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 72,
+      "min_period": "m",
+      "listing_id": 144,
+      "listing_address": "Jalan Jenderal Ahmad Yani No.17, Bangka Belitung Laut, Pontianak Tenggara, Bangka Belitung Darat, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78124",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377355",
+      "media": [
+        {
+          "id": "934",
+          "file": "61.781.01.r.gf.17.jpg",
+          "url": "https://pertare.asets.co.id/storage/934/61.781.01.r.gf.17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1338,
+      "code": "11.294.701.R.GF.16",
+      "name": "11.294.701.R.GF.16",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 26,
+      "min_period": "m",
+      "listing_id": 34,
+      "listing_address": "Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377332",
+      "media": [
+        {
+          "id": "1095",
+          "file": "31.171.03_2m2_no110_2.png",
+          "url": "https://pertare.asets.co.id/storage/1095/31.171.03_2m2_no110_2.png"
+        }
+      ]
+    },
+    {
+      "id": 1367,
+      "code": "11.282.604.R.GF.01",
+      "name": "11.282.604.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 38,
+      "min_period": "m",
+      "listing_id": 156,
+      "listing_address": "Jl. Ababil No.10, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28122",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377307",
+      "media": [
+        {
+          "id": "1387",
+          "file": "19.jpg",
+          "url": "https://pertare.asets.co.id/storage/1387/19.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1368,
+      "code": "11.282.604.ATM.GF.01",
+      "name": "11.282.604.ATM.GF.01",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 6,
+      "min_period": "m",
+      "listing_id": 156,
+      "listing_address": "Jl. Ababil No.10, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28122",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377162",
+      "media": [
+        {
+          "id": "1097",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1097/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1391,
+      "code": "31.139.02.ATM.L1.9",
+      "name": "31.139.02.ATM.L1.9",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 39,
+      "listing_address": "Jl. Raya Bekasi No.Km. 21, RT.3/RW.3, Rw. Terate, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13920",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377140",
+      "media": [
+        {
+          "id": "1071",
+          "file": "31.103.03.ATM.GF.01.jpg",
+          "url": "https://pertare.asets.co.id/storage/1071/31.103.03.ATM.GF.01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1395,
+      "code": "31.139.02.R.L1.13",
+      "name": "31.139.02.R.L1.13",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12,
+      "min_period": "m",
+      "listing_id": 39,
+      "listing_address": "Jl. Raya Bekasi No.Km. 21, RT.3/RW.3, Rw. Terate, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13920",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377117",
+      "media": [
+        {
+          "id": "1386",
+          "file": "29.jpg",
+          "url": "https://pertare.asets.co.id/storage/1386/29.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1401,
+      "code": "31.139.02.R.GF.19",
+      "name": "31.139.02.R.GF.19",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 28,
+      "min_period": "m",
+      "listing_id": 39,
+      "listing_address": "Jl. Raya Bekasi No.Km. 21, RT.3/RW.3, Rw. Terate, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13920",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377094",
+      "media": [
+        {
+          "id": "1072",
+          "file": "35.jpg",
+          "url": "https://pertare.asets.co.id/storage/1072/35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1402,
+      "code": "14.287.665.LO.GF.01",
+      "name": "14.287.665.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 50,
+      "min_period": "m",
+      "listing_id": 158,
+      "listing_address": "Muara Basung, Pinggir, Bengkalis Regency, Riau",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.377069",
+      "media": [
+        {
+          "id": "1092",
+          "file": "31.126.01_156m2_No33.png",
+          "url": "https://pertare.asets.co.id/storage/1092/31.126.01_156m2_No33.png"
+        }
+      ]
+    },
+    {
+      "id": 1412,
+      "code": "21.302.04.R.GF.18",
+      "name": "21.302.04.R.GF.18",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 45,
+      "min_period": "m",
+      "listing_id": 64,
+      "listing_address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376968",
+      "media": [
+        {
+          "id": "1103",
+          "file": "31.171.03_2m2_no110_2.png",
+          "url": "https://pertare.asets.co.id/storage/1103/31.171.03_2m2_no110_2.png"
+        }
+      ]
+    },
+    {
+      "id": 1416,
+      "code": "21.101.02.LO.GF.03",
+      "name": "21.101.02.LO.GF.03",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 50,
+      "min_period": "m",
+      "listing_id": 162,
+      "listing_address": "Jl. Lintas sumatera desa kekiling Kec. Penengahan Kab. Lampung selatan, Lampung 35592",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376945",
+      "media": [
+        {
+          "id": "1385",
+          "file": "19.jpg",
+          "url": "https://pertare.asets.co.id/storage/1385/19.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1449,
+      "code": "21.302.04.ATM.GF.20",
+      "name": "21.302.04.ATM.GF.20",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 21,
+      "min_period": "m",
+      "listing_id": 64,
+      "listing_address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376872",
+      "media": [
+        {
+          "id": "1102",
+          "file": "31.107.01.ATM.GF.04.png",
+          "url": "https://pertare.asets.co.id/storage/1102/31.107.01.ATM.GF.04.png"
+        }
+      ]
+    },
+    {
+      "id": 1452,
+      "code": "21.351.03.ATM.GF.03",
+      "name": "21.351.03.ATM.GF.03",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 16,
+      "listing_address": "Jl. Soekarno Hatta (bypass) No.256, Way Dadi, Kec. Sukarame, Kota Bandar Lampung, Lampung 35131",
+      "listing_city": "Kota Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376850",
+      "media": [
+        {
+          "id": "1104",
+          "file": "31.107.01.ATM.GF.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/1104/31.107.01.ATM.GF.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1454,
+      "code": "51.641.16.ATM.GF.11",
+      "name": "51.641.16.ATM.GF.11",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 119,
+      "listing_address": "Jl. Dr. Sahardjo, Campurejo, Kec. Mojoroto, Kabupaten Kediri, Jawa Timur 64116",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376827",
+      "media": [
+        {
+          "id": "1374",
+          "file": "31.107.03.ATM.GF.03.jpg",
+          "url": "https://pertare.asets.co.id/storage/1374/31.107.03.ATM.GF.03.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1455,
+      "code": "31.453.01.R.GF.01",
+      "name": "31.453.01.R.GF.01",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 300,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376805",
+      "media": [
+        {
+          "id": "890",
+          "file": "WhatsApp-Image-2024-12-12-at-15.47.51.jpeg",
+          "url": "https://pertare.asets.co.id/storage/890/WhatsApp-Image-2024-12-12-at-15.47.51.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 1456,
+      "code": "31.453.01.R.GF.02",
+      "name": "31.453.01.R.GF.02",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12.3,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376781",
+      "media": [
+        {
+          "id": "1004",
+          "file": "Screenshot-2024-12-18-115017_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1004/Screenshot-2024-12-18-115017_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1457,
+      "code": "31.453.01.R.GF.03",
+      "name": "31.453.01.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12.3,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376756",
+      "media": [
+        {
+          "id": "999",
+          "file": "Screenshot-2024-12-18-104715_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/999/Screenshot-2024-12-18-104715_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1458,
+      "code": "31.453.01.R.GF.04",
+      "name": "31.453.01.R.GF.04",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12.3,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376694",
+      "media": [
+        {
+          "id": "1384",
+          "file": "2.jpg",
+          "url": "https://pertare.asets.co.id/storage/1384/2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1459,
+      "code": "31.453.01.R.GF.05",
+      "name": "31.453.01.R.GF.05",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12.3,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376573",
+      "media": [
+        {
+          "id": "1383",
+          "file": "8.jpg",
+          "url": "https://pertare.asets.co.id/storage/1383/8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1460,
+      "code": "31.453.01.R.GF.06",
+      "name": "31.453.01.R.GF.06",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 10,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376551",
+      "media": [
+        {
+          "id": "1003",
+          "file": "Screenshot-2024-12-18-114802_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1003/Screenshot-2024-12-18-114802_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1461,
+      "code": "31.453.01.R.GF.07",
+      "name": "31.453.01.R.GF.07",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 12,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376528",
+      "media": [
+        {
+          "id": "1381",
+          "file": "38.jpg",
+          "url": "https://pertare.asets.co.id/storage/1381/38.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1462,
+      "code": "31.453.01.R.GF.08",
+      "name": "31.453.01.R.GF.08",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 48,
+      "min_period": "m",
+      "listing_id": 93,
+      "listing_address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376502",
+      "media": [
+        {
+          "id": "1382",
+          "file": "6.jpg",
+          "url": "https://pertare.asets.co.id/storage/1382/6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1466,
+      "code": "31.151.03.LO.GF.01",
+      "name": "31.151.03.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 37.45,
+      "min_period": "m",
+      "listing_id": 13,
+      "listing_address": "Perumahan Taman Royal, Jl. Permata Raya, RT.003/RW.016, Tanah Tinggi, Kec. Tangerang, Kota Tangerang, Banten 15141",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376479",
+      "media": [
+        {
+          "id": "896",
+          "file": "TAMAN-ROYAL.jpg",
+          "url": "https://pertare.asets.co.id/storage/896/TAMAN-ROYAL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1467,
+      "code": "31.151.03.LO.GF.02",
+      "name": "31.151.03.LO.GF.02",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 56,
+      "min_period": "m",
+      "listing_id": 13,
+      "listing_address": "Perumahan Taman Royal, Jl. Permata Raya, RT.003/RW.016, Tanah Tinggi, Kec. Tangerang, Kota Tangerang, Banten 15141",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376451",
+      "media": [
+        {
+          "id": "904",
+          "file": "31.151.03lo.gf.02.jpg",
+          "url": "https://pertare.asets.co.id/storage/904/31.151.03lo.gf.02.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1468,
+      "code": "61.711.001.R.GF.06",
+      "name": "61.711.001.R.GF.06",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 36,
+      "min_period": "m",
+      "listing_id": 148,
+      "listing_address": "Jl. Brigjend H. Hasan Basry Km.3 Kel. Bitahan Kec. Lokpaikat Kab. Tapin Kalimantan Selatan 71154",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376341",
+      "media": [
+        {
+          "id": "946",
+          "file": "61.711.001.R.GF.06.jpg",
+          "url": "https://pertare.asets.co.id/storage/946/61.711.001.R.GF.06.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1471,
+      "code": "31.121.04.R.GF.03",
+      "name": "31.121.04.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 28,
+      "min_period": "m",
+      "listing_id": 44,
+      "listing_address": "Jl. Margaguna Raya, RT.1/RW.1, Gandaria Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12420",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376269",
+      "media": []
+    },
+    {
+      "id": 1567,
+      "code": "31.116.02.LO.GF.15",
+      "name": "31.116.02.LO.GF.15",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 18,
+      "min_period": "m",
+      "listing_id": 29,
+      "listing_address": "Jl. Kembangan Selatan No.31 3, RT.3/RW.1 Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376246",
+      "media": [
+        {
+          "id": "1106",
+          "file": "31.107.02.LO.GF.07.jpg",
+          "url": "https://pertare.asets.co.id/storage/1106/31.107.02.LO.GF.07.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1664,
+      "code": "31.107.01.LO.GF.15",
+      "name": "31.107.01.LO.GF.15",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 20,
+      "min_period": "m",
+      "listing_id": 32,
+      "listing_address": "Jl. Industri Raya, RT.3/RW.2 Gn. Sahari Utara, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376224",
+      "media": [
+        {
+          "id": "1065",
+          "file": "31.151.03.01.LO.GF.01-37.45-SQM.jpg",
+          "url": "https://pertare.asets.co.id/storage/1065/31.151.03.01.LO.GF.01-37.45-SQM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1666,
+      "code": "31.107.01.LO.GF.16",
+      "name": "31.107.01.LO.GF.16",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 10,
+      "min_period": "m",
+      "listing_id": 32,
+      "listing_address": "Jl. Industri Raya, RT.3/RW.2 Gn. Sahari Utara, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376201",
+      "media": [
+        {
+          "id": "1064",
+          "file": "31.126.01_14.79m2_No34.png",
+          "url": "https://pertare.asets.co.id/storage/1064/31.126.01_14.79m2_No34.png"
+        }
+      ]
+    },
+    {
+      "id": 1780,
+      "code": "31.114.03.R.L2.32",
+      "name": "31.114.03.R.L2.32",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 25,
+      "min_period": "m",
+      "listing_id": 53,
+      "listing_address": "Jl. Raya Daan Mogot No.02, RT.7/RW.4, Jelambar, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460, Indonesiaa",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376178",
+      "media": [
+        {
+          "id": "1067",
+          "file": "31.102.02.-R.GF.18-6.5.jpg",
+          "url": "https://pertare.asets.co.id/storage/1067/31.102.02.-R.GF.18-6.5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1792,
+      "code": "31.124.02.R.GF.12",
+      "name": "31.124.02.R.GF.12",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 65,
+      "min_period": "m",
+      "listing_id": 66,
+      "listing_address": "Jl. RS. Fatmawati Raya No.12, RT.4/RW.4, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12410",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376154",
+      "media": [
+        {
+          "id": "1216",
+          "file": "31.124.02.65m2_No32.png",
+          "url": "https://pertare.asets.co.id/storage/1216/31.124.02.65m2_No32.png"
+        }
+      ]
+    },
+    {
+      "id": 1796,
+      "code": "31.124.02.LO.GF.15",
+      "name": "31.124.02.LO.GF.15",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 63,
+      "min_period": "m",
+      "listing_id": 66,
+      "listing_address": "Jl. RS. Fatmawati Raya No.12, RT.4/RW.4, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12410",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.376082",
+      "media": [
+        {
+          "id": "1398",
+          "file": "JOMBANG.jpg",
+          "url": "https://pertare.asets.co.id/storage/1398/JOMBANG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1805,
+      "code": "31.126.01.LO.GF.25",
+      "name": "31.126.01.LO.GF.25",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 15,
+      "min_period": "m",
+      "listing_id": 89,
+      "listing_address": "RW.2, Jl. Lenteng Agung Raya, RT.6/RW.1, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375980",
+      "media": [
+        {
+          "id": "1263",
+          "file": "Page-6.jpeg",
+          "url": "https://pertare.asets.co.id/storage/1263/Page-6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 1806,
+      "code": "31.126.01.LO.GF.26",
+      "name": "31.126.01.LO.GF.26",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 156,
+      "min_period": "m",
+      "listing_id": 89,
+      "listing_address": "RW.2, Jl. Lenteng Agung Raya, RT.6/RW.1, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375948",
+      "media": [
+        {
+          "id": "1261",
+          "file": "Page-8.jpeg",
+          "url": "https://pertare.asets.co.id/storage/1261/Page-8.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 1859,
+      "code": "31.175.02.R.GF.03",
+      "name": "31.175.02.R.GF.03",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 100,
+      "listing_address": "Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375916",
+      "media": [
+        {
+          "id": "1301",
+          "file": "31.107.03.ATM.GF.04.jpg",
+          "url": "https://pertare.asets.co.id/storage/1301/31.107.03.ATM.GF.04.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1872,
+      "code": "31.451.01.R.GF.09",
+      "name": "31.451.01.R.GF.09",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 2.5,
+      "min_period": "m",
+      "listing_id": 88,
+      "listing_address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375883",
+      "media": [
+        {
+          "id": "1337",
+          "file": "61.781.01.r.gf.17.jpg",
+          "url": "https://pertare.asets.co.id/storage/1337/61.781.01.r.gf.17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1917,
+      "code": "31.128.02.R.B.24",
+      "name": "31.128.02.R.B.24",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 5,
+      "min_period": "m",
+      "listing_id": 71,
+      "listing_address": "Jl. Letjen M.T. Haryono, RT.11/RW.5, Tebet Bar., Jakarta Selatan, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 12810, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375850",
+      "media": [
+        {
+          "id": "1311",
+          "file": "31.137.01_19.80m2_No42.png",
+          "url": "https://pertare.asets.co.id/storage/1311/31.137.01_19.80m2_No42.png"
+        }
+      ]
+    },
+    {
+      "id": 1918,
+      "code": "31.128.02.R.GF.25",
+      "name": "31.128.02.R.GF.25",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 3,
+      "min_period": "m",
+      "listing_id": 71,
+      "listing_address": "Jl. Letjen M.T. Haryono, RT.11/RW.5, Tebet Bar., Jakarta Selatan, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 12810, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375815",
+      "media": [
+        {
+          "id": "1394",
+          "file": "31.103.03.ATM.GF.02.jpg",
+          "url": "https://pertare.asets.co.id/storage/1394/31.103.03.ATM.GF.02.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1921,
+      "code": "31.151.04.LO.GF.01",
+      "name": "31.151.04.LO.GF.01",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 24,
+      "min_period": "m",
+      "listing_id": 55,
+      "listing_address": "Jl. RA Kartini, RT.001/RW.009, Panunggangan Bar., Kec. Cibodas, Kota Tangerang, Banten 15138",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375739",
+      "media": [
+        {
+          "id": "1074",
+          "file": "31.126.01_156m2_No33.png",
+          "url": "https://pertare.asets.co.id/storage/1074/31.126.01_156m2_No33.png"
+        }
+      ]
+    },
+    {
+      "id": 2059,
+      "code": "31.161.13.R.GF.17",
+      "name": "31.161.13.R.GF.17",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 10,
+      "min_period": "m",
+      "listing_id": 85,
+      "listing_address": "Jl. Tentara Pelajar Blok Kompleks Pertanian No.7, RT.05/RW.12, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124, Indonesia",
+      "listing_city": "Kota Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375569",
+      "media": [
+        {
+          "id": "1272",
+          "file": "10-sqm.JPG",
+          "url": "https://pertare.asets.co.id/storage/1272/10-sqm.JPG"
+        }
+      ]
+    },
+    {
+      "id": 2154,
+      "code": "31.107.02.ATM.GF.01",
+      "name": "31.107.02.ATM.GF.01",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 47,
+      "listing_address": "Jl. H. Samanhudi No.20, RT.5/RW.3, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10710, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375495",
+      "media": [
+        {
+          "id": "1066",
+          "file": "Screenshot-2024-12-17-132523_11zon.jpg",
+          "url": "https://pertare.asets.co.id/storage/1066/Screenshot-2024-12-17-132523_11zon.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2170,
+      "code": "61.751.02.ATM.GF.12",
+      "name": "61.751.02.ATM.GF.12",
+      "type": "RUANGAN",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 138,
+      "listing_address": "Jalan Slamet Riyadi Karang Asam Ulu, Jl. Cendana Gg. 7, Tlk. Lerong Ulu, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur 75243",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375454",
+      "media": [
+        {
+          "id": "1077",
+          "file": "31.103.03.ATM.GF.01.jpg",
+          "url": "https://pertare.asets.co.id/storage/1077/31.103.03.ATM.GF.01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2174,
+      "code": "61.751.02.ATM.GF.15",
+      "name": "61.751.02.ATM.GF.15",
+      "type": "ATM",
+      "price": 3000000.0,
+      "price_type": "fix",
+      "size_sqm": 2,
+      "min_period": "m",
+      "listing_id": 138,
+      "listing_address": "Jalan Slamet Riyadi Karang Asam Ulu, Jl. Cendana Gg. 7, Tlk. Lerong Ulu, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur 75243",
+      "listing_city": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375316",
+      "media": [
+        {
+          "id": "1076",
+          "file": "31.107.01.ATM.GF.06.jpg",
+          "url": "https://pertare.asets.co.id/storage/1076/31.107.01.ATM.GF.06.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "code": "51.612.66.LO.GF.09",
+      "name": "51.612.66.LO.GF.09",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 115,
+      "listing_address": "Semawalang, Semambung, Gedangan, Sidoarjo Regency, East Java 61253",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375274",
+      "media": [
+        {
+          "id": "1114",
+          "file": "JUANDA.jpg",
+          "url": "https://pertare.asets.co.id/storage/1114/JUANDA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2207,
+      "code": "51.612.66.LO.GF.10",
+      "name": "51.612.66.LO.GF.10",
+      "type": "LOT OUTDOOR",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 4,
+      "min_period": "m",
+      "listing_id": 115,
+      "listing_address": "Semawalang, Semambung, Gedangan, Sidoarjo Regency, East Java 61253",
+      "listing_city": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.375126",
+      "media": [
+        {
+          "id": "1115",
+          "file": "JUANDA-SURABAYA.jpg",
+          "url": "https://pertare.asets.co.id/storage/1115/JUANDA-SURABAYA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2212,
+      "code": "31.127.01.R.GF.25",
+      "name": "31.127.01.R.GF.25",
+      "type": "RUANGAN",
+      "price": 210000.0,
+      "price_type": "sqm",
+      "size_sqm": 73,
+      "min_period": "m",
+      "listing_id": 68,
+      "listing_address": "Jl. Kemang Sel., RT.1/RW.3, Cilandak Tim., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560, Indonesia",
+      "listing_city": "Kota Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 13:01:09",
+      "updated_at": "2025-10-13T20:01:09.369536",
+      "media": [
+        {
+          "id": "1396",
+          "file": "31.175.05_30m2_no109_1.png",
+          "url": "https://pertare.asets.co.id/storage/1396/31.175.05_30m2_no109_1.png"
+        }
+      ]
+    }
+  ]
+}

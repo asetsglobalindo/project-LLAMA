@@ -1,0 +1,50 @@
+2025-10-13 19:58:06,265 - INFO - Database initialized successfully
+2025-10-13 19:58:06,266 - INFO - Starting listings data fetch process...
+2025-10-13 19:58:06,266 - INFO - Fetching page 1 from https://api.asets.id/api/listings
+2025-10-13 19:58:08,072 - INFO - Total pages to fetch: 16
+2025-10-13 19:58:08,073 - INFO - Fetched 10 listings from page 1
+2025-10-13 19:58:08,574 - INFO - Fetching page 2 from https://api.asets.id/api/listings
+2025-10-13 19:58:08,821 - INFO - Fetched 10 listings from page 2
+2025-10-13 19:58:09,322 - INFO - Fetching page 3 from https://api.asets.id/api/listings
+2025-10-13 19:58:10,161 - INFO - Fetched 10 listings from page 3
+2025-10-13 19:58:10,662 - INFO - Fetching page 4 from https://api.asets.id/api/listings
+2025-10-13 19:58:11,072 - INFO - Fetched 10 listings from page 4
+2025-10-13 19:58:11,573 - INFO - Fetching page 5 from https://api.asets.id/api/listings
+2025-10-13 19:58:11,809 - INFO - Fetched 10 listings from page 5
+2025-10-13 19:58:12,310 - INFO - Fetching page 6 from https://api.asets.id/api/listings
+2025-10-13 19:58:12,558 - INFO - Fetched 10 listings from page 6
+2025-10-13 19:58:13,059 - INFO - Fetching page 7 from https://api.asets.id/api/listings
+2025-10-13 19:58:13,427 - INFO - Fetched 10 listings from page 7
+2025-10-13 19:58:13,928 - INFO - Fetching page 8 from https://api.asets.id/api/listings
+2025-10-13 19:58:14,206 - INFO - Fetched 10 listings from page 8
+2025-10-13 19:58:14,707 - INFO - Fetching page 9 from https://api.asets.id/api/listings
+2025-10-13 19:58:14,983 - INFO - Fetched 10 listings from page 9
+2025-10-13 19:58:15,484 - INFO - Fetching page 10 from https://api.asets.id/api/listings
+2025-10-13 19:58:15,770 - INFO - Fetched 10 listings from page 10
+2025-10-13 19:58:16,271 - INFO - Fetching page 11 from https://api.asets.id/api/listings
+2025-10-13 19:58:16,557 - INFO - Fetched 10 listings from page 11
+2025-10-13 19:58:17,058 - INFO - Fetching page 12 from https://api.asets.id/api/listings
+2025-10-13 19:58:17,315 - INFO - Fetched 10 listings from page 12
+2025-10-13 19:58:17,815 - INFO - Fetching page 13 from https://api.asets.id/api/listings
+2025-10-13 19:58:18,086 - INFO - Fetched 10 listings from page 13
+2025-10-13 19:58:18,587 - INFO - Fetching page 14 from https://api.asets.id/api/listings
+2025-10-13 19:58:18,771 - INFO - Fetched 10 listings from page 14
+2025-10-13 19:58:19,272 - INFO - Fetching page 15 from https://api.asets.id/api/listings
+2025-10-13 19:58:19,492 - INFO - Fetched 10 listings from page 15
+2025-10-13 19:58:19,995 - INFO - Fetching page 16 from https://api.asets.id/api/listings
+2025-10-13 19:58:20,206 - INFO - Fetched 10 listings from page 16
+2025-10-13 19:58:20,707 - INFO - Total listings fetched: 160
+2025-10-13 19:58:20,713 - ERROR - Error saving listing 1: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,713 - ERROR - Error saving listing 3: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,713 - ERROR - Error saving listing 5: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,714 - ERROR - Error saving listing 7: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,715 - ERROR - Error saving listing 8: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,715 - ERROR - Error saving listing 9: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,716 - ERROR - Error saving listing 10: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,717 - ERROR - Error saving listing 11: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,717 - ERROR - Error saving listing 12: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,718 - ERROR - Error saving listing 13: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,718 - ERROR - Error saving listing 14: 'list' object has no attribute 'get'
+2025-10-13 19:58:20,731 - INFO - Saved 149 listings to database
+2025-10-13 19:58:20,731 - INFO - Listings data fetch process completed!
+2025-10-13 19:58:20,755 - INFO - Listings data exported to listings_export.json

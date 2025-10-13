@@ -1,0 +1,95 @@
+2025-10-13 19:51:28,610 - INFO - Database initialized successfully
+2025-10-13 19:51:28,611 - INFO - Starting data fetch process...
+2025-10-13 19:51:28,611 - INFO - Fetching listings data...
+2025-10-13 19:51:28,612 - INFO - Fetching page 1 from https://api.asets.id/api/listings
+2025-10-13 19:51:29,683 - INFO - Total pages to fetch: 16
+2025-10-13 19:51:29,683 - INFO - Fetched 10 items from page 1
+2025-10-13 19:51:30,184 - INFO - Fetching page 2 from https://api.asets.id/api/listings
+2025-10-13 19:51:31,256 - INFO - Fetched 10 items from page 2
+2025-10-13 19:51:31,757 - INFO - Fetching page 3 from https://api.asets.id/api/listings
+2025-10-13 19:51:32,115 - INFO - Fetched 10 items from page 3
+2025-10-13 19:51:32,615 - INFO - Fetching page 4 from https://api.asets.id/api/listings
+2025-10-13 19:51:33,047 - INFO - Fetched 10 items from page 4
+2025-10-13 19:51:33,548 - INFO - Fetching page 5 from https://api.asets.id/api/listings
+2025-10-13 19:51:34,104 - INFO - Fetched 10 items from page 5
+2025-10-13 19:51:34,605 - INFO - Fetching page 6 from https://api.asets.id/api/listings
+2025-10-13 19:51:34,898 - INFO - Fetched 10 items from page 6
+2025-10-13 19:51:35,399 - INFO - Fetching page 7 from https://api.asets.id/api/listings
+2025-10-13 19:51:35,720 - INFO - Fetched 10 items from page 7
+2025-10-13 19:51:36,221 - INFO - Fetching page 8 from https://api.asets.id/api/listings
+2025-10-13 19:51:36,455 - INFO - Fetched 10 items from page 8
+2025-10-13 19:51:36,956 - INFO - Fetching page 9 from https://api.asets.id/api/listings
+2025-10-13 19:51:37,128 - INFO - Fetched 10 items from page 9
+2025-10-13 19:51:37,629 - INFO - Fetching page 10 from https://api.asets.id/api/listings
+2025-10-13 19:51:37,974 - INFO - Fetched 10 items from page 10
+2025-10-13 19:51:38,475 - INFO - Fetching page 11 from https://api.asets.id/api/listings
+2025-10-13 19:51:38,656 - INFO - Fetched 10 items from page 11
+2025-10-13 19:51:39,158 - INFO - Fetching page 12 from https://api.asets.id/api/listings
+2025-10-13 19:51:39,424 - INFO - Fetched 10 items from page 12
+2025-10-13 19:51:39,925 - INFO - Fetching page 13 from https://api.asets.id/api/listings
+2025-10-13 19:51:40,161 - INFO - Fetched 10 items from page 13
+2025-10-13 19:51:40,662 - INFO - Fetching page 14 from https://api.asets.id/api/listings
+2025-10-13 19:51:40,835 - INFO - Fetched 10 items from page 14
+2025-10-13 19:51:41,336 - INFO - Fetching page 15 from https://api.asets.id/api/listings
+2025-10-13 19:51:41,522 - INFO - Fetched 10 items from page 15
+2025-10-13 19:51:42,022 - INFO - Fetching page 16 from https://api.asets.id/api/listings
+2025-10-13 19:51:42,239 - INFO - Fetched 10 items from page 16
+2025-10-13 19:51:42,740 - INFO - Total items fetched: 160
+2025-10-13 19:51:42,745 - ERROR - Error saving listing 1: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,746 - ERROR - Error saving listing 3: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,746 - ERROR - Error saving listing 5: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,747 - ERROR - Error saving listing 7: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,747 - ERROR - Error saving listing 8: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,748 - ERROR - Error saving listing 9: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,749 - ERROR - Error saving listing 10: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,749 - ERROR - Error saving listing 11: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,749 - ERROR - Error saving listing 12: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,750 - ERROR - Error saving listing 13: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,751 - ERROR - Error saving listing 14: 'list' object has no attribute 'get'
+2025-10-13 19:51:42,764 - INFO - Saved 149 listings to database
+2025-10-13 19:51:42,764 - INFO - Fetching spaces data...
+2025-10-13 19:51:42,765 - INFO - Fetching page 1 from https://service.asets.id/api/space-available
+2025-10-13 19:51:44,095 - INFO - Total pages to fetch: 20
+2025-10-13 19:51:44,096 - INFO - Fetched 10 items from page 1
+2025-10-13 19:51:44,596 - INFO - Fetching page 2 from https://service.asets.id/api/space-available
+2025-10-13 19:51:44,747 - INFO - Fetched 10 items from page 2
+2025-10-13 19:51:45,248 - INFO - Fetching page 3 from https://service.asets.id/api/space-available
+2025-10-13 19:51:45,455 - INFO - Fetched 10 items from page 3
+2025-10-13 19:51:45,956 - INFO - Fetching page 4 from https://service.asets.id/api/space-available
+2025-10-13 19:51:46,108 - INFO - Fetched 10 items from page 4
+2025-10-13 19:51:46,609 - INFO - Fetching page 5 from https://service.asets.id/api/space-available
+2025-10-13 19:51:46,768 - INFO - Fetched 10 items from page 5
+2025-10-13 19:51:47,269 - INFO - Fetching page 6 from https://service.asets.id/api/space-available
+2025-10-13 19:51:47,475 - INFO - Fetched 10 items from page 6
+2025-10-13 19:51:47,976 - INFO - Fetching page 7 from https://service.asets.id/api/space-available
+2025-10-13 19:51:48,157 - INFO - Fetched 10 items from page 7
+2025-10-13 19:51:48,658 - INFO - Fetching page 8 from https://service.asets.id/api/space-available
+2025-10-13 19:51:48,779 - INFO - Fetched 10 items from page 8
+2025-10-13 19:51:49,280 - INFO - Fetching page 9 from https://service.asets.id/api/space-available
+2025-10-13 19:51:49,437 - INFO - Fetched 10 items from page 9
+2025-10-13 19:51:49,937 - INFO - Fetching page 10 from https://service.asets.id/api/space-available
+2025-10-13 19:51:50,081 - INFO - Fetched 10 items from page 10
+2025-10-13 19:51:50,582 - INFO - Fetching page 11 from https://service.asets.id/api/space-available
+2025-10-13 19:51:50,830 - INFO - Fetched 10 items from page 11
+2025-10-13 19:51:51,331 - INFO - Fetching page 12 from https://service.asets.id/api/space-available
+2025-10-13 19:51:51,460 - INFO - Fetched 10 items from page 12
+2025-10-13 19:51:51,961 - INFO - Fetching page 13 from https://service.asets.id/api/space-available
+2025-10-13 19:51:52,119 - INFO - Fetched 10 items from page 13
+2025-10-13 19:51:52,620 - INFO - Fetching page 14 from https://service.asets.id/api/space-available
+2025-10-13 19:51:52,810 - INFO - Fetched 10 items from page 14
+2025-10-13 19:51:53,311 - INFO - Fetching page 15 from https://service.asets.id/api/space-available
+2025-10-13 19:51:53,441 - INFO - Fetched 10 items from page 15
+2025-10-13 19:51:53,942 - INFO - Fetching page 16 from https://service.asets.id/api/space-available
+2025-10-13 19:51:54,102 - INFO - Fetched 10 items from page 16
+2025-10-13 19:51:54,603 - INFO - Fetching page 17 from https://service.asets.id/api/space-available
+2025-10-13 19:51:54,736 - INFO - Fetched 10 items from page 17
+2025-10-13 19:51:55,237 - INFO - Fetching page 18 from https://service.asets.id/api/space-available
+2025-10-13 19:51:55,456 - INFO - Fetched 10 items from page 18
+2025-10-13 19:51:55,957 - INFO - Fetching page 19 from https://service.asets.id/api/space-available
+2025-10-13 19:51:56,089 - INFO - Fetched 10 items from page 19
+2025-10-13 19:51:56,590 - INFO - Fetching page 20 from https://service.asets.id/api/space-available
+2025-10-13 19:51:56,714 - INFO - Fetched 6 items from page 20
+2025-10-13 19:51:57,215 - INFO - Total items fetched: 196
+2025-10-13 19:51:57,239 - INFO - Saved 196 spaces to database
+2025-10-13 19:51:57,240 - INFO - Data fetch process completed!
+2025-10-13 19:51:57,279 - INFO - Data exported to asets_data_export.json

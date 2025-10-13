@@ -84,7 +84,7 @@ function aiChatComponent() {
         open: true,
         input: '',
         messages: [
-            { role: 'assistant', content: 'Halo! 👋 Saya AVIS AI, asisten Anda untuk mencari ruang komersial di area SPBU. Ceritakan kebutuhan Anda: kota mana, ukuran berapa, dan budget per bulan berapa? Saya akan carikan yang paling cocok!' }
+            { role: 'assistant', content: 'Halo! 👋 Saya AVIS AI, asisten dan bestie konsultan bisnis Anda.\n\nAda yang bisa saya bantu hari ini?' }
         ],
         loading: false,
         isTyping: false,
@@ -153,7 +153,7 @@ function aiChatComponent() {
             if (rec.source === 'pms') {
                 window.location.href = `/detail-spbu/${rec.id}`;
             } else {
-                window.location.href = `/detail-listing/${rec.id}`;
+                window.location.href = `/detail-spbu/${rec.id}`;
             }
         }
     }

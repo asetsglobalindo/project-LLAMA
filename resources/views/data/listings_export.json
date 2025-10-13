@@ -1,0 +1,4328 @@
+{
+  "export_timestamp": "2025-10-13T19:58:20.742604",
+  "listings": [
+    {
+      "id": 7,
+      "name": "SPBU KSO 14.202.119 Medan Sutomo",
+      "slug": "spbu-kso-14202119-medan-sutomo",
+      "spaces": 0,
+      "address": "Gaharu, Kec. Medan Timur Kota Medan, Sumatera Utara, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724347",
+      "media": [
+        {
+          "id": "443",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/443/1.JPG"
+        },
+        {
+          "id": "444",
+          "file": "cover-1733722725628.jpg",
+          "url": "https://pertare.asets.co.id/storage/444/cover-1733722725628.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "SPBU COCO 11.201.101 Medan Yos Sudarso",
+      "slug": "spbu-coco-11201101-medan-yos-sudarso",
+      "spaces": 3,
+      "address": "Jl. KL. Yos Sudarso No.6 Silalas Kec. Medan Barat Kota Medan, Sumatera Utara 20231, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724315",
+      "media": [
+        {
+          "id": "447",
+          "file": "cover-1733723122498.jpg",
+          "url": "https://pertare.asets.co.id/storage/447/cover-1733723122498.jpg"
+        },
+        {
+          "id": "448",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/448/2.JPG"
+        },
+        {
+          "id": "449",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/449/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SPBU COCO 11.201.102 Medan Merak Jingga",
+      "slug": "spbu-coco-11201102-medan-merak-jingga",
+      "spaces": 0,
+      "address": "Jl. Putri Merak Jingga Kota Medan, Sumatera Utara 20111, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724264",
+      "media": [
+        {
+          "id": "450",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/450/2.JPG"
+        },
+        {
+          "id": "451",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/451/1.JPG"
+        },
+        {
+          "id": "752",
+          "file": "cover-173391134396.jpg",
+          "url": "https://pertare.asets.co.id/storage/752/cover-173391134396.jpg"
+        },
+        {
+          "id": "1044",
+          "file": "WhatsApp-Image-2024-12-20-at-15.26.34-(2).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1044/WhatsApp-Image-2024-12-20-at-15.26.34-(2).jpeg"
+        },
+        {
+          "id": "1045",
+          "file": "WhatsApp-Image-2024-12-20-at-15.26.34-(1).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1045/WhatsApp-Image-2024-12-20-at-15.26.34-(1).jpeg"
+        },
+        {
+          "id": "1046",
+          "file": "WhatsApp-Image-2024-12-20-at-15.26.34.jpeg",
+          "url": "https://pertare.asets.co.id/storage/1046/WhatsApp-Image-2024-12-20-at-15.26.34.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "SPBU COCO 31.143.01 Jakarta Yos Sudarso Sunter",
+      "slug": "spbu-coco-3114301-jakarta-yos-sudarso-sunter",
+      "spaces": 0,
+      "address": "Jl. Yos Sudarso No.Kav. 205 10, RT.10/RW.11, Sunter Jaya, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14360",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720086",
+      "media": [
+        {
+          "id": "453",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/453/1.JPG"
+        },
+        {
+          "id": "454",
+          "file": "cover-1733723942341.jpg",
+          "url": "https://pertare.asets.co.id/storage/454/cover-1733723942341.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "SPBU COCO 31.151.02 Tangerang Modernland",
+      "slug": "spbu-coco-3115102-tangerang-modernland",
+      "spaces": 0,
+      "address": "Jl. Hartono Raya, RT.001/RW.006, Klp. Indah, Kec. Tangerang, Kota Tangerang, Banten 15117",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720052",
+      "media": [
+        {
+          "id": "316",
+          "file": "cover-1732004058266.jpg",
+          "url": "https://pertare.asets.co.id/storage/316/cover-1732004058266.jpg"
+        },
+        {
+          "id": "778",
+          "file": "SPBU-TANGERANG-MODERNLAND.PNG",
+          "url": "https://pertare.asets.co.id/storage/778/SPBU-TANGERANG-MODERNLAND.PNG"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "SPBU COCO  21.351.05 Lampung Kangkung Sultan Hasanudin",
+      "slug": "spbu-coco-2135105-lampung-kangkung-sultan-hasanudin",
+      "spaces": 9,
+      "address": "Jl. Sultan Hasanudin, Kangkung, Kec. Bumi Waras, Kota Bandar Lampung, Lampung 35221",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724215",
+      "media": [
+        {
+          "id": "456",
+          "file": "cover-1733724565428.jpg",
+          "url": "https://pertare.asets.co.id/storage/456/cover-1733724565428.jpg"
+        },
+        {
+          "id": "814",
+          "file": "Screen-Shot-2024-12-10-at-15.40.22.jpg",
+          "url": "https://pertare.asets.co.id/storage/814/Screen-Shot-2024-12-10-at-15.40.22.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "SPBU COCO 31.151.03 Tangerang Taman Royal",
+      "slug": "spbu-coco-3115103-tangerang-taman-royal",
+      "spaces": 4,
+      "address": "Perumahan Taman Royal, Jl. Permata Raya, RT.003/RW.016, Tanah Tinggi, Kec. Tangerang, Kota Tangerang, Banten 15141",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720006",
+      "media": [
+        {
+          "id": "185",
+          "file": "1000089694.jpg",
+          "url": "https://pertare.asets.co.id/storage/185/1000089694.jpg"
+        },
+        {
+          "id": "186",
+          "file": "cover-173095198735.jpg",
+          "url": "https://pertare.asets.co.id/storage/186/cover-173095198735.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "SPBU COCO 11.201.106 Medan Polonia",
+      "slug": "spbu-coco-11201106-medan-polonia",
+      "spaces": 5,
+      "address": "Jl. Mustang Kel. Suka Damai Kec. Medan Polonia Kota Medan, Sumatera Utara 20159, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724175",
+      "media": [
+        {
+          "id": "770",
+          "file": "cover-1733912785849.jpg",
+          "url": "https://pertare.asets.co.id/storage/770/cover-1733912785849.jpg"
+        },
+        {
+          "id": "773",
+          "file": "Screen-Shot-2024-12-11-at-17.28.41.jpg",
+          "url": "https://pertare.asets.co.id/storage/773/Screen-Shot-2024-12-11-at-17.28.41.jpg"
+        },
+        {
+          "id": "774",
+          "file": "Screen-Shot-2024-12-11-at-17.28.52.jpg",
+          "url": "https://pertare.asets.co.id/storage/774/Screen-Shot-2024-12-11-at-17.28.52.jpg"
+        },
+        {
+          "id": "775",
+          "file": "Screen-Shot-2024-12-11-at-17.27.45.jpg",
+          "url": "https://pertare.asets.co.id/storage/775/Screen-Shot-2024-12-11-at-17.27.45.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "SPBU COCO 31.133.01 Jakarta Otista",
+      "slug": "spbu-coco-3113301-jakarta-otista",
+      "spaces": 0,
+      "address": "Jl. Otista Raya No.69-71, RT.9/RW.10, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719977",
+      "media": [
+        {
+          "id": "303",
+          "file": "cover-1732002742936.jpg",
+          "url": "https://pertare.asets.co.id/storage/303/cover-1732002742936.jpg"
+        },
+        {
+          "id": "746",
+          "file": "Screen-Shot-2024-12-11-at-16.45.55.jpg",
+          "url": "https://pertare.asets.co.id/storage/746/Screen-Shot-2024-12-11-at-16.45.55.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "SPBU COCO 21.351.03 Lampung Soekarno-Hatta",
+      "slug": "spbu-coco-2135103-lampung-soekarno-hatta",
+      "spaces": 12,
+      "address": "Jl. Soekarno Hatta (bypass) No.256, Way Dadi, Kec. Sukarame, Kota Bandar Lampung, Lampung 35131",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724097",
+      "media": [
+        {
+          "id": "809",
+          "file": "cover-1733986591788.jpg",
+          "url": "https://pertare.asets.co.id/storage/809/cover-1733986591788.jpg"
+        },
+        {
+          "id": "810",
+          "file": "Screen-Shot-2024-12-10-at-10.03.15.jpg",
+          "url": "https://pertare.asets.co.id/storage/810/Screen-Shot-2024-12-10-at-10.03.15.jpg"
+        },
+        {
+          "id": "811",
+          "file": "Screen-Shot-2024-12-10-at-10.03.52.jpg",
+          "url": "https://pertare.asets.co.id/storage/811/Screen-Shot-2024-12-10-at-10.03.52.jpg"
+        },
+        {
+          "id": "812",
+          "file": "Screen-Shot-2024-12-10-at-10.07.08.jpg",
+          "url": "https://pertare.asets.co.id/storage/812/Screen-Shot-2024-12-10-at-10.07.08.jpg"
+        },
+        {
+          "id": "813",
+          "file": "Screen-Shot-2024-12-10-at-10.09.26.jpg",
+          "url": "https://pertare.asets.co.id/storage/813/Screen-Shot-2024-12-10-at-10.09.26.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "SPBU DODO 21.391.11 Bengkulu Kepahiyang",
+      "slug": "spbu-dodo-2139111-bengkulu-kepahiyang",
+      "spaces": 0,
+      "address": "Kelobak, Kepahiang Sub-District, Kepahiang Regency, Bengkulu 39372",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724068",
+      "media": [
+        {
+          "id": "815",
+          "file": "Screen-Shot-2024-12-10-at-15.52.31.jpg",
+          "url": "https://pertare.asets.co.id/storage/815/Screen-Shot-2024-12-10-at-15.52.31.jpg"
+        },
+        {
+          "id": "816",
+          "file": "cover-1733986871741.jpg",
+          "url": "https://pertare.asets.co.id/storage/816/cover-1733986871741.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "SPBU COCO 11.201.107 Medan HM. Yamin",
+      "slug": "spbu-coco-11201107-medan-hm-yamin",
+      "spaces": 4,
+      "address": "Jl. Prof. H. M. Yamin No.56, Kel. Sei Kera Hilir II, Kec. Medan Perjuangan, Kota Medan, Sumatera Utara 20222",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.724035",
+      "media": [
+        {
+          "id": "517",
+          "file": "cover-1733738060260.jpg",
+          "url": "https://pertare.asets.co.id/storage/517/cover-1733738060260.jpg"
+        },
+        {
+          "id": "794",
+          "file": "hm2.png",
+          "url": "https://pertare.asets.co.id/storage/794/hm2.png"
+        },
+        {
+          "id": "795",
+          "file": "hm3.png",
+          "url": "https://pertare.asets.co.id/storage/795/hm3.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "SPBU 33.142.01 Jakarta Summarecon Kelapa Gading",
+      "slug": "spbu-3314201-jakarta-summarecon-kelapa-gading",
+      "spaces": 6,
+      "address": "Jl. Pegangsaan Dua No.81 10, RT.10/RW.3, Pegangsaan Dua, Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14250",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719932",
+      "media": [
+        {
+          "id": "597",
+          "file": "Kelapa-Gading.PNG",
+          "url": "https://pertare.asets.co.id/storage/597/Kelapa-Gading.PNG"
+        },
+        {
+          "id": "1028",
+          "file": "cover-1734506134556.jpg",
+          "url": "https://pertare.asets.co.id/storage/1028/cover-1734506134556.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "SPBU COCO 31.134.02 Jakarta  Kalimalang ex Petronas",
+      "slug": "spbu-coco-3113402-jakarta-kalimalang-ex-petronas",
+      "spaces": 0,
+      "address": "Jl. Raya Kalimalang, RT.1/RW.7, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719900",
+      "media": [
+        {
+          "id": "304",
+          "file": "cover-1732002841610.jpg",
+          "url": "https://pertare.asets.co.id/storage/304/cover-1732002841610.jpg"
+        },
+        {
+          "id": "499",
+          "file": "Kalimalang.PNG",
+          "url": "https://pertare.asets.co.id/storage/499/Kalimalang.PNG"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "SPBU 31.139.01 Jakarta Cakung",
+      "slug": "spbu-3113901-jakarta-cakung",
+      "spaces": 3,
+      "address": "Jl. Raya Bekasi, RT.6/RW.5, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719869",
+      "media": [
+        {
+          "id": "328",
+          "file": "cover-1732005577311.jpg",
+          "url": "https://pertare.asets.co.id/storage/328/cover-1732005577311.jpg"
+        },
+        {
+          "id": "884",
+          "file": "Cakung.PNG",
+          "url": "https://pertare.asets.co.id/storage/884/Cakung.PNG"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "SPBU 31.118.02 Jakarta Kalideres",
+      "slug": "spbu-3111802-jakarta-kalideres",
+      "spaces": 0,
+      "address": "Jl. Raya Daan Mogot No.9-17 1, RT.1/RW.1, Kalideres, Kec. Kalideres, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11840",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719832",
+      "media": [
+        {
+          "id": "681",
+          "file": "cover-1733900932872.jpg",
+          "url": "https://pertare.asets.co.id/storage/681/cover-1733900932872.jpg"
+        },
+        {
+          "id": "682",
+          "file": "Screen-Shot-2024-12-11-at-14.09.56.jpg",
+          "url": "https://pertare.asets.co.id/storage/682/Screen-Shot-2024-12-11-at-14.09.56.jpg"
+        },
+        {
+          "id": "683",
+          "file": "Screen-Shot-2024-12-11-at-14.11.11.jpg",
+          "url": "https://pertare.asets.co.id/storage/683/Screen-Shot-2024-12-11-at-14.11.11.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "SPBU COCO 11.251.502 Padang Ulak Karang",
+      "slug": "spbu-coco-11251502-padang-ulak-karang",
+      "spaces": 0,
+      "address": "JL S. Parman, Ulak Karang Sel Kec. Padang Utara, Kota Padang, Sumatera Barat, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723997",
+      "media": [
+        {
+          "id": "424",
+          "file": "cover-1733715471500.jpg",
+          "url": "https://pertare.asets.co.id/storage/424/cover-1733715471500.jpg"
+        },
+        {
+          "id": "763",
+          "file": "karang1.jpg",
+          "url": "https://pertare.asets.co.id/storage/763/karang1.jpg"
+        },
+        {
+          "id": "764",
+          "file": "karang2.jpg",
+          "url": "https://pertare.asets.co.id/storage/764/karang2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "SPBU COCO 31.134.01 Jakarta Klender",
+      "slug": "spbu-coco-3113401-jakarta-klender",
+      "spaces": 2,
+      "address": "Jl. Bekasi Timur Raya No.Km. 17, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13250",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719799",
+      "media": [
+        {
+          "id": "282",
+          "file": "cover-1731998623722.jpg",
+          "url": "https://pertare.asets.co.id/storage/282/cover-1731998623722.jpg"
+        },
+        {
+          "id": "484",
+          "file": "klender.PNG",
+          "url": "https://pertare.asets.co.id/storage/484/klender.PNG"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "SPBU 31.115.01 Jakarta Kedoya",
+      "slug": "spbu-3111501-jakarta-kedoya",
+      "spaces": 3,
+      "address": "(Kebon Jeruk, Jl. Kedoya Agave 6 No. 22), Jl. Kedoya Raya Blok C4 No.9 9, RT.9/RW.4, Kedoya Sel., Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719754",
+      "media": [
+        {
+          "id": "861",
+          "file": "Screen-Shot-2024-12-11-at-13.09.15.jpg",
+          "url": "https://pertare.asets.co.id/storage/861/Screen-Shot-2024-12-11-at-13.09.15.jpg"
+        },
+        {
+          "id": "862",
+          "file": "Screen-Shot-2024-12-11-at-13.09.24.jpg",
+          "url": "https://pertare.asets.co.id/storage/862/Screen-Shot-2024-12-11-at-13.09.24.jpg"
+        },
+        {
+          "id": "863",
+          "file": "cover-1733989901910.jpg",
+          "url": "https://pertare.asets.co.id/storage/863/cover-1733989901910.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "SPBU COCO 31.136.02  Jakarta Cililitan",
+      "slug": "spbu-coco-3113602-jakarta-cililitan",
+      "spaces": 0,
+      "address": "Jl. Mayjen Sutoyo No.1 3, RT.3/RW.14, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719725",
+      "media": [
+        {
+          "id": "305",
+          "file": "cover-173200297496.jpg",
+          "url": "https://pertare.asets.co.id/storage/305/cover-173200297496.jpg"
+        },
+        {
+          "id": "507",
+          "file": "Cililitan.PNG",
+          "url": "https://pertare.asets.co.id/storage/507/Cililitan.PNG"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "SPBU COCO 11.252.501 Padang Mata Air",
+      "slug": "spbu-coco-11252501-padang-mata-air",
+      "spaces": 0,
+      "address": "Rawang, Kec. Padang Sel., Kota Padang, Sumatera Barat 25127, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723969",
+      "media": [
+        {
+          "id": "761",
+          "file": "cover-1733911925879.jpg",
+          "url": "https://pertare.asets.co.id/storage/761/cover-1733911925879.jpg"
+        },
+        {
+          "id": "762",
+          "file": "mata-3.jpg",
+          "url": "https://pertare.asets.co.id/storage/762/mata-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "SPBU 31.116.02 Jakarta Puri Kembangan",
+      "slug": "spbu-3111602-jakarta-puri-kembangan",
+      "spaces": 2,
+      "address": "Jl. Kembangan Selatan No.31 3, RT.3/RW.1 Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719698",
+      "media": [
+        {
+          "id": "869",
+          "file": "Screen-Shot-2024-12-11-at-13.35.38.jpg",
+          "url": "https://pertare.asets.co.id/storage/869/Screen-Shot-2024-12-11-at-13.35.38.jpg"
+        },
+        {
+          "id": "870",
+          "file": "cover-1733990360363.jpg",
+          "url": "https://pertare.asets.co.id/storage/870/cover-1733990360363.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "SPBU COCO 31.102.02 Jakarta Abdul Muis",
+      "slug": "spbu-coco-3110202-jakarta-abdul-muis",
+      "spaces": 20,
+      "address": "Jl. Abdul Muis No.59, RT.4/RW.3, Petojo Sel. Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719548",
+      "media": [
+        {
+          "id": "817",
+          "file": "cover-1733987091792.jpg",
+          "url": "https://pertare.asets.co.id/storage/817/cover-1733987091792.jpg"
+        },
+        {
+          "id": "818",
+          "file": "Screen-Shot-2024-12-11-at-10.47.42.jpg",
+          "url": "https://pertare.asets.co.id/storage/818/Screen-Shot-2024-12-11-at-10.47.42.jpg"
+        },
+        {
+          "id": "819",
+          "file": "Screen-Shot-2024-12-11-at-10.48.20.jpg",
+          "url": "https://pertare.asets.co.id/storage/819/Screen-Shot-2024-12-11-at-10.48.20.jpg"
+        },
+        {
+          "id": "820",
+          "file": "Screen-Shot-2024-12-11-at-10.49.22.jpg",
+          "url": "https://pertare.asets.co.id/storage/820/Screen-Shot-2024-12-11-at-10.49.22.jpg"
+        },
+        {
+          "id": "821",
+          "file": "Screen-Shot-2024-12-11-at-10.49.47.jpg",
+          "url": "https://pertare.asets.co.id/storage/821/Screen-Shot-2024-12-11-at-10.49.47.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "SPBU COCO 31.103.03 Jakarta Cikini",
+      "slug": "spbu-coco-3110303-jakarta-cikini",
+      "spaces": 0,
+      "address": "Jl. Cikini Raya No.113-115, RT.10/RW.4, Cikini, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10330, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719483",
+      "media": [
+        {
+          "id": "822",
+          "file": "Screen-Shot-2024-12-11-at-10.58.48.jpg",
+          "url": "https://pertare.asets.co.id/storage/822/Screen-Shot-2024-12-11-at-10.58.48.jpg"
+        },
+        {
+          "id": "823",
+          "file": "Screen-Shot-2024-12-11-at-11.00.02.jpg",
+          "url": "https://pertare.asets.co.id/storage/823/Screen-Shot-2024-12-11-at-11.00.02.jpg"
+        },
+        {
+          "id": "824",
+          "file": "Screen-Shot-2024-12-11-at-11.00.54.jpg",
+          "url": "https://pertare.asets.co.id/storage/824/Screen-Shot-2024-12-11-at-11.00.54.jpg"
+        },
+        {
+          "id": "825",
+          "file": "Screen-Shot-2024-12-11-at-11.02.34.jpg",
+          "url": "https://pertare.asets.co.id/storage/825/Screen-Shot-2024-12-11-at-11.02.34.jpg"
+        },
+        {
+          "id": "826",
+          "file": "Screen-Shot-2024-12-11-at-11.03.04.jpg",
+          "url": "https://pertare.asets.co.id/storage/826/Screen-Shot-2024-12-11-at-11.03.04.jpg"
+        },
+        {
+          "id": "827",
+          "file": "Screen-Shot-2024-12-11-at-11.03.16.jpg",
+          "url": "https://pertare.asets.co.id/storage/827/Screen-Shot-2024-12-11-at-11.03.16.jpg"
+        },
+        {
+          "id": "828",
+          "file": "cover-1733987733837.jpg",
+          "url": "https://pertare.asets.co.id/storage/828/cover-1733987733837.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "SPBU COCO 31.107.01 Jakarta Industri",
+      "slug": "spbu-coco-3110701-jakarta-industri",
+      "spaces": 18,
+      "address": "Jl. Industri Raya, RT.3/RW.2 Gn. Sahari Utara, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10720, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719350",
+      "media": [
+        {
+          "id": "829",
+          "file": "cover-1733987947704.jpg",
+          "url": "https://pertare.asets.co.id/storage/829/cover-1733987947704.jpg"
+        },
+        {
+          "id": "830",
+          "file": "Screen-Shot-2024-12-11-at-11.13.36.jpg",
+          "url": "https://pertare.asets.co.id/storage/830/Screen-Shot-2024-12-11-at-11.13.36.jpg"
+        },
+        {
+          "id": "831",
+          "file": "Screen-Shot-2024-12-11-at-11.13.52.jpg",
+          "url": "https://pertare.asets.co.id/storage/831/Screen-Shot-2024-12-11-at-11.13.52.jpg"
+        },
+        {
+          "id": "832",
+          "file": "Screen-Shot-2024-12-11-at-11.14.26.jpg",
+          "url": "https://pertare.asets.co.id/storage/832/Screen-Shot-2024-12-11-at-11.14.26.jpg"
+        },
+        {
+          "id": "833",
+          "file": "Screen-Shot-2024-12-11-at-11.14.48.jpg",
+          "url": "https://pertare.asets.co.id/storage/833/Screen-Shot-2024-12-11-at-11.14.48.jpg"
+        },
+        {
+          "id": "834",
+          "file": "Screen-Shot-2024-12-11-at-11.15.06.jpg",
+          "url": "https://pertare.asets.co.id/storage/834/Screen-Shot-2024-12-11-at-11.15.06.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "SPBU COCO 11.288.601 Dumai Putri Tujuh",
+      "slug": "spbu-coco-11288601-dumai-putri-tujuh",
+      "spaces": 2,
+      "address": "Jl. Puteri Tujuh, Tlk. Binjai, Kec. Dumai Tim., Kota Dumai, Riau 28826, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723941",
+      "media": [
+        {
+          "id": "765",
+          "file": "p7.jpg",
+          "url": "https://pertare.asets.co.id/storage/765/p7.jpg"
+        },
+        {
+          "id": "768",
+          "file": "cover-1733912397889.jpg",
+          "url": "https://pertare.asets.co.id/storage/768/cover-1733912397889.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "SPBU COCO 11.294.701 Batam Sei Ladi",
+      "slug": "spbu-coco-11294701-batam-sei-ladi",
+      "spaces": 9,
+      "address": "Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723869",
+      "media": [
+        {
+          "id": "52",
+          "file": "cover-1730086553641.jpg",
+          "url": "https://pertare.asets.co.id/storage/52/cover-1730086553641.jpg"
+        },
+        {
+          "id": "759",
+          "file": "sei-ladi1.jpg",
+          "url": "https://pertare.asets.co.id/storage/759/sei-ladi1.jpg"
+        },
+        {
+          "id": "760",
+          "file": "sei-ladi2.jpg",
+          "url": "https://pertare.asets.co.id/storage/760/sei-ladi2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "SPBU COCO 11.294.703 Batam Sei Baloi",
+      "slug": "spbu-coco-11294703-batam-sei-baloi",
+      "spaces": 4,
+      "address": "Jl. Yos Sudarso, Kp. Pelita, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723832",
+      "media": [
+        {
+          "id": "796",
+          "file": "btm.jpg",
+          "url": "https://pertare.asets.co.id/storage/796/btm.jpg"
+        },
+        {
+          "id": "797",
+          "file": "cover-1733985582649.jpg",
+          "url": "https://pertare.asets.co.id/storage/797/cover-1733985582649.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "SPBU COCO 41.501.28 Semarang Penggaron",
+      "slug": "spbu-coco-4150128-semarang-penggaron",
+      "spaces": 0,
+      "address": "XFMP+8P5, Jl. H Jazari, Penggaron Kidul, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50194",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723793",
+      "media": [
+        {
+          "id": "402",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/402/1.JPG"
+        },
+        {
+          "id": "403",
+          "file": "cover-1732616527781.jpg",
+          "url": "https://pertare.asets.co.id/storage/403/cover-1732616527781.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "SPBU COCO 31.137.01 Jakarta Gandaria",
+      "slug": "spbu-coco-3113701-jakarta-gandaria",
+      "spaces": 6,
+      "address": "5, Jl. Raya Bogor Blok Swadaya No.14, RT.2/RW.3, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719313",
+      "media": [
+        {
+          "id": "307",
+          "file": "cover-1732003350263.jpg",
+          "url": "https://pertare.asets.co.id/storage/307/cover-1732003350263.jpg"
+        },
+        {
+          "id": "509",
+          "file": "jakarta-Gandaria.PNG",
+          "url": "https://pertare.asets.co.id/storage/509/jakarta-Gandaria.PNG"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "SPBU COCO 31.139.02 Jakarta Pulogadung",
+      "slug": "spbu-coco-3113902-jakarta-pulogadung",
+      "spaces": 6,
+      "address": "Jl. Raya Bekasi No.Km. 21, RT.3/RW.3, Rw. Terate, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13920",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719246",
+      "media": [
+        {
+          "id": "313",
+          "file": "cover-1732003847918.jpg",
+          "url": "https://pertare.asets.co.id/storage/313/cover-1732003847918.jpg"
+        },
+        {
+          "id": "528",
+          "file": "Pulogadung.PNG",
+          "url": "https://pertare.asets.co.id/storage/528/Pulogadung.PNG"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "SPBU COCO 11.201.103 Medan Katamso",
+      "slug": "spbu-coco-11201103-medan-katamso",
+      "spaces": 0,
+      "address": "Jl. Brigjend Katamso No.575, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158, Indonesia",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723750",
+      "media": [
+        {
+          "id": "518",
+          "file": "cover-1733738307156.jpg",
+          "url": "https://pertare.asets.co.id/storage/518/cover-1733738307156.jpg"
+        },
+        {
+          "id": "757",
+          "file": "katamso1.jpg",
+          "url": "https://pertare.asets.co.id/storage/757/katamso1.jpg"
+        },
+        {
+          "id": "758",
+          "file": "katamso2.jpg",
+          "url": "https://pertare.asets.co.id/storage/758/katamso2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "SPBU COCO 31.141.01 Jakarta Cilincing",
+      "slug": "spbu-coco-3114101-jakarta-cilincing",
+      "spaces": 6,
+      "address": "Jl. Kawasan Truck Co No.15, RT.15/RW.12, Kali Baru, Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14110",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.719149",
+      "media": [
+        {
+          "id": "566",
+          "file": "Cilincing.PNG",
+          "url": "https://pertare.asets.co.id/storage/566/Cilincing.PNG"
+        },
+        {
+          "id": "589",
+          "file": "cover-1733823236115.jpg",
+          "url": "https://pertare.asets.co.id/storage/589/cover-1733823236115.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "SPBU COCO 41.502.02 Semarang Sultan Agung",
+      "slug": "spbu-coco-4150202-semarang-sultan-agung",
+      "spaces": 0,
+      "address": "Jl. Sisingamangaraja, Kaliwiru, Kec. Candisari, Kota Semarang, Jawa Tengah 50253",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723710",
+      "media": [
+        {
+          "id": "784",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/784/2.JPG"
+        },
+        {
+          "id": "785",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/785/1.JPG"
+        },
+        {
+          "id": "786",
+          "file": "cover-1733982419248.jpg",
+          "url": "https://pertare.asets.co.id/storage/786/cover-1733982419248.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "SPBU COCO 31.121.04 Jakarta Gandaria City",
+      "slug": "spbu-coco-3112104-jakarta-gandaria-city",
+      "spaces": 4,
+      "address": "Jl. Margaguna Raya, RT.1/RW.1, Gandaria Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12420",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718273",
+      "media": [
+        {
+          "id": "690",
+          "file": "cover-1733901775695.jpg",
+          "url": "https://pertare.asets.co.id/storage/690/cover-1733901775695.jpg"
+        },
+        {
+          "id": "692",
+          "file": "Screen-Shot-2024-12-11-at-14.23.23.jpg",
+          "url": "https://pertare.asets.co.id/storage/692/Screen-Shot-2024-12-11-at-14.23.23.jpg"
+        },
+        {
+          "id": "693",
+          "file": "Screen-Shot-2024-12-11-at-14.23.46.jpg",
+          "url": "https://pertare.asets.co.id/storage/693/Screen-Shot-2024-12-11-at-14.23.46.jpg"
+        },
+        {
+          "id": "694",
+          "file": "Screen-Shot-2024-12-11-at-14.24.26.jpg",
+          "url": "https://pertare.asets.co.id/storage/694/Screen-Shot-2024-12-11-at-14.24.26.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "SPBU COCO 11.201.104 Medan Gatot Subroto",
+      "slug": "spbu-coco-11201104-medan-gatot-subroto",
+      "spaces": 5,
+      "address": "Jl. Gatot Subroto No.KM. 5 2, Sei Sikambing C. II, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20123",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723661",
+      "media": [
+        {
+          "id": "514",
+          "file": "cover-1733737738644.jpg",
+          "url": "https://pertare.asets.co.id/storage/514/cover-1733737738644.jpg"
+        },
+        {
+          "id": "753",
+          "file": "Screen-Shot-2024-12-09-at-14.31.09.jpg",
+          "url": "https://pertare.asets.co.id/storage/753/Screen-Shot-2024-12-09-at-14.31.09.jpg"
+        },
+        {
+          "id": "754",
+          "file": "Screen-Shot-2024-12-09-at-14.32.02.jpg",
+          "url": "https://pertare.asets.co.id/storage/754/Screen-Shot-2024-12-09-at-14.32.02.jpg"
+        },
+        {
+          "id": "1047",
+          "file": "WhatsApp-Image-2024-12-20-at-15.26.35.jpeg",
+          "url": "https://pertare.asets.co.id/storage/1047/WhatsApp-Image-2024-12-20-at-15.26.35.jpeg"
+        },
+        {
+          "id": "1048",
+          "file": "WhatsApp-Image-2024-12-20-at-15.26.34-(3).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1048/WhatsApp-Image-2024-12-20-at-15.26.34-(3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "SPBU COCO 41.502.14 Semarang Kaligarang",
+      "slug": "spbu-coco-4150214-semarang-kaligarang",
+      "spaces": 0,
+      "address": "Jl. Kaligarang, Petompon, Kec. Gajahmungkur, Kota Semarang, Jawa Tengah 50237",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723632",
+      "media": [
+        {
+          "id": "782",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/782/1.JPG"
+        },
+        {
+          "id": "783",
+          "file": "cover-1733981814983.jpg",
+          "url": "https://pertare.asets.co.id/storage/783/cover-1733981814983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "SPBU COCO 31.107.02 Jakarta Samanhudi",
+      "slug": "spbu-coco-3110702-jakarta-samanhudi",
+      "spaces": 6,
+      "address": "Jl. H. Samanhudi No.20, RT.5/RW.3, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10710, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718223",
+      "media": [
+        {
+          "id": "835",
+          "file": "Screen-Shot-2024-12-11-at-11.29.38.jpg",
+          "url": "https://pertare.asets.co.id/storage/835/Screen-Shot-2024-12-11-at-11.29.38.jpg"
+        },
+        {
+          "id": "836",
+          "file": "cover-1733988053511.jpg",
+          "url": "https://pertare.asets.co.id/storage/836/cover-1733988053511.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "SPBU COCO 31.431.01 Sukabumi Tipar Gede",
+      "slug": "spbu-coco-3143101-sukabumi-tipar-gede",
+      "spaces": 0,
+      "address": "Jl. Otto Iskandardinata No.62, Kebonjati, Kec. Citamiang, Kota Sukabumi, Jawa Barat 43111, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723590",
+      "media": [
+        {
+          "id": "923",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/923/1.JPG"
+        },
+        {
+          "id": "924",
+          "file": "cover-1733998290568.jpg",
+          "url": "https://pertare.asets.co.id/storage/924/cover-1733998290568.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "SPBU COCO 41.502.20 Semarang Srondol",
+      "slug": "spbu-coco-4150220-semarang-srondol",
+      "spaces": 0,
+      "address": "Jl. Setia Budi No.205, Srondol Kulon, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723560",
+      "media": [
+        {
+          "id": "780",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/780/1.JPG"
+        },
+        {
+          "id": "781",
+          "file": "cover-1733981549873.jpg",
+          "url": "https://pertare.asets.co.id/storage/781/cover-1733981549873.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "SPBU COCO 31.107.03 Jakarta Mangga Besar",
+      "slug": "spbu-coco-3110703-jakarta-mangga-besar",
+      "spaces": 4,
+      "address": "Jl. Raya Mangga Besar No.140, RT.1/RW.1, Kartini, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 11160, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718179",
+      "media": [
+        {
+          "id": "431",
+          "file": "cover-173371634315.jpg",
+          "url": "https://pertare.asets.co.id/storage/431/cover-173371634315.jpg"
+        },
+        {
+          "id": "838",
+          "file": "Screen-Shot-2024-12-11-at-11.44.58.jpg",
+          "url": "https://pertare.asets.co.id/storage/838/Screen-Shot-2024-12-11-at-11.44.58.jpg"
+        },
+        {
+          "id": "839",
+          "file": "Screen-Shot-2024-12-11-at-11.45.08.jpg",
+          "url": "https://pertare.asets.co.id/storage/839/Screen-Shot-2024-12-11-at-11.45.08.jpg"
+        },
+        {
+          "id": "840",
+          "file": "Screen-Shot-2024-12-11-at-11.45.17.jpg",
+          "url": "https://pertare.asets.co.id/storage/840/Screen-Shot-2024-12-11-at-11.45.17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "SPBU KSO 14.282.603 Pekanbaru Sudirman",
+      "slug": "spbu-kso-14282603-pekanbaru-sudirman",
+      "spaces": 0,
+      "address": "Jl. Jend. Sudirman No.238a, Wonorejo, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28128",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723526",
+      "media": [
+        {
+          "id": "800",
+          "file": "Screen-Shot-2024-12-09-at-18.13.37.jpg",
+          "url": "https://pertare.asets.co.id/storage/800/Screen-Shot-2024-12-09-at-18.13.37.jpg"
+        },
+        {
+          "id": "801",
+          "file": "Screen-Shot-2024-12-09-at-18.14.00.jpg",
+          "url": "https://pertare.asets.co.id/storage/801/Screen-Shot-2024-12-09-at-18.14.00.jpg"
+        },
+        {
+          "id": "802",
+          "file": "cover-1733985867648.jpg",
+          "url": "https://pertare.asets.co.id/storage/802/cover-1733985867648.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "SPBU COCO 31.114.01 Jakarta  S. Parman",
+      "slug": "spbu-coco-3111401-jakarta-s-parman",
+      "spaces": 4,
+      "address": "Blok G, Jl. Letjen S. Parman No.Kav 70 3, RT.3/RW.3, Slipi, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11410",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718124",
+      "media": [
+        {
+          "id": "841",
+          "file": "cover-1733988454654.png",
+          "url": "https://pertare.asets.co.id/storage/841/cover-1733988454654.png"
+        },
+        {
+          "id": "842",
+          "file": "Screen-Shot-2024-12-11-at-11.52.29.jpg",
+          "url": "https://pertare.asets.co.id/storage/842/Screen-Shot-2024-12-11-at-11.52.29.jpg"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "SPBU COCO 31.114.03 Jakarta Daan Mogot",
+      "slug": "spbu-coco-3111403-jakarta-daan-mogot",
+      "spaces": 3,
+      "address": "Jl. Raya Daan Mogot No.02, RT.7/RW.4, Jelambar, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460, Indonesiaa",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718313",
+      "media": [
+        {
+          "id": "843",
+          "file": "Screen-Shot-2024-12-11-at-12.47.25.jpg",
+          "url": "https://pertare.asets.co.id/storage/843/Screen-Shot-2024-12-11-at-12.47.25.jpg"
+        },
+        {
+          "id": "844",
+          "file": "Screen-Shot-2024-12-11-at-12.47.41.jpg",
+          "url": "https://pertare.asets.co.id/storage/844/Screen-Shot-2024-12-11-at-12.47.41.jpg"
+        },
+        {
+          "id": "845",
+          "file": "cover-1733988718889.jpg",
+          "url": "https://pertare.asets.co.id/storage/845/cover-1733988718889.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "SPBU COCO 31.114.04 Jakarta Tomang Raya",
+      "slug": "spbu-coco-3111404-jakarta-tomang-raya",
+      "spaces": 4,
+      "address": "Jl. Tomang Raya No.42, RT.1/RW.3, Jatipulo, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11430, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.718045",
+      "media": [
+        {
+          "id": "850",
+          "file": "cover-1733989438911.png",
+          "url": "https://pertare.asets.co.id/storage/850/cover-1733989438911.png"
+        },
+        {
+          "id": "853",
+          "file": "Screen-Shot-2024-12-12-at-14.44.45.jpg",
+          "url": "https://pertare.asets.co.id/storage/853/Screen-Shot-2024-12-12-at-14.44.45.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "SPBU COCO 31.151.04  Tangerang Lippo Karawaci",
+      "slug": "spbu-coco-3115104-tangerang-lippo-karawaci",
+      "spaces": 2,
+      "address": "Jl. RA Kartini, RT.001/RW.009, Panunggangan Bar., Kec. Cibodas, Kota Tangerang, Banten 15138",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.717948",
+      "media": [
+        {
+          "id": "189",
+          "file": "1000089707.jpg",
+          "url": "https://pertare.asets.co.id/storage/189/1000089707.jpg"
+        },
+        {
+          "id": "1029",
+          "file": "cover-1734507125890.jpg",
+          "url": "https://pertare.asets.co.id/storage/1029/cover-1734507125890.jpg"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "SPBU COCO 31.116.01 Jakarta Meruya",
+      "slug": "spbu-coco-3111601-jakarta-meruya",
+      "spaces": 2,
+      "address": "Jalan Meruya Utara, RT.4/RW.8, Jl. Meruya Ilir Raya, RT.13/RW.3, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716595",
+      "media": [
+        {
+          "id": "864",
+          "file": "cover-1733990060630.jpg",
+          "url": "https://pertare.asets.co.id/storage/864/cover-1733990060630.jpg"
+        },
+        {
+          "id": "865",
+          "file": "Screen-Shot-2024-12-11-at-13.16.51.jpg",
+          "url": "https://pertare.asets.co.id/storage/865/Screen-Shot-2024-12-11-at-13.16.51.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "SPBU COCO 41.512.01 Semarang Batang Jrakah",
+      "slug": "spbu-coco-4151201-semarang-batang-jrakah",
+      "spaces": 0,
+      "address": "Jl. Raya Jrakah Payung, Subah, Jrakahpayung, Kec. Batang, Kabupaten Batang, Jawa Tengah 51262",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723498",
+      "media": [
+        {
+          "id": "771",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/771/1.JPG"
+        },
+        {
+          "id": "772",
+          "file": "cover-1733912923796.jpg",
+          "url": "https://pertare.asets.co.id/storage/772/cover-1733912923796.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "SPBU COCO 21.301.01 Palembang Kenten",
+      "slug": "spbu-coco-2130101-palembang-kenten",
+      "spaces": 12,
+      "address": "Jl. AKBP Cek Agus Jl. Komp. Pertamina Kenten No.10, Duku, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723402",
+      "media": [
+        {
+          "id": "803",
+          "file": "cover-173398599077.jpg",
+          "url": "https://pertare.asets.co.id/storage/803/cover-173398599077.jpg"
+        },
+        {
+          "id": "804",
+          "file": "Screen-Shot-2024-12-09-at-18.22.02.jpg",
+          "url": "https://pertare.asets.co.id/storage/804/Screen-Shot-2024-12-09-at-18.22.02.jpg"
+        },
+        {
+          "id": "1049",
+          "file": "WhatsApp-Image-2024-12-20-at-09.57.26-(1).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1049/WhatsApp-Image-2024-12-20-at-09.57.26-(1).jpeg"
+        },
+        {
+          "id": "1050",
+          "file": "WhatsApp-Image-2024-12-20-at-09.57.26-(2).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1050/WhatsApp-Image-2024-12-20-at-09.57.26-(2).jpeg"
+        },
+        {
+          "id": "1051",
+          "file": "WhatsApp-Image-2024-12-20-at-09.57.26-(3).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1051/WhatsApp-Image-2024-12-20-at-09.57.26-(3).jpeg"
+        },
+        {
+          "id": "1054",
+          "file": "WhatsApp-Image-2024-12-20-at-09.57.27-(1).jpeg",
+          "url": "https://pertare.asets.co.id/storage/1054/WhatsApp-Image-2024-12-20-at-09.57.27-(1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "SPBU COCO 31.122.03 Jakarta Permata Hijau",
+      "slug": "spbu-coco-3112203-jakarta-permata-hijau",
+      "spaces": 0,
+      "address": "Jl. Tentara Pelajar, Jl. Arteri Permata Hijau Jl. Permata Hijau No.5, Grogol Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12210, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716555",
+      "media": [
+        {
+          "id": "696",
+          "file": "cover-1733902589724.jpg",
+          "url": "https://pertare.asets.co.id/storage/696/cover-1733902589724.jpg"
+        },
+        {
+          "id": "697",
+          "file": "Screen-Shot-2024-12-11-at-14.33.09.png",
+          "url": "https://pertare.asets.co.id/storage/697/Screen-Shot-2024-12-11-at-14.33.09.png"
+        },
+        {
+          "id": "698",
+          "file": "Screen-Shot-2024-12-11-at-14.33.50.jpg",
+          "url": "https://pertare.asets.co.id/storage/698/Screen-Shot-2024-12-11-at-14.33.50.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "SPBU COCO 31.122.04 Jakarta Pondok Indah",
+      "slug": "spbu-coco-3112204-jakarta-pondok-indah",
+      "spaces": 0,
+      "address": "Jl. Sultan Iskandar Muda No.27 12, RT.12/RW.9, Kby. Lama Sel., Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716487",
+      "media": [
+        {
+          "id": "78",
+          "file": "cover-173008982842.png",
+          "url": "https://pertare.asets.co.id/storage/78/cover-173008982842.png"
+        },
+        {
+          "id": "700",
+          "file": "Screen-Shot-2024-12-11-at-14.42.37.jpg",
+          "url": "https://pertare.asets.co.id/storage/700/Screen-Shot-2024-12-11-at-14.42.37.jpg"
+        },
+        {
+          "id": "701",
+          "file": "Screen-Shot-2024-12-11-at-14.43.48.jpg",
+          "url": "https://pertare.asets.co.id/storage/701/Screen-Shot-2024-12-11-at-14.43.48.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "SPBU COCO 31.151.05 Tangerang Bandara Soekarno Hatta",
+      "slug": "spbu-coco-3115105-tangerang-bandara-soekarno-hatta",
+      "spaces": 2,
+      "address": "Jl. Perimeter Utara, RT.006/RW.007, Benda, Kec. Benda, Kota Tangerang, Banten 15126",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716455",
+      "media": [
+        {
+          "id": "190",
+          "file": "1000090457.jpg",
+          "url": "https://pertare.asets.co.id/storage/190/1000090457.jpg"
+        },
+        {
+          "id": "1030",
+          "file": "cover-1734507538362.jpg",
+          "url": "https://pertare.asets.co.id/storage/1030/cover-1734507538362.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "SPBU COCO 31.124.01 Jakarta Fatmawati",
+      "slug": "spbu-coco-3112401-jakarta-fatmawati",
+      "spaces": 0,
+      "address": "Jl. RS. Fatmawati Raya No.9 1, RT.1/RW.5, Gandaria Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12420, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716420",
+      "media": [
+        {
+          "id": "703",
+          "file": "cover-1733903395132.jpg",
+          "url": "https://pertare.asets.co.id/storage/703/cover-1733903395132.jpg"
+        },
+        {
+          "id": "704",
+          "file": "Screen-Shot-2024-12-11-at-14.52.10.jpg",
+          "url": "https://pertare.asets.co.id/storage/704/Screen-Shot-2024-12-11-at-14.52.10.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "SPBU COCO 31.157.01 Cikupa Citra Raya",
+      "slug": "spbu-coco-3115701-cikupa-citra-raya",
+      "spaces": 8,
+      "address": "Jl. Citra Raya Utama Timur, Ciakar, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716355",
+      "media": [
+        {
+          "id": "323",
+          "file": "cover-173200541547.jpg",
+          "url": "https://pertare.asets.co.id/storage/323/cover-173200541547.jpg"
+        },
+        {
+          "id": "779",
+          "file": "SPBU-CIKUPA-CITRA-RAYA.PNG",
+          "url": "https://pertare.asets.co.id/storage/779/SPBU-CIKUPA-CITRA-RAYA.PNG"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "SPBU COCO 21.302.04 Palembang Plaju",
+      "slug": "spbu-coco-2130204-palembang-plaju",
+      "spaces": 15,
+      "address": "Jl. Jenderal Ahmad Yani No.365 A, 16 Ulu, Kec. Seberang Ulu II, Kota Palembang, Sumatera Selatan 30111",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723292",
+      "media": [
+        {
+          "id": "600",
+          "file": "cover-1733876110686.jpg",
+          "url": "https://pertare.asets.co.id/storage/600/cover-1733876110686.jpg"
+        },
+        {
+          "id": "807",
+          "file": "Screen-Shot-2024-12-10-at-09.22.40.jpg",
+          "url": "https://pertare.asets.co.id/storage/807/Screen-Shot-2024-12-10-at-09.22.40.jpg"
+        },
+        {
+          "id": "808",
+          "file": "Screen-Shot-2024-12-10-at-09.24.01.jpg",
+          "url": "https://pertare.asets.co.id/storage/808/Screen-Shot-2024-12-10-at-09.24.01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "SPBU COCO Yogyakarta Lempuyangan",
+      "slug": "spbu-coco-yogyakarta-lempuyangan",
+      "spaces": 0,
+      "address": "Jl. Lempuyangan Jl. Kompol Bambang Suprapto, Baciro, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55225",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723255",
+      "media": [
+        {
+          "id": "766",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/766/1.JPG"
+        },
+        {
+          "id": "767",
+          "file": "cover-1733912388893.jpg",
+          "url": "https://pertare.asets.co.id/storage/767/cover-1733912388893.jpg"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "SPBU COCO 31.124.02 Jakarta Fatmawati 2",
+      "slug": "spbu-coco-3112402-jakarta-fatmawati-2",
+      "spaces": 6,
+      "address": "Jl. RS. Fatmawati Raya No.12, RT.4/RW.4, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12410",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.716253",
+      "media": [
+        {
+          "id": "709",
+          "file": "cover-1733903994457.jpg",
+          "url": "https://pertare.asets.co.id/storage/709/cover-1733903994457.jpg"
+        },
+        {
+          "id": "710",
+          "file": "Screen-Shot-2024-12-11-at-14.58.00.jpg",
+          "url": "https://pertare.asets.co.id/storage/710/Screen-Shot-2024-12-11-at-14.58.00.jpg"
+        },
+        {
+          "id": "711",
+          "file": "Screen-Shot-2024-12-11-at-14.58.36.jpg",
+          "url": "https://pertare.asets.co.id/storage/711/Screen-Shot-2024-12-11-at-14.58.36.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "SPBU COCO 31.153.01 Tangerang BSD",
+      "slug": "spbu-coco-3115301-tangerang-bsd",
+      "spaces": 0,
+      "address": "Jl. Letnan Sutopo No.2, Lengkong Gudang Tim., Kec. Serpong, Kota Tangerang Selatan, Banten 15310",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714689",
+      "media": [
+        {
+          "id": "1034",
+          "file": "cover-1734511442622.jpg",
+          "url": "https://pertare.asets.co.id/storage/1034/cover-1734511442622.jpg"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "SPBU COCO 31.127.01 Jakarta Kemang",
+      "slug": "spbu-coco-3112701-jakarta-kemang",
+      "spaces": 6,
+      "address": "Jl. Kemang Sel., RT.1/RW.3, Cilandak Tim., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714533",
+      "media": [
+        {
+          "id": "722",
+          "file": "cover-1733905605533.jpg",
+          "url": "https://pertare.asets.co.id/storage/722/cover-1733905605533.jpg"
+        },
+        {
+          "id": "723",
+          "file": "Screen-Shot-2024-12-11-at-15.27.37.jpg",
+          "url": "https://pertare.asets.co.id/storage/723/Screen-Shot-2024-12-11-at-15.27.37.jpg"
+        },
+        {
+          "id": "724",
+          "file": "Screen-Shot-2024-12-11-at-15.28.25.jpg",
+          "url": "https://pertare.asets.co.id/storage/724/Screen-Shot-2024-12-11-at-15.28.25.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "SPBU COCO 31.127.02 Jakarta Tendean",
+      "slug": "spbu-coco-3112702-jakarta-tendean",
+      "spaces": 0,
+      "address": "Jl. Kapten Tendean No.38 2, RT.2/RW.5, Kuningan Bar., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12710, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714503",
+      "media": [
+        {
+          "id": "716",
+          "file": "cover-1733905165131.jpg",
+          "url": "https://pertare.asets.co.id/storage/716/cover-1733905165131.jpg"
+        },
+        {
+          "id": "717",
+          "file": "Screen-Shot-2024-12-11-at-15.19.58.jpg",
+          "url": "https://pertare.asets.co.id/storage/717/Screen-Shot-2024-12-11-at-15.19.58.jpg"
+        },
+        {
+          "id": "718",
+          "file": "Screen-Shot-2024-12-11-at-15.17.51.jpg",
+          "url": "https://pertare.asets.co.id/storage/718/Screen-Shot-2024-12-11-at-15.17.51.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "SPBU COCO 41.552.01 Yogyakarta Adisucipto",
+      "slug": "spbu-coco-4155201-yogyakarta-adisucipto",
+      "spaces": 0,
+      "address": "Jl. Laksda Adisucipto Km. 6, Caturtunggal, Kec. Sleman, Caturtunggal, Kecamatan Depok, Ngentak, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723225",
+      "media": [
+        {
+          "id": "385",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/385/2.JPG"
+        },
+        {
+          "id": "386",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/386/1.JPG"
+        },
+        {
+          "id": "387",
+          "file": "cover-1732613906467.jpg",
+          "url": "https://pertare.asets.co.id/storage/387/cover-1732613906467.jpg"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "SPBU COCO 31.128.02 Jakarta MT. Haryono",
+      "slug": "spbu-coco-3112802-jakarta-mt-haryono",
+      "spaces": 12,
+      "address": "Jl. Letjen M.T. Haryono, RT.11/RW.5, Tebet Bar., Jakarta Selatan, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 12810, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714413",
+      "media": [
+        {
+          "id": "728",
+          "file": "cover-1733906244947.jpg",
+          "url": "https://pertare.asets.co.id/storage/728/cover-1733906244947.jpg"
+        },
+        {
+          "id": "731",
+          "file": "Screen-Shot-2024-12-11-at-15.36.31.jpg",
+          "url": "https://pertare.asets.co.id/storage/731/Screen-Shot-2024-12-11-at-15.36.31.jpg"
+        },
+        {
+          "id": "732",
+          "file": "Screen-Shot-2024-12-11-at-16.15.42.jpg",
+          "url": "https://pertare.asets.co.id/storage/732/Screen-Shot-2024-12-11-at-16.15.42.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "SPBU COCO 31.129.02 Jakarta Kuningan",
+      "slug": "spbu-coco-3112902-jakarta-kuningan",
+      "spaces": 0,
+      "address": "Jl. Patra Kuningan Utara No.7, RT.9/RW.4, Kuningan Tim., Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714382",
+      "media": [
+        {
+          "id": "734",
+          "file": "cover-1733909209928.jpg",
+          "url": "https://pertare.asets.co.id/storage/734/cover-1733909209928.jpg"
+        },
+        {
+          "id": "735",
+          "file": "Screen-Shot-2024-12-11-at-16.27.39.jpg",
+          "url": "https://pertare.asets.co.id/storage/735/Screen-Shot-2024-12-11-at-16.27.39.jpg"
+        },
+        {
+          "id": "736",
+          "file": "Screen-Shot-2024-12-11-at-16.29.55.jpg",
+          "url": "https://pertare.asets.co.id/storage/736/Screen-Shot-2024-12-11-at-16.29.55.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "SPBU COCO 41.552.02 Yogyakarta HOS Cokroaminoto",
+      "slug": "spbu-coco-4155202-yogyakarta-hos-cokroaminoto",
+      "spaces": 3,
+      "address": "Jl. HOS Cokroaminoto No.199, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55244",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723192",
+      "media": [
+        {
+          "id": "388",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/388/2.JPG"
+        },
+        {
+          "id": "389",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/389/1.JPG"
+        },
+        {
+          "id": "390",
+          "file": "cover-1732614436430.jpg",
+          "url": "https://pertare.asets.co.id/storage/390/cover-1732614436430.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "SPBU COCO 31.131.01 Jakarta Pramuka",
+      "slug": "spbu-coco-3113101-jakarta-pramuka",
+      "spaces": 4,
+      "address": "Jl. Pramuka No.13 1, RT.1/RW.2, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714342",
+      "media": [
+        {
+          "id": "740",
+          "file": "cover-1733909933641.jpg",
+          "url": "https://pertare.asets.co.id/storage/740/cover-1733909933641.jpg"
+        },
+        {
+          "id": "743",
+          "file": "Screen-Shot-2024-12-11-at-16.39.35.jpg",
+          "url": "https://pertare.asets.co.id/storage/743/Screen-Shot-2024-12-11-at-16.39.35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "SPBU COCO 51.601.65 Surabaya Jemursari",
+      "slug": "spbu-coco-5160165-surabaya-jemursari",
+      "spaces": 0,
+      "address": "Jl. Raya Jemursari No.113-123, Jemur Wonosari, Kec. Wonocolo, Surabaya, Jawa Timur 60237",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723156",
+      "media": [
+        {
+          "id": "398",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/398/3.JPG"
+        },
+        {
+          "id": "399",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/399/2.JPG"
+        },
+        {
+          "id": "400",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/400/1.JPG"
+        },
+        {
+          "id": "401",
+          "file": "cover-1732616314120.jpg",
+          "url": "https://pertare.asets.co.id/storage/401/cover-1732616314120.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "SPBU COCO 41.561.01 Magelang Menowo",
+      "slug": "spbu-coco-4156101-magelang-menowo",
+      "spaces": 0,
+      "address": "Jl. Ahmad Yani, Magelang, Kec. Magelang Tengah, Kota Magelang, Jawa Tengah 56117",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723126",
+      "media": [
+        {
+          "id": "747",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/747/1.JPG"
+        },
+        {
+          "id": "748",
+          "file": "cover-1733910860794.jpg",
+          "url": "https://pertare.asets.co.id/storage/748/cover-1733910860794.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "SPBU COCO 41.573.01 Boyolali Teras",
+      "slug": "spbu-coco-4157301-boyolali-teras",
+      "spaces": 0,
+      "address": "Jalan Raya Semarang - Solo Toll Rd No.Km. 20, Dusun II, Mojolegi, Teras, Boyolali Regency, Central Java 57372",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723090",
+      "media": [
+        {
+          "id": "737",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/737/2.JPG"
+        },
+        {
+          "id": "738",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/738/1.JPG"
+        },
+        {
+          "id": "739",
+          "file": "cover-1733909536299.jpg",
+          "url": "https://pertare.asets.co.id/storage/739/cover-1733909536299.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "SPBU COCO 31.421.01 Serang A. Yani",
+      "slug": "spbu-coco-3142101-serang-a-yani",
+      "spaces": 4,
+      "address": "Jl. Jenderal Ahmad Yani Serang, Sumurpecung, Kec. Serang, Kota Serang, Banten 42117, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.714246",
+      "media": [
+        {
+          "id": "97",
+          "file": "cover-1730091919236.png",
+          "url": "https://pertare.asets.co.id/storage/97/cover-1730091919236.png"
+        },
+        {
+          "id": "837",
+          "file": "SPBU-SERANG-A.-YANI.PNG",
+          "url": "https://pertare.asets.co.id/storage/837/SPBU-SERANG-A.-YANI.PNG"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "SPBU COCO 31.153.02 Tangerang BSD 2",
+      "slug": "spbu-coco-3115302-tangerang-bsd-2",
+      "spaces": 0,
+      "address": "Jl. Pahlawan Seribu, Lengkong Karya Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15310",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712890",
+      "media": [
+        {
+          "id": "198",
+          "file": "1000090483.jpg",
+          "url": "https://pertare.asets.co.id/storage/198/1000090483.jpg"
+        },
+        {
+          "id": "1035",
+          "file": "cover-1734512190182.jpg",
+          "url": "https://pertare.asets.co.id/storage/1035/cover-1734512190182.jpg"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "SPBU COCO 31.153.03 Tangerang BSD Alam Sutera",
+      "slug": "spbu-coco-3115303-tangerang-bsd-alam-sutera",
+      "spaces": 0,
+      "address": "Jl. Raya Serpong Kilometer 7, Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712853",
+      "media": [
+        {
+          "id": "230",
+          "file": "1000091835.jpg",
+          "url": "https://pertare.asets.co.id/storage/230/1000091835.jpg"
+        },
+        {
+          "id": "1042",
+          "file": "cover-1734674448335.jpg",
+          "url": "https://pertare.asets.co.id/storage/1042/cover-1734674448335.jpg"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "SPBU COCO 31.154.01 Tangerang Bintaro Sektor 9",
+      "slug": "spbu-coco-3115401-tangerang-bintaro-sektor-9",
+      "spaces": 0,
+      "address": "Jl. Raya Bintaro Sektor IX, Pd. Pucung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15229",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712816",
+      "media": [
+        {
+          "id": "232",
+          "file": "1000091848.jpg",
+          "url": "https://pertare.asets.co.id/storage/232/1000091848.jpg"
+        },
+        {
+          "id": "233",
+          "file": "cover-1731058452386.jpg",
+          "url": "https://pertare.asets.co.id/storage/233/cover-1731058452386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "SPBU COCO 31.154.02 Tangerang Selatan EX Petronas",
+      "slug": "spbu-coco-3115402-tangerang-selatan-ex-petronas",
+      "spaces": 0,
+      "address": "Jl. Ir H. Juanda No.52, Cireundeu Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15412",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712786",
+      "media": [
+        {
+          "id": "1043",
+          "file": "cover-1734676131333.jpg",
+          "url": "https://pertare.asets.co.id/storage/1043/cover-1734676131333.jpg"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "SPBU KSO 34.175.01 Cikarang Tegal Gede",
+      "slug": "spbu-kso-3417501-cikarang-tegal-gede",
+      "spaces": 0,
+      "address": "Jl. Raya Cikarang - Cibarusah, Pasirsari, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.723062",
+      "media": [
+        {
+          "id": "918",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/918/1.JPG"
+        },
+        {
+          "id": "919",
+          "file": "cover-1733997438480.jpg",
+          "url": "https://pertare.asets.co.id/storage/919/cover-1733997438480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "SPBU COCO 31.161.13 Bogor Cimanggu",
+      "slug": "spbu-coco-3116113-bogor-cimanggu",
+      "spaces": 9,
+      "address": "Jl. Tentara Pelajar Blok Kompleks Pertanian No.7, RT.05/RW.12, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722997",
+      "media": [
+        {
+          "id": "915",
+          "file": "cover-1733997226422.jpg",
+          "url": "https://pertare.asets.co.id/storage/915/cover-1733997226422.jpg"
+        },
+        {
+          "id": "916",
+          "file": "2024-11-19.jpg",
+          "url": "https://pertare.asets.co.id/storage/916/2024-11-19.jpg"
+        },
+        {
+          "id": "917",
+          "file": "2024-11-19-(2)-(1).jpg",
+          "url": "https://pertare.asets.co.id/storage/917/2024-11-19-(2)-(1).jpg"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "SPBU COCO 31.163.02 Bogor Telaga Kahuripan",
+      "slug": "spbu-coco-3116302-bogor-telaga-kahuripan",
+      "spaces": 0,
+      "address": "Jampang, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722968",
+      "media": [
+        {
+          "id": "908",
+          "file": "cover-1733995518664.jpg",
+          "url": "https://pertare.asets.co.id/storage/908/cover-1733995518664.jpg"
+        },
+        {
+          "id": "909",
+          "file": "Screen-Shot-2024-12-12-at-16.26.00.jpg",
+          "url": "https://pertare.asets.co.id/storage/909/Screen-Shot-2024-12-12-at-16.26.00.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "SPBU COCO 31.164.01 Depok Margonda",
+      "slug": "spbu-coco-3116401-depok-margonda",
+      "spaces": 0,
+      "address": "Jl. Margonda No.336-358, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722933",
+      "media": [
+        {
+          "id": "910",
+          "file": "cover-1733995943761.jpg",
+          "url": "https://pertare.asets.co.id/storage/910/cover-1733995943761.jpg"
+        },
+        {
+          "id": "911",
+          "file": "Screen-Shot-2024-12-12-at-16.32.40.jpg",
+          "url": "https://pertare.asets.co.id/storage/911/Screen-Shot-2024-12-12-at-16.32.40.jpg"
+        },
+        {
+          "id": "912",
+          "file": "Screen-Shot-2024-12-12-at-16.33.15.jpg",
+          "url": "https://pertare.asets.co.id/storage/912/Screen-Shot-2024-12-12-at-16.33.15.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "SPBU COCO 31.451.01 Cirebon Darsono",
+      "slug": "spbu-coco-3145101-cirebon-darsono",
+      "spaces": 24,
+      "address": "Jl. Brigjend Dharsono, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722747",
+      "media": [
+        {
+          "id": "903",
+          "file": "cover-1733994939710.jpg",
+          "url": "https://pertare.asets.co.id/storage/903/cover-1733994939710.jpg"
+        },
+        {
+          "id": "905",
+          "file": "Screen-Shot-2024-12-12-at-16.16.56.jpg",
+          "url": "https://pertare.asets.co.id/storage/905/Screen-Shot-2024-12-12-at-16.16.56.jpg"
+        },
+        {
+          "id": "906",
+          "file": "Screen-Shot-2024-12-12-at-16.17.07.jpg",
+          "url": "https://pertare.asets.co.id/storage/906/Screen-Shot-2024-12-12-at-16.17.07.jpg"
+        },
+        {
+          "id": "907",
+          "file": "Screen-Shot-2024-12-12-at-16.17.17.jpg",
+          "url": "https://pertare.asets.co.id/storage/907/Screen-Shot-2024-12-12-at-16.17.17.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "SPBU COCO 31.126.01 Jakarta Lenteng Agung",
+      "slug": "spbu-coco-3112601-jakarta-lenteng-agung",
+      "spaces": 8,
+      "address": "RW.2, Jl. Lenteng Agung Raya, RT.6/RW.1, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12610, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712676",
+      "media": [
+        {
+          "id": "587",
+          "file": "cover-1733822769961.jpg",
+          "url": "https://pertare.asets.co.id/storage/587/cover-1733822769961.jpg"
+        },
+        {
+          "id": "712",
+          "file": "Screen-Shot-2024-12-11-at-15.08.16.jpg",
+          "url": "https://pertare.asets.co.id/storage/712/Screen-Shot-2024-12-11-at-15.08.16.jpg"
+        },
+        {
+          "id": "713",
+          "file": "Screen-Shot-2024-12-11-at-15.08.29.jpg",
+          "url": "https://pertare.asets.co.id/storage/713/Screen-Shot-2024-12-11-at-15.08.29.jpg"
+        },
+        {
+          "id": "714",
+          "file": "Screen-Shot-2024-12-11-at-15.08.46.jpg",
+          "url": "https://pertare.asets.co.id/storage/714/Screen-Shot-2024-12-11-at-15.08.46.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "SPBU COCO 31.168.01 Bogor Citra Indah Jonggol",
+      "slug": "spbu-coco-3116801-bogor-citra-indah-jonggol",
+      "spaces": 4,
+      "address": "Jalan Citra Indah City, Sukamaju, Kec. Jonggol, Kabupaten Bogor, Jawa Barat 16830, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722688",
+      "media": [
+        {
+          "id": "110",
+          "file": "cover-1730094691984.png",
+          "url": "https://pertare.asets.co.id/storage/110/cover-1730094691984.png"
+        },
+        {
+          "id": "317",
+          "file": "2024-11-19-(11).jpg",
+          "url": "https://pertare.asets.co.id/storage/317/2024-11-19-(11).jpg"
+        },
+        {
+          "id": "318",
+          "file": "2024-11-19-(12).jpg",
+          "url": "https://pertare.asets.co.id/storage/318/2024-11-19-(12).jpg"
+        },
+        {
+          "id": "319",
+          "file": "2024-11-19-(13).jpg",
+          "url": "https://pertare.asets.co.id/storage/319/2024-11-19-(13).jpg"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "SPBU COCO 41.575.01 Solo Baru",
+      "slug": "spbu-coco-4157501-solo-baru",
+      "spaces": 0,
+      "address": "Jl. Ir. Soekarno, Dusun I, Madegondo, Kec. Grogol, Kabupaten Sukoharjo, Jawa Tengah 57552",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722660",
+      "media": [
+        {
+          "id": "755",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/755/1.JPG"
+        },
+        {
+          "id": "756",
+          "file": "cover-1733911616941.jpg",
+          "url": "https://pertare.asets.co.id/storage/756/cover-1733911616941.jpg"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "SPBU COCO 31.453.01  Jatinangor Unpad",
+      "slug": "spbu-coco-3145301-jatinangor-unpad",
+      "spaces": 24,
+      "address": "Jl. Raya Jatinangor No.9, Hegarmanah, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722548",
+      "media": [
+        {
+          "id": "858",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/858/1.JPG"
+        },
+        {
+          "id": "859",
+          "file": "cover-1733989678841.jpg",
+          "url": "https://pertare.asets.co.id/storage/859/cover-1733989678841.jpg"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "SPBU COCO 31.171.04 Bekasi Pahlawan",
+      "slug": "spbu-coco-3117104-bekasi-pahlawan",
+      "spaces": 0,
+      "address": "Jl. Pahlawan No.50-59, RT.002/RW.007, Duren Jaya, Kec. Bekasi Tim., Kota Bks, Jawa Barat 17111, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722520",
+      "media": [
+        {
+          "id": "944",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/944/1.JPG"
+        },
+        {
+          "id": "945",
+          "file": "cover-173407446499.jpg",
+          "url": "https://pertare.asets.co.id/storage/945/cover-173407446499.jpg"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "SPBU COCO 51.601.108 Surabaya Mastrip",
+      "slug": "spbu-coco-51601108-surabaya-mastrip",
+      "spaces": 2,
+      "address": "Kebraon, Karangpilang, Surabaya, East Java",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722496",
+      "media": [
+        {
+          "id": "741",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/741/1.JPG"
+        },
+        {
+          "id": "742",
+          "file": "cover-1733909961345.jpg",
+          "url": "https://pertare.asets.co.id/storage/742/cover-1733909961345.jpg"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "SPBU COCO 31.171.05 Bekasi Pondok Ungu",
+      "slug": "spbu-coco-3117105-bekasi-pondok-ungu",
+      "spaces": 0,
+      "address": "Jl. Sultan Agung No.28, RT.003/RW.007, Medan Satria, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17132, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722472",
+      "media": [
+        {
+          "id": "116",
+          "file": "cover-1730095204616.png",
+          "url": "https://pertare.asets.co.id/storage/116/cover-1730095204616.png"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "SPBU COCO 51.601.118 Surabaya Pakuwon City",
+      "slug": "spbu-coco-51601118-surabaya-pakuwon-city",
+      "spaces": 0,
+      "address": "Jl. Raya Laguna KJW Putih Tambak No.2, Kejawaan Putih Tamba, Kec. Mulyorejo, Surabaya, Jawa Timur 60112",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722442",
+      "media": [
+        {
+          "id": "749",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/749/2.JPG"
+        },
+        {
+          "id": "750",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/750/1.JPG"
+        },
+        {
+          "id": "751",
+          "file": "cover-1733911272818.jpg",
+          "url": "https://pertare.asets.co.id/storage/751/cover-1733911272818.jpg"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "SPBU COCO 51.601.124 Surabaya Ketintang",
+      "slug": "spbu-coco-51601124-surabaya-ketintang",
+      "spaces": 0,
+      "address": "Jl. Ketintang Madya No.53, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60232",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722411",
+      "media": [
+        {
+          "id": "744",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/744/1.JPG"
+        },
+        {
+          "id": "745",
+          "file": "cover-1733910241265.jpg",
+          "url": "https://pertare.asets.co.id/storage/745/cover-1733910241265.jpg"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "SPBU COCO 31.175.01 Cikarang Azalea",
+      "slug": "spbu-coco-3117501-cikarang-azalea",
+      "spaces": 0,
+      "address": "Jl. Azalea Raya No.37, Serang, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722380",
+      "media": [
+        {
+          "id": "889",
+          "file": "cover-173399334160.jpg",
+          "url": "https://pertare.asets.co.id/storage/889/cover-173399334160.jpg"
+        },
+        {
+          "id": "892",
+          "file": "Screen-Shot-2024-12-12-at-15.50.39.jpg",
+          "url": "https://pertare.asets.co.id/storage/892/Screen-Shot-2024-12-12-at-15.50.39.jpg"
+        },
+        {
+          "id": "893",
+          "file": "Screen-Shot-2024-12-12-at-15.51.05.jpg",
+          "url": "https://pertare.asets.co.id/storage/893/Screen-Shot-2024-12-12-at-15.51.05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "SPBU COCO 31.175.02 Bekasi Majapahit",
+      "slug": "spbu-coco-3117502-bekasi-majapahit",
+      "spaces": 4,
+      "address": "Cibatu, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722329",
+      "media": [
+        {
+          "id": "200",
+          "file": "31.175.02..JPG",
+          "url": "https://pertare.asets.co.id/storage/200/31.175.02..JPG"
+        },
+        {
+          "id": "201",
+          "file": "cover-1730976335775.jpg",
+          "url": "https://pertare.asets.co.id/storage/201/cover-1730976335775.jpg"
+        },
+        {
+          "id": "897",
+          "file": "Screen-Shot-2024-12-12-at-15.59.22.jpg",
+          "url": "https://pertare.asets.co.id/storage/897/Screen-Shot-2024-12-12-at-15.59.22.jpg"
+        },
+        {
+          "id": "898",
+          "file": "Screen-Shot-2024-12-12-at-16.02.08.jpg",
+          "url": "https://pertare.asets.co.id/storage/898/Screen-Shot-2024-12-12-at-16.02.08.jpg"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "SPBU COCO 31.461.02 Tasikmalaya Martadinata",
+      "slug": "spbu-coco-3146102-tasikmalaya-martadinata",
+      "spaces": 0,
+      "address": "Panyingkiran, Indihiang, Panyingkiran, Kec. Indihiang, Kab. Tasikmalaya, Jawa Barat 46151, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722293",
+      "media": [
+        {
+          "id": "953",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/953/2.JPG"
+        },
+        {
+          "id": "954",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/954/1.JPG"
+        },
+        {
+          "id": "955",
+          "file": "cover-1734077886559.jpg",
+          "url": "https://pertare.asets.co.id/storage/955/cover-1734077886559.jpg"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "SPBU COCO 31.175.03 Cikarang Jababeka II",
+      "slug": "spbu-coco-3117503-cikarang-jababeka-ii",
+      "spaces": 0,
+      "address": "Jl. Jababeka 2 No.3, Pasirgombong, Kec. Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722264",
+      "media": [
+        {
+          "id": "122",
+          "file": "cover-1730096309643.png",
+          "url": "https://pertare.asets.co.id/storage/122/cover-1730096309643.png"
+        },
+        {
+          "id": "208",
+          "file": "31.175.03.JPG",
+          "url": "https://pertare.asets.co.id/storage/208/31.175.03.JPG"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "SPBU COCO 31.175.04 Cikarang BIIE Hyundai",
+      "slug": "spbu-coco-3117504-cikarang-biie-hyundai",
+      "spaces": 0,
+      "address": "Jl. Industri No.1 Blok C, Sukaresmi, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722221",
+      "media": [
+        {
+          "id": "899",
+          "file": "cover-1733994351406.jpg",
+          "url": "https://pertare.asets.co.id/storage/899/cover-1733994351406.jpg"
+        },
+        {
+          "id": "900",
+          "file": "Screen-Shot-2024-12-12-at-16.06.26.jpg",
+          "url": "https://pertare.asets.co.id/storage/900/Screen-Shot-2024-12-12-at-16.06.26.jpg"
+        },
+        {
+          "id": "901",
+          "file": "Screen-Shot-2024-12-12-at-16.06.47.jpg",
+          "url": "https://pertare.asets.co.id/storage/901/Screen-Shot-2024-12-12-at-16.06.47.jpg"
+        },
+        {
+          "id": "902",
+          "file": "Screen-Shot-2024-12-12-at-16.07.12.jpg",
+          "url": "https://pertare.asets.co.id/storage/902/Screen-Shot-2024-12-12-at-16.07.12.jpg"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "SPBU COCO 31.175.05 Cikarang Cibarusah",
+      "slug": "spbu-coco-3117505-cikarang-cibarusah",
+      "spaces": 0,
+      "address": "Jalan Raya Cikarang Cibarusah, Kampung Pasir Koja Gemala, Pasar Sani, Cikarang Selatan, Jl. Sasak Papan No.8, RT.16/RW.6, Pasirsari, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722185",
+      "media": [
+        {
+          "id": "124",
+          "file": "cover-1730096759136.png",
+          "url": "https://pertare.asets.co.id/storage/124/cover-1730096759136.png"
+        },
+        {
+          "id": "202",
+          "file": "31.175.05.JPG",
+          "url": "https://pertare.asets.co.id/storage/202/31.175.05.JPG"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "SPBU KSO 33.171.01 Bekasi Summarecon",
+      "slug": "spbu-kso-3317101-bekasi-summarecon",
+      "spaces": 4,
+      "address": "Jalan Ir. H Juanda Bekasi Timur, QX8V+GP5, RT.009/RW.003, Harapan Mulya, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17143, Indonesia",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.712600",
+      "media": [
+        {
+          "id": "940",
+          "file": "cover-1734071713140.jpg",
+          "url": "https://pertare.asets.co.id/storage/940/cover-1734071713140.jpg"
+        },
+        {
+          "id": "941",
+          "file": "Screen-Shot-2024-12-13-at-13.36.56.png",
+          "url": "https://pertare.asets.co.id/storage/941/Screen-Shot-2024-12-13-at-13.36.56.png"
+        },
+        {
+          "id": "942",
+          "file": "Screen-Shot-2024-12-13-at-13.37.36.jpg",
+          "url": "https://pertare.asets.co.id/storage/942/Screen-Shot-2024-12-13-at-13.37.36.jpg"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "SPBU COCO 31.171.03 Bekasi Narogong",
+      "slug": "spbu-coco-3117103-bekasi-narogong",
+      "spaces": 0,
+      "address": "Jl. Raya Narogong Km.12, RT.005/RW.001, Cikiwul, Kec. Bantar Gebang, Kota Bks, Jawa Barat 17152, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722159",
+      "media": [
+        {
+          "id": "126",
+          "file": "cover-1730097764885.jpg",
+          "url": "https://pertare.asets.co.id/storage/126/cover-1730097764885.jpg"
+        },
+        {
+          "id": "932",
+          "file": "SPBU-COCO-31.171.03-Bekasi-Narogong.PNG",
+          "url": "https://pertare.asets.co.id/storage/932/SPBU-COCO-31.171.03-Bekasi-Narogong.PNG"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "SPBU COCO 51.601.66 Surabaya Pasar Turi",
+      "slug": "spbu-coco-5160166-surabaya-pasar-turi",
+      "spaces": 0,
+      "address": "Jl. Raya Dupak No.15, Gundih, Kec. Bubutan, Surabaya, Jawa Timur 60172",
+      "city_id": null,
+      "city_name": null,
+      "area_id": null,
+      "area_name": null,
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722124",
+      "media": [
+        {
+          "id": "407",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/407/1.JPG"
+        },
+        {
+          "id": "408",
+          "file": "cover-173261727358.jpg",
+          "url": "https://pertare.asets.co.id/storage/408/cover-173261727358.jpg"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "SPBU COCO 51.601.77 Surabaya Soetomo",
+      "slug": "spbu-coco-5160177-surabaya-soetomo",
+      "spaces": 0,
+      "address": "Jl. Diponegoro, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722097",
+      "media": [
+        {
+          "id": "729",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/729/1.JPG"
+        },
+        {
+          "id": "730",
+          "file": "cover-1733907915649.jpg",
+          "url": "https://pertare.asets.co.id/storage/730/cover-1733907915649.jpg"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "SPBU COCO 51.612.21 Sidoarjo Krian",
+      "slug": "spbu-coco-5161221-sidoarjo-krian",
+      "spaces": 6,
+      "address": "Jl. Bypass Krian No.137, Sidotemo, Sidomulyo, Kec. Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722044",
+      "media": [
+        {
+          "id": "404",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/404/2.JPG"
+        },
+        {
+          "id": "405",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/405/1.JPG"
+        },
+        {
+          "id": "406",
+          "file": "cover-1732616805848.jpg",
+          "url": "https://pertare.asets.co.id/storage/406/cover-1732616805848.jpg"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "SPBU COCO 71.902.02 Makassar Gatot Subroto",
+      "slug": "spbu-coco-7190202-makassar-gatot-subroto",
+      "spaces": 2,
+      "address": "Jl. Gatot Subroto (Samping Polsek Tallo), Kel. Ujung Pandang Baru, Kec. Tallo, Kota Makassar, Sulawesi Selatan 90217",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.722020",
+      "media": [
+        {
+          "id": "131",
+          "file": "cover-1730099951438.jpg",
+          "url": "https://pertare.asets.co.id/storage/131/cover-1730099951438.jpg"
+        },
+        {
+          "id": "345",
+          "file": "0.JPG",
+          "url": "https://pertare.asets.co.id/storage/345/0.JPG"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "SPBU COCO 71.902.77 Makassar Kapasa Perintis",
+      "slug": "spbu-coco-7190277-makassar-kapasa-perintis",
+      "spaces": 3,
+      "address": "Jl. Perintis Kemerdekaan KM. 16 (Depan Mapolda Sulsel), Kel. Pai, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan 90243 ,",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721977",
+      "media": [
+        {
+          "id": "346",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/346/2.JPG"
+        },
+        {
+          "id": "347",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/347/1.JPG"
+        },
+        {
+          "id": "348",
+          "file": "cover-1732013405971.jpg",
+          "url": "https://pertare.asets.co.id/storage/348/cover-1732013405971.jpg"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "SPBU COCO 51.612.47 Surabaya Taman Sidoarjo",
+      "slug": "spbu-coco-5161247-surabaya-taman-sidoarjo",
+      "spaces": 0,
+      "address": "Jl. Raya Surabaya - Madiun No.38, Taman, Geluran, Kec. Taman, Kabupaten Sidoarjo, Jawa Timur 61257",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721952",
+      "media": [
+        {
+          "id": "725",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/725/1.JPG"
+        },
+        {
+          "id": "726",
+          "file": "cover-1733905859254.jpg",
+          "url": "https://pertare.asets.co.id/storage/726/cover-1733905859254.jpg"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "SPBU COCO  61.783.01 Pontianak Nusapati",
+      "slug": "spbu-coco-6178301-pontianak-nusapati",
+      "spaces": 3,
+      "address": "Jl. Raya Nusapati, Kec. Sungai Pinyuh, Kab. Mempawah, Kalimantan Barat 78353",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721862",
+      "media": [
+        {
+          "id": "357",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/357/2.JPG"
+        },
+        {
+          "id": "358",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/358/1.JPG"
+        },
+        {
+          "id": "359",
+          "file": "cover-1732064516458.jpg",
+          "url": "https://pertare.asets.co.id/storage/359/cover-1732064516458.jpg"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "SPBU COCO 51.612.66 Surabaya Juanda",
+      "slug": "spbu-coco-5161266-surabaya-juanda",
+      "spaces": 4,
+      "address": "Semawalang, Semambung, Gedangan, Sidoarjo Regency, East Java 61253",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721821",
+      "media": [
+        {
+          "id": "719",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/719/1.JPG"
+        },
+        {
+          "id": "720",
+          "file": "cover-1733905472256.jpg",
+          "url": "https://pertare.asets.co.id/storage/720/cover-1733905472256.jpg"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "SPBU COCO 31.433.01  Sukabumi Cisolok",
+      "slug": "spbu-coco-3143301-sukabumi-cisolok",
+      "spaces": 0,
+      "address": "Jl. Raya Cisolok KM.10 Kampung Marinjung RT.01 RW.02 Desa Karangpapak Kecamatan Cisolok Kab. Sukabumi Palabuhan Ratu Sukabumi",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721787",
+      "media": [
+        {
+          "id": "925",
+          "file": "0.JPG",
+          "url": "https://pertare.asets.co.id/storage/925/0.JPG"
+        },
+        {
+          "id": "926",
+          "file": "cover-1733999032500.jpg",
+          "url": "https://pertare.asets.co.id/storage/926/cover-1733999032500.jpg"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "SPBU COCO 51.614.24 Jombang Mojoagung",
+      "slug": "spbu-coco-5161424-jombang-mojoagung",
+      "spaces": 9,
+      "address": "Jl. Raya Jombang - Mojokerto, Mojoagung, Kec. Mojoagung, Kabupaten Jombang, Jawa Timur 61461, Indonesia",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721716",
+      "media": [
+        {
+          "id": "706",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/706/2.JPG"
+        },
+        {
+          "id": "707",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/707/1.JPG"
+        },
+        {
+          "id": "708",
+          "file": "cover-173390392949.jpg",
+          "url": "https://pertare.asets.co.id/storage/708/cover-173390392949.jpg"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "SPBU COCO  71.961.01 Gorontalo Tamalate Sultan Botutihe",
+      "slug": "spbu-coco-7196101-gorontalo-tamalate-sultan-botutihe",
+      "spaces": 0,
+      "address": "Jln Sultan Botutihe kel Dembe II kec Kota Utara Gorontalo Provinsi Gorontalo",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721687",
+      "media": [
+        {
+          "id": "360",
+          "file": "cover-1732066862230.jpg",
+          "url": "https://pertare.asets.co.id/storage/360/cover-1732066862230.jpg"
+        },
+        {
+          "id": "361",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/361/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "SPBU COCO 51.641.16 Kediri Saharjo",
+      "slug": "spbu-coco-5164116-kediri-saharjo",
+      "spaces": 4,
+      "address": "Jl. Dr. Sahardjo, Campurejo, Kec. Mojoroto, Kabupaten Kediri, Jawa Timur 64116",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721650",
+      "media": [
+        {
+          "id": "672",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/672/1.JPG"
+        },
+        {
+          "id": "675",
+          "file": "cover-1733900027608.jpg",
+          "url": "https://pertare.asets.co.id/storage/675/cover-1733900027608.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "SPBU COCO 51.644.07 Nganjuk Bagor",
+      "slug": "spbu-coco-5164407-nganjuk-bagor",
+      "spaces": 6,
+      "address": "Jl. Raya Guyangan, Morobau, Kerep Kidul, Kec. Bagor, Kabupaten Nganjuk, Jawa Timur 64461",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721598",
+      "media": [
+        {
+          "id": "391",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/391/2.JPG"
+        },
+        {
+          "id": "392",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/392/1.JPG"
+        },
+        {
+          "id": "640",
+          "file": "cover-1733891187132.jpg",
+          "url": "https://pertare.asets.co.id/storage/640/cover-1733891187132.jpg"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "SPBU COCO 31.175.06 Bekasi Kp. Bulu",
+      "slug": "spbu-coco-3117506-bekasi-kp-bulu",
+      "spaces": 0,
+      "address": "No.52-, Jl. Setia Mekar (Kampung Bulu) No.64, Setiamekar, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17510, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721567",
+      "media": [
+        {
+          "id": "937",
+          "file": "cover-1734071299791.jpg",
+          "url": "https://pertare.asets.co.id/storage/937/cover-1734071299791.jpg"
+        },
+        {
+          "id": "938",
+          "file": "Screen-Shot-2024-12-13-at-13.29.04.png",
+          "url": "https://pertare.asets.co.id/storage/938/Screen-Shot-2024-12-13-at-13.29.04.png"
+        },
+        {
+          "id": "939",
+          "file": "Screen-Shot-2024-12-13-at-13.29.50.png",
+          "url": "https://pertare.asets.co.id/storage/939/Screen-Shot-2024-12-13-at-13.29.50.png"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "SPBU COCO 51.651.16 Malang Langsep",
+      "slug": "spbu-coco-5165116-malang-langsep",
+      "spaces": 0,
+      "address": "Jl. Raya Langsep, Sukun, Jl. I.R. Rais, Bareng, Kec. Klojen, Kota Malang, Jawa Timur 65146",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721538",
+      "media": [
+        {
+          "id": "396",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/396/1.JPG"
+        },
+        {
+          "id": "397",
+          "file": "cover-1732615651582.jpg",
+          "url": "https://pertare.asets.co.id/storage/397/cover-1732615651582.jpg"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "SPBU KSO  64.783.02 Pontianak Mempawah",
+      "slug": "spbu-kso-6478302-pontianak-mempawah",
+      "spaces": 2,
+      "address": "Wajok Hilir, Jongkat, Mempawah Regency, West Kalimantan 78351",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721514",
+      "media": [
+        {
+          "id": "364",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/364/1.JPG"
+        },
+        {
+          "id": "365",
+          "file": "cover-1732071085133.jpg",
+          "url": "https://pertare.asets.co.id/storage/365/cover-1732071085133.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "SPBU COCO 51.672.02 Probolinggo Leces",
+      "slug": "spbu-coco-5167202-probolinggo-leces",
+      "spaces": 0,
+      "address": "Jalan Raya, Karang Tengah, Clarak Leces, Probolinggo Regency, East Java 67273",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721489",
+      "media": [
+        {
+          "id": "394",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/394/1.JPG"
+        },
+        {
+          "id": "395",
+          "file": "cover-1732615475673.jpg",
+          "url": "https://pertare.asets.co.id/storage/395/cover-1732615475673.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "SPBU COCO 31.401.01 Bandung Dago",
+      "slug": "spbu-coco-3140101-bandung",
+      "spaces": 2,
+      "address": "Jl. Ir. H. Juanda No.139, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721457",
+      "media": [
+        {
+          "id": "204",
+          "file": "1000090500.jpg",
+          "url": "https://pertare.asets.co.id/storage/204/1000090500.jpg"
+        },
+        {
+          "id": "922",
+          "file": "cover-1733998270270.jpg",
+          "url": "https://pertare.asets.co.id/storage/922/cover-1733998270270.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "SPBU KSO  64.786.02 Pontianak Sintang",
+      "slug": "spbu-kso-6478602-pontianak-sintang",
+      "spaces": 4,
+      "address": "Ukoi River, Sungai Tebelian, Sintang Regency, West Kalimantan 78661",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721410",
+      "media": [
+        {
+          "id": "366",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/366/3.JPG"
+        },
+        {
+          "id": "367",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/367/2.JPG"
+        },
+        {
+          "id": "368",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/368/1.JPG"
+        },
+        {
+          "id": "369",
+          "file": "cover-1732073742209.jpg",
+          "url": "https://pertare.asets.co.id/storage/369/cover-1732073742209.jpg"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "SPBU COCO 51.673.09 Lumajang Rowokangkung",
+      "slug": "spbu-coco-5167309-lumajang-rowokangkung",
+      "spaces": 6,
+      "address": "Jalan Raya, Krajan, Nogosari, Rowokangkung, Lumajang Regency, East Java 67359",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721369",
+      "media": [
+        {
+          "id": "615",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/615/1.JPG"
+        },
+        {
+          "id": "616",
+          "file": "cover-1733888121198.jpg",
+          "url": "https://pertare.asets.co.id/storage/616/cover-1733888121198.jpg"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "SPBU COCO 31.402.02 Bandung Sudirman",
+      "slug": "spbu-coco-3140202-bandung-sudirman",
+      "spaces": 0,
+      "address": "Jl. Jend. Sudirman, Sukahaji Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40221",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721342",
+      "media": [
+        {
+          "id": "920",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/920/1.JPG"
+        },
+        {
+          "id": "921",
+          "file": "cover-1733998019491.jpg",
+          "url": "https://pertare.asets.co.id/storage/921/cover-1733998019491.jpg"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "SPBU COCO 31.405.01 Padalarang Kota Baru",
+      "slug": "spbu-coco-3140501-padalarang-kota-baru",
+      "spaces": 0,
+      "address": "Jl. Parahyangan Raya No.Kav 1, Kertajaya, Kec. Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721318",
+      "media": [
+        {
+          "id": "151",
+          "file": "cover-1730102545521.jpg",
+          "url": "https://pertare.asets.co.id/storage/151/cover-1730102545521.jpg"
+        },
+        {
+          "id": "891",
+          "file": "SPBU-Kotabaru---Padalarang.PNG",
+          "url": "https://pertare.asets.co.id/storage/891/SPBU-Kotabaru---Padalarang.PNG"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "SPBU COCO 51.801.30 Denpasar Hayam Wuruk",
+      "slug": "spbu-coco-5180130-denpasar-hayam-wuruk",
+      "spaces": 3,
+      "address": "Jl. Hayam Wuruk No.142, Sumerta Kelod, Kec. Denpasar Tim., Kota Denpasar, Bali 80239",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721288",
+      "media": [
+        {
+          "id": "382",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/382/2.JPG"
+        },
+        {
+          "id": "383",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/383/1.JPG"
+        },
+        {
+          "id": "594",
+          "file": "cover-1733824652183.jpg",
+          "url": "https://pertare.asets.co.id/storage/594/cover-1733824652183.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "SPBU COCO 51.833.02 Lombok Barat  Narmada",
+      "slug": "spbu-coco-5183302-lombok-barat-narmada",
+      "spaces": 6,
+      "address": "Jl. Raya Mantang, Peresak, Kec. Narmada, Kabupaten Lombok Barat, Nusa Tenggara Bar. 83371",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721248",
+      "media": [
+        {
+          "id": "592",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/592/1.JPG"
+        },
+        {
+          "id": "691",
+          "file": "cover-1733901878663.jpg",
+          "url": "https://pertare.asets.co.id/storage/691/cover-1733901878663.jpg"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "SPBU COCO 31.406.01 Bandung Ujung Berung",
+      "slug": "spbu-coco-3140601-bandung-ujung-berung",
+      "spaces": 0,
+      "address": "Jl. Soekarno-Hatta, Babakan Penghulu, Kec. Cinambo, Kota Bandung, Jawa Barat 40613, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721206",
+      "media": [
+        {
+          "id": "880",
+          "file": "cover-1733991374609.jpg",
+          "url": "https://pertare.asets.co.id/storage/880/cover-1733991374609.jpg"
+        },
+        {
+          "id": "881",
+          "file": "Screen-Shot-2024-12-12-at-15.16.52.jpg",
+          "url": "https://pertare.asets.co.id/storage/881/Screen-Shot-2024-12-12-at-15.16.52.jpg"
+        },
+        {
+          "id": "882",
+          "file": "Screen-Shot-2024-12-12-at-15.17.03.jpg",
+          "url": "https://pertare.asets.co.id/storage/882/Screen-Shot-2024-12-12-at-15.17.03.jpg"
+        },
+        {
+          "id": "883",
+          "file": "Screen-Shot-2024-12-12-at-15.17.35.jpg",
+          "url": "https://pertare.asets.co.id/storage/883/Screen-Shot-2024-12-12-at-15.17.35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "SPBU KSO 44.577.01 Karanganyar  Tasikmadu",
+      "slug": "spbu-kso-4457701-karanganyar-tasikmadu",
+      "spaces": 0,
+      "address": "Jl. Lawu, Kodokan, Papahan, Kec. Tasikmadu, Kabupaten Karanganyar, Jawa Tengah 57722",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721181",
+      "media": [
+        {
+          "id": "590",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/590/1.JPG"
+        },
+        {
+          "id": "591",
+          "file": "cover-1733823567119.jpg",
+          "url": "https://pertare.asets.co.id/storage/591/cover-1733823567119.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "SPBU COCO 61.707.01 Banjarmasin  Banjarbaru",
+      "slug": "spbu-coco-6170701-banjarmasin-banjarbaru",
+      "spaces": 9,
+      "address": "Jl. A. Yani No.KM 34, Loktabat Utara, Kec. Banjarbaru Utara, Kota Banjar Baru, Kalimantan Selatan 70714",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721111",
+      "media": [
+        {
+          "id": "156",
+          "file": "cover-1730102958726.png",
+          "url": "https://pertare.asets.co.id/storage/156/cover-1730102958726.png"
+        },
+        {
+          "id": "308",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/308/2.JPG"
+        },
+        {
+          "id": "309",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/309/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "SPBU COCO 61.751.01 Samarinda Kusuma Bangsa",
+      "slug": "spbu-coco-6175101-samarinda-kusuma-bangsa",
+      "spaces": 0,
+      "address": "Jalan Kesuma Bangsa Bugis Samarinda Ulu, Bugis, Kec. Samarinda Kota, Kota Samarinda, Kalimantan Timur 75124",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.721069",
+      "media": [
+        {
+          "id": "157",
+          "file": "cover-1730103151931.png",
+          "url": "https://pertare.asets.co.id/storage/157/cover-1730103151931.png"
+        },
+        {
+          "id": "310",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/310/3.JPG"
+        },
+        {
+          "id": "311",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/311/2.JPG"
+        },
+        {
+          "id": "312",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/312/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "SPBU COCO 61.751.02 Samarinda Slamet Riyadi",
+      "slug": "spbu-coco-6175102-samarinda-slamet-riyadi",
+      "spaces": 8,
+      "address": "Jalan Slamet Riyadi Karang Asam Ulu, Jl. Cendana Gg. 7, Tlk. Lerong Ulu, Kec. Sungai Kunjang, Kota Samarinda, Kalimantan Timur 75243",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720993",
+      "media": [
+        {
+          "id": "330",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/330/2.JPG"
+        },
+        {
+          "id": "331",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/331/1.JPG"
+        },
+        {
+          "id": "332",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/332/3.JPG"
+        },
+        {
+          "id": "333",
+          "file": "cover-1732005738718.jpg",
+          "url": "https://pertare.asets.co.id/storage/333/cover-1732005738718.jpg"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "SPBU COCO 61.761.01 Balikpapan Karang Anyar",
+      "slug": "spbu-coco-6176101-balikpapan-karang-anyar",
+      "spaces": 2,
+      "address": "Jl. Letjen Suprapto No. 1 Kel. Baru Ilir Kec. Balikpapan Tengah Kota Balikpapan Prov. Kalimantan Timur 76122",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720956",
+      "media": [
+        {
+          "id": "160",
+          "file": "cover-1730104195982.png",
+          "url": "https://pertare.asets.co.id/storage/160/cover-1730104195982.png"
+        },
+        {
+          "id": "334",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/334/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "SPBU COCO 61.761.02 Balikpapan Sepinggan",
+      "slug": "spbu-coco-6176102-balikpapan-sepinggan",
+      "spaces": 6,
+      "address": "Jl. Marsma R. Iswahyudi No.65, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76115",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720912",
+      "media": [
+        {
+          "id": "161",
+          "file": "cover-1730104548451.png",
+          "url": "https://pertare.asets.co.id/storage/161/cover-1730104548451.png"
+        },
+        {
+          "id": "335",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/335/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "SPBU COCO 31.412.01 Subang Ciasem",
+      "slug": "spbu-coco-3141201-subang-ciasem",
+      "spaces": 0,
+      "address": "Ciasem Hilir, Kec. Ciasem, Kabupaten Subang, Jawa Barat 41256, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720886",
+      "media": [
+        {
+          "id": "913",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/913/1.JPG"
+        },
+        {
+          "id": "914",
+          "file": "cover-173399686664.jpg",
+          "url": "https://pertare.asets.co.id/storage/914/cover-173399686664.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "name": "SPBU COCO 61.761.03 Balikpapan MT. Haryono",
+      "slug": "spbu-coco-6176103-balikpapan-mt-haryono",
+      "spaces": 4,
+      "address": "Jalan MT Haryono, Damai, Balikpapan Selatan, Damai, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76114",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720822",
+      "media": [
+        {
+          "id": "336",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/336/1.JPG"
+        },
+        {
+          "id": "337",
+          "file": "cover-1732006940386.jpg",
+          "url": "https://pertare.asets.co.id/storage/337/cover-1732006940386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "name": "SPBU COCO 61.781.01 Pontianak Ahmad Yani",
+      "slug": "spbu-coco-6178101-pontianak-ahmad-yani",
+      "spaces": 8,
+      "address": "Jalan Jenderal Ahmad Yani No.17, Bangka Belitung Laut, Pontianak Tenggara, Bangka Belitung Darat, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78124",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720754",
+      "media": [
+        {
+          "id": "340",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/340/1.JPG"
+        },
+        {
+          "id": "341",
+          "file": "cover-1732008684232.jpg",
+          "url": "https://pertare.asets.co.id/storage/341/cover-1732008684232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "name": "SPBU COCO 71.951.03 Manado Boulevard",
+      "slug": "spbu-coco-7195103-manado-boulevard",
+      "spaces": 3,
+      "address": "Boulevard Jl. Piere Tendean, Wenang Sel., Kec. Wenang, Kota Manado, Sulawesi Utara",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720720",
+      "media": [
+        {
+          "id": "349",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/349/2.JPG"
+        },
+        {
+          "id": "350",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/350/1.JPG"
+        },
+        {
+          "id": "351",
+          "file": "cover-1732020707350.jpg",
+          "url": "https://pertare.asets.co.id/storage/351/cover-1732020707350.jpg"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "name": "SPBU COCO 81.984.01 Papua  Sorong",
+      "slug": "spbu-coco-8198401-papua-sorong",
+      "spaces": 0,
+      "address": "Jalan Ahmad Yani Kelurahan Malabutor Distrik Sorong, Klakublik, Distrik Sorong, Kota Sorong, Papua Barat. 98412 ,",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720680",
+      "media": [
+        {
+          "id": "370",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/370/3.JPG"
+        },
+        {
+          "id": "371",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/371/2.JPG"
+        },
+        {
+          "id": "372",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/372/1.JPG"
+        },
+        {
+          "id": "379",
+          "file": "cover-173208986991.jpg",
+          "url": "https://pertare.asets.co.id/storage/379/cover-173208986991.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "name": "SPBU COCO 61.706.01 Banjarmasin Kertak Hanyar",
+      "slug": "spbu-coco-6170601-banjarmasin-kertak-hanyar",
+      "spaces": 10,
+      "address": "km 9.7, Jl. A. Yani, Simpang Empat, Kec. Kertak Hanyar, Kabupaten Banjar, Kalimantan Selatan 70654",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720603",
+      "media": [
+        {
+          "id": "352",
+          "file": "3.JPG",
+          "url": "https://pertare.asets.co.id/storage/352/3.JPG"
+        },
+        {
+          "id": "353",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/353/2.JPG"
+        },
+        {
+          "id": "354",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/354/1.JPG"
+        },
+        {
+          "id": "355",
+          "file": "cover-173206384861.jpg",
+          "url": "https://pertare.asets.co.id/storage/355/cover-173206384861.jpg"
+        },
+        {
+          "id": "356",
+          "file": "4.JPG",
+          "url": "https://pertare.asets.co.id/storage/356/4.JPG"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "SPBU COCO 61.711.001 Banjarmasin Tapin",
+      "slug": "spbu-coco-61711001-banjarmasin-tapin",
+      "spaces": 6,
+      "address": "Jl. Brigjend H. Hasan Basry Km.3 Kel. Bitahan Kec. Lokpaikat Kab. Tapin Kalimantan Selatan 71154",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720533",
+      "media": [
+        {
+          "id": "342",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/342/1.JPG"
+        },
+        {
+          "id": "343",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/343/2.JPG"
+        },
+        {
+          "id": "344",
+          "file": "cover-1732009713380.jpg",
+          "url": "https://pertare.asets.co.id/storage/344/cover-1732009713380.jpg"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "SPBU COCO 31.402.01 Bandung Kiara Condong",
+      "slug": "spbu-coco-3140201-bandung-kiara-condong",
+      "spaces": 0,
+      "address": "Jl. Ibrahim Adjie no 390, Kel binong, kec batununggal, kota bandung 40275",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720489",
+      "media": [
+        {
+          "id": "885",
+          "file": "cover-1733993022804.jpg",
+          "url": "https://pertare.asets.co.id/storage/885/cover-1733993022804.jpg"
+        },
+        {
+          "id": "886",
+          "file": "Screen-Shot-2024-12-12-at-15.42.00.jpg",
+          "url": "https://pertare.asets.co.id/storage/886/Screen-Shot-2024-12-12-at-15.42.00.jpg"
+        },
+        {
+          "id": "887",
+          "file": "Screen-Shot-2024-12-12-at-15.42.18.jpg",
+          "url": "https://pertare.asets.co.id/storage/887/Screen-Shot-2024-12-12-at-15.42.18.jpg"
+        },
+        {
+          "id": "888",
+          "file": "Screen-Shot-2024-12-12-at-15.42.35.jpg",
+          "url": "https://pertare.asets.co.id/storage/888/Screen-Shot-2024-12-12-at-15.42.35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "name": "SPBU COCO 31.411.02 Cipularang B",
+      "slug": "spbu-coco-3141102-cipularang-b",
+      "spaces": 0,
+      "address": "Jl. Jend. Sudirman, Sukahaji, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40221, Indonesia",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720461",
+      "media": [
+        {
+          "id": "876",
+          "file": "Screen-Shot-2024-12-12-at-15.09.57.jpg",
+          "url": "https://pertare.asets.co.id/storage/876/Screen-Shot-2024-12-12-at-15.09.57.jpg"
+        },
+        {
+          "id": "877",
+          "file": "cover-1733991106459.png",
+          "url": "https://pertare.asets.co.id/storage/877/cover-1733991106459.png"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "name": "SPBU COCO 51.681.23 Jember Kenanga",
+      "slug": "spbu-coco-5168123-jember-kenanga",
+      "spaces": 3,
+      "address": "Jl. Kenanga No.60, Ledok, Jember Kidul, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720431",
+      "media": [
+        {
+          "id": "608",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/608/2.JPG"
+        },
+        {
+          "id": "609",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/609/1.JPG"
+        },
+        {
+          "id": "610",
+          "file": "cover-1733887014143.jpg",
+          "url": "https://pertare.asets.co.id/storage/610/cover-1733887014143.jpg"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "name": "SPBU COCO 41.502.01 Semarang A.Yani",
+      "slug": "spbu-coco-4150201-semarang-ayani",
+      "spaces": 0,
+      "address": "Jl. Ahmad Yani No.157-159, Pleburan, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50241",
+      "city_id": 519,
+      "city_name": "Kota Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "area_id": 44,
+      "area_name": "Sales Area 4 - Jawa Tengah Jawa Timur Bali Nus",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720402",
+      "media": [
+        {
+          "id": "789",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/789/2.JPG"
+        },
+        {
+          "id": "790",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/790/1.JPG"
+        },
+        {
+          "id": "791",
+          "file": "cover-173398461421.jpg",
+          "url": "https://pertare.asets.co.id/storage/791/cover-173398461421.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "name": "SPBU KSO 14.288.601 Dumai Bagan Besar",
+      "slug": "spbu-kso-14288601-dumai-bagan-besar",
+      "spaces": 0,
+      "address": "Jl. Duri - Dumai, Bukit Nenas, Kec. Bukit Kapur, Kota Dumai, Riau 28826",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720377",
+      "media": [
+        {
+          "id": "776",
+          "file": "cover-1733913403320.jpg",
+          "url": "https://pertare.asets.co.id/storage/776/cover-1733913403320.jpg"
+        },
+        {
+          "id": "777",
+          "file": "riau2.jpg",
+          "url": "https://pertare.asets.co.id/storage/777/riau2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "name": "SPBU COCO 11.282.604 Pekanbaru Ababil",
+      "slug": "spbu-coco-11282604-pekanbaru-ababil",
+      "spaces": 4,
+      "address": "Jl. Ababil No.10, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28122",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720335",
+      "media": [
+        {
+          "id": "792",
+          "file": "Screen-Shot-2024-12-09-at-16.52.17.jpg",
+          "url": "https://pertare.asets.co.id/storage/792/Screen-Shot-2024-12-09-at-16.52.17.jpg"
+        },
+        {
+          "id": "793",
+          "file": "cover-1733985177206.jpg",
+          "url": "https://pertare.asets.co.id/storage/793/cover-1733985177206.jpg"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "name": "SPBU COCO 14.291.701 Riau Natuna",
+      "slug": "spbu-coco-14291701-riau-natuna",
+      "spaces": 0,
+      "address": "Ranai Kota, Kec. Bunguran Tim., Kabupaten Natuna, Kepulauan Riau 29783",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720307",
+      "media": [
+        {
+          "id": "275",
+          "file": "cover-1731989972942.jpg",
+          "url": "https://pertare.asets.co.id/storage/275/cover-1731989972942.jpg"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "name": "SPBU KSO 14.287.665 Pekanbaru Muara Basung",
+      "slug": "spbu-kso-14287665-pekanbaru-muara-basung",
+      "spaces": 2,
+      "address": "Muara Basung, Pinggir, Bengkalis Regency, Riau",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720282",
+      "media": [
+        {
+          "id": "798",
+          "file": "Screen-Shot-2024-11-19-at-12.13.24.jpg",
+          "url": "https://pertare.asets.co.id/storage/798/Screen-Shot-2024-11-19-at-12.13.24.jpg"
+        },
+        {
+          "id": "799",
+          "file": "cover-1733985734815.jpg",
+          "url": "https://pertare.asets.co.id/storage/799/cover-1733985734815.jpg"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "SPBU COCO 21.353.10 Lampung Natar",
+      "slug": "spbu-coco-2135310-lampung-natar",
+      "spaces": 3,
+      "address": "Jl. Alamsyah Ratu Prawiranegar, Hajimena, Kec. Natar, Kabupaten Lampung Selatan, Lampung 35145",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720247",
+      "media": [
+        {
+          "id": "286",
+          "file": "2-SPBU-COCO-21.353.10-Lampung-Natar.JPG",
+          "url": "https://pertare.asets.co.id/storage/286/2-SPBU-COCO-21.353.10-Lampung-Natar.JPG"
+        },
+        {
+          "id": "287",
+          "file": "1-SPBU-COCO-21.353.10-Lampung-Natar.JPG",
+          "url": "https://pertare.asets.co.id/storage/287/1-SPBU-COCO-21.353.10-Lampung-Natar.JPG"
+        },
+        {
+          "id": "485",
+          "file": "cover-173373127925.jpg",
+          "url": "https://pertare.asets.co.id/storage/485/cover-173373127925.jpg"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "name": "SPBU COCO 21.381.09 Bengkulu Rawa Makmur",
+      "slug": "spbu-coco-2138109-bengkulu-rawa-makmur",
+      "spaces": 2,
+      "address": "JL. Kalimantan, Rawa Makmur, Beringin Raya, Kec. Muara Bangka Hulu, Kota Bengkulu, Bengkulu 38118",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720218",
+      "media": [
+        {
+          "id": "554",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/554/1.JPG"
+        },
+        {
+          "id": "555",
+          "file": "cover-1733808839143.jpg",
+          "url": "https://pertare.asets.co.id/storage/555/cover-1733808839143.jpg"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "SPBU COCO 31.114.05 Jakarta Tomang Raya 2",
+      "slug": "spbu-coco-3111405-jakarta-tomang-raya-2",
+      "spaces": 0,
+      "address": "Jl. Tomang Raya No.59, RT.1/RW.13, Tomang, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11440",
+      "city_id": 516,
+      "city_name": "Kota Sales Area 2 - Jakarta Banten",
+      "area_id": 42,
+      "area_name": "Sales Area 2 - Jakarta Banten",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.710828",
+      "media": [
+        {
+          "id": "855",
+          "file": "cover-1733989644354.jpg",
+          "url": "https://pertare.asets.co.id/storage/855/cover-1733989644354.jpg"
+        },
+        {
+          "id": "860",
+          "file": "Screen-Shot-2024-12-11-at-13.04.20.jpg",
+          "url": "https://pertare.asets.co.id/storage/860/Screen-Shot-2024-12-11-at-13.04.20.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "name": "SPBU COCO 21.101.02 Lampung Kalianda",
+      "slug": "spbu-coco-2110102-lampung-kalianda",
+      "spaces": 2,
+      "address": "Jl. Lintas sumatera desa kekiling Kec. Penengahan Kab. Lampung selatan, Lampung 35592",
+      "city_id": 515,
+      "city_name": "Kota Sales Area 1 - Sumatra",
+      "area_id": 41,
+      "area_name": "Sales Area 1 - Sumatra",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720192",
+      "media": [
+        {
+          "id": "556",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/556/1.JPG"
+        },
+        {
+          "id": "557",
+          "file": "cover-1733809139565.jpg",
+          "url": "https://pertare.asets.co.id/storage/557/cover-1733809139565.jpg"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "SPBU COCO 31.169.01 Cibinong Mayor Oking",
+      "slug": "spbu-coco-3116901-cibinong-mayor-oking",
+      "spaces": 0,
+      "address": "Km.2 No.1, Jl. Raya Mayor Oking Jaya Atmaja, Cibinong, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16911",
+      "city_id": 518,
+      "city_name": "Kota Sales Area 3 - Jawa Barat",
+      "area_id": 43,
+      "area_name": "Sales Area 3 - Jawa Barat",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720162",
+      "media": [
+        {
+          "id": "866",
+          "file": "2.JPG",
+          "url": "https://pertare.asets.co.id/storage/866/2.JPG"
+        },
+        {
+          "id": "867",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/867/1.JPG"
+        },
+        {
+          "id": "868",
+          "file": "cover-1733990193435.jpg",
+          "url": "https://pertare.asets.co.id/storage/868/cover-1733990193435.jpg"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "SPBU 64.741.02 Kalimantan Tengah Pangkalan Bun Panglima Utar",
+      "slug": "spbu-6474102-kalimantan-tengah-pangkalan-bun-panglima-utar",
+      "spaces": 0,
+      "address": "Jl. Panglima Utar No.184, Sungai Kapitan, Kec. Kumai, Kabupaten Kotawaringin Barat, Kalimantan Tengah 74181",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720133",
+      "media": [
+        {
+          "id": "362",
+          "file": "cover-1732069493123.jpg",
+          "url": "https://pertare.asets.co.id/storage/362/cover-1732069493123.jpg"
+        },
+        {
+          "id": "363",
+          "file": "1.JPG",
+          "url": "https://pertare.asets.co.id/storage/363/1.JPG"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "SPBG 61B.761.01 Balikpapan Rapak Ahmad Yani",
+      "slug": "spbg-61b76101-balikpapan-rapak-ahmad-yani",
+      "spaces": 0,
+      "address": "Kelurahan Muara Rapak, Balikpapan",
+      "city_id": 520,
+      "city_name": "Kota Sales Area 5 - Kalimantan Sulawesi Papua",
+      "area_id": 45,
+      "area_name": "Sales Area 5 - Kalimantan Sulawesi Papua",
+      "source": "pms",
+      "created_at": "2025-10-13 12:58:20",
+      "updated_at": "2025-10-13T19:58:20.720114",
+      "media": [
+        {
+          "id": "1401",
+          "file": "cover-1738227097180.jpg",
+          "url": "https://pertare.asets.co.id/storage/1401/cover-1738227097180.jpg"
+        }
+      ]
+    }
+  ]
+}
