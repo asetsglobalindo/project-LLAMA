@@ -90,3 +90,4 @@ fetcher.export_to_json("my_spaces.json")
 ## 📝 Log Files:
 - `listings_fetch.log` - Log untuk proses listings
 - `spaces_fetch.log` - Log untuk proses spaces
+
