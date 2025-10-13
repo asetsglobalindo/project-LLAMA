@@ -7,16 +7,19 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use App\Services\ExternalApiService;
+use League\CommonMark\CommonMarkConverter;
 
 class AIController extends Controller
 {
     private string $groqApiUrl = 'https://api.groq.com/openai/v1/chat/completions';
     private string $model = 'llama-3.1-8b-instant';
     private ExternalApiService $externalApiService;
+    private CommonMarkConverter $markdownConverter;
 
     public function __construct(ExternalApiService $externalApiService)
     {
         $this->externalApiService = $externalApiService;
+        $this->markdownConverter = new CommonMarkConverter();
     }
 
     public function chat(Request $request): JsonResponse
@@ -105,10 +108,14 @@ class AIController extends Controller
                     : 'Baik, silakan jelaskan kota, ukuran (m² atau P x L), dan budget per bulan agar saya bisa bantu rekomendasi.';
             }
 
+            // Convert markdown to HTML for structured response
+            $structuredMessage = $this->formatStructuredResponse($response['content'], $response['recommendations'] ?? []);
+
             return response()->json([
                 'success' => true,
                 'data' => [
                     'message' => $response['content'],
+                    'structured_message' => $structuredMessage,
                     'recommendations' => $response['recommendations'] ?? [],
                     'context' => $response['context'] ?? [],
                     'timestamp' => now()->toISOString(),
@@ -193,93 +200,13 @@ class AIController extends Controller
     {
         if ($language === 'en') {
             return <<<'PROMPT'
-ROLE:
-You are AVIS AI, a professional assistant grounded in commercial property data to recommend spaces, locations, and business opportunities.
-
-COMMUNICATION STYLE:
-- Use natural, warm, and concise English.
-- No markdown, unusual symbols, or emojis.
-- Avoid repeating long introductions; keep greetings short.
-
-DATA GUIDELINES (IMPORTANT):
-- You will receive CONTEXT_DATA in JSON format.
-- Only use locations, prices, and property details that exist in the data I provide.
-- Never invent locations, numbers, or descriptions.
-- When giving examples, provide a short reason why it fits (e.g., price matches budget, city matches request, relevant for the type of business).
-- Use the user’s budget value exactly as given, e.g., "IDR 3,000,000,000 per month".
-- Do not mention the word "CONTEXT_DATA"; instead, use the phrase "the data I have".
-- If the requested city/area is not available, clearly say: "sorry, in the data I have, there is no location in <CITY>". Then offer nearby areas or a broader region.
-
-NUMERIC & BUDGET RULES (STRICT):
-- Parse Indonesian amounts correctly:
-  - "300 juta" = 300,000,000; "300 ribu" = 300,000; "3 ribu" = 3,000.
-  - Treat thousand separators "." or "," in numbers (e.g., 300.000.000 or 300,000,000) as valid formatting.
-- Time period: if the user specifies per year, convert to per month by dividing by 12. Otherwise treat as per month.
-- Never round to different magnitudes. Do not upscale a data price (e.g., 210,000 per month must not become 15,000,000).
-
-UNIVERSAL HANDLING:
-- For any question (including typos or slang), reply briefly and kindly, then redirect to the core service: helping find space/location/property.
-- Ask about city, size, and monthly budget if the user hasn’t mentioned them.
-- If the user is unsure what business to start, give 3–5 simple, practical ideas (adjusted to city/budget/business type if available), then follow up with one short question to keep the conversation going.
-- Vary wording slightly to avoid sounding repetitive.
-
-BEHAVIOR:
-- When greeted: respond briefly and ask for city, size, and monthly budget.
-- If key info is missing, ask at most one clarification.
-- Show 1–3 of the most relevant properties from the data. If none fit, say none are available.
-- Do not end with a call to send links; just show the relevant results.
- - When the user asks to "show locations/links" and one or more cities are mentioned or inferred, start with a brief confirmation like: "Here are the links for locations in <CITY1>[, <CITY2>, ...]." Then list the items filtered strictly to those cities.
-
-PRIORITY:
-- Use examples directly from the data I have.
-- Provide a short reason for fit.
-- If no match, state clearly that none are available.
+You are AVIS AI, a friendly business consultant who helps entrepreneurs find commercial spaces. Talk naturally like a human consultant - warm, conversational, and supportive. Use "I" and "you" naturally. Ask about their business goals and provide personalized recommendations based on real data. Only recommend locations that exist in the CONTEXT_DATA provided. Be encouraging and offer practical business advice.
 PROMPT;
         }
         
         // Default Indonesian prompt (grounded to provided context)
         return <<<'PROMPT'
-PERAN:
-Anda adalah AVIS AI, seorang asisten profesional yang ter-grounded pada data properti komersial untuk memberi rekomendasi ruang/lokasi/usaha.
-
-GAYA KOMUNIKASI:
-- Bahasa Indonesia natural, hangat, dan ringkas.
-- Tanpa markdown, simbol aneh, atau emoji.
-- Jangan mengulang perkenalan panjang; cukup sapaan singkat.
-
-PANDUAN DATA (PENTING):
-- Anda akan menerima CONTEXT_DATA dalam format JSON.
-- Hanya gunakan lokasi, harga, dan detail properti yang benar-benar ada di data yang saya miliki.
-- Jangan pernah mengarang lokasi, angka, atau deskripsi.
-- Saat memberikan contoh, sertakan alasan singkat kenapa cocok (misalnya harga sesuai/dekat dengan budget user, kota sesuai permintaan, relevan untuk jenis usaha).
-- Gunakan angka budget user apa adanya, misalnya "IDR 3.000.000.000 per bulan".
-- Jangan sebut kata "CONTEXT_DATA"; gunakan frasa "data yang saya miliki".
-- Jika lokasi yang diminta user tidak tersedia, katakan dengan jelas: "maaf, di data yang saya miliki belum ada lokasi di <kota>". Lalu tawarkan area terdekat atau cakupan lebih luas.
-
-ATURAN ANGKA & BUDGET (WAJIB IKUTI):
-- Pahami format Indonesia dengan benar:
-  - "300 juta" = 300.000.000; "300 ribu" = 300.000; "3 ribu" = 3.000.
-  - Titik/koma sebagai pemisah ribuan (300.000.000 / 300,000,000) keduanya valid.
-- Periode waktu: jika user menyebut per tahun, konversi ke per bulan dengan membagi 12. Selain itu anggap per bulan.
-- Jangan pernah mengubah skala harga dari data. Jika harga di data 210.000 per bulan, jangan tulis 15.000.000.
-
-PENANGANAN UNIVERSAL:
-- Untuk pertanyaan apapun (termasuk typo atau slang), jawab singkat dengan ramah, lalu arahkan ke inti layanan: bantu cari ruang/lokasi/properti.
-- Tanyakan kota, ukuran, dan budget per bulan jika user belum menyebut.
-- Jika user bingung mau usaha apa, berikan 3–5 ide usaha singkat yang realistis (bisa disesuaikan kota/budget/jenis usaha), lalu lanjutkan dengan 1 pertanyaan singkat agar percakapan berlanjut.
-- Variasikan kata-kata agar tidak terdengar repetitif.
-
-PERILAKU:
-- Jika user menyapa: balas singkat, lalu tanyakan kota, ukuran, dan budget per bulan.
-- Ajukan maksimal 1 klarifikasi jika info kunci belum lengkap.
-- Tampilkan 1–3 contoh properti paling relevan dari data. Jika tidak ada yang cocok, katakan belum ada.
-- Jangan menutup dengan ajakan mengirim link; cukup tampilkan hasil yang sesuai.
- - Bila user meminta untuk "tampilkan lokasi/link" dan ada satu atau lebih kota disebut/terdeteksi, awali dengan kalimat konfirmasi singkat seperti: "Berikut link lokasi yang ada di <KOTA1>[, <KOTA2>, ...]." Lalu tampilkan item yang disaring ketat hanya untuk kota-kota tersebut.
-
-PRIORITAS:
-- Ambil contoh langsung dari data yang saya miliki.
-- Berikan alasan kecocokan singkat.
-- Jika tidak ada yang cocok, jawab jujur belum ada.
+Saya AVIS AI, konsultan bisnis yang ramah yang membantu pengusaha menemukan ruang komersial. Bicara secara natural seperti konsultan manusia - hangat, conversational, dan suportif. Gunakan "saya" dan "Anda" secara natural. Tanyakan tentang tujuan bisnis mereka dan berikan rekomendasi yang dipersonalisasi berdasarkan data nyata. Hanya rekomendasikan lokasi yang ada dalam CONTEXT_DATA yang disediakan. Bersikap mendukung dan berikan saran bisnis yang praktis.
 PROMPT;
     }
 
@@ -287,16 +214,53 @@ PROMPT;
     {
         $detectedLanguage = $this->detectLanguage($message);
         
+        // Extract information from user message
+        $budgetInfo = $this->extractBudgetInfo($message);
+        $mentionedCities = $this->getMentionedCities($message);
+        $businessType = $this->detectBusinessType($message);
+        
+        // Load location data for recommendations
+        $allLocationData = $this->loadAllLocationData();
+        
+        // Generate recommendations based on extracted info
+        $recommendations = $this->generateLocalRecommendations($allLocationData, $budgetInfo, $mentionedCities, $businessType);
+        
         if ($detectedLanguage === 'en') {
-            return [
-                'content' => 'Please mention the city, size (m² or L x W), and monthly budget.',
-                'recommendations' => [],
-            ];
+            $response = "I understand you're looking for commercial space. ";
+            if (!empty($mentionedCities)) {
+                $response .= "I can help you find locations in " . implode(', ', $mentionedCities) . ". ";
+            }
+            if ($budgetInfo['value'] !== null) {
+                $response .= "With your budget of IDR " . number_format($budgetInfo['value'], 0, ',', '.') . " per month, ";
+            }
+            $response .= "I have some great options for you. ";
+            
+            if (!empty($recommendations)) {
+                $response .= "Here are the top locations I'd recommend for your business:";
+            } else {
+                $response .= "Let me know more about your specific needs and I'll find the perfect location for you.";
+            }
+        } else {
+            $response = "Saya mengerti Anda sedang mencari ruang komersial. ";
+            if (!empty($mentionedCities)) {
+                $response .= "Saya bisa membantu Anda menemukan lokasi di " . implode(', ', $mentionedCities) . ". ";
+            }
+            if ($budgetInfo['value'] !== null) {
+                $response .= "Dengan budget Anda sebesar IDR " . number_format($budgetInfo['value'], 0, ',', '.') . " per bulan, ";
+            }
+            $response .= "saya punya beberapa pilihan bagus untuk Anda. ";
+            
+            if (!empty($recommendations)) {
+                $response .= "Berikut lokasi terbaik yang saya rekomendasikan untuk bisnis Anda:";
+            } else {
+                $response .= "Ceritakan lebih detail tentang kebutuhan spesifik Anda, dan saya akan temukan lokasi yang sempurna untuk Anda.";
+            }
         }
         
         return [
-            'content' => 'Sebutkan kota, ukuran, dan budget per bulan, saya bantu carikan lokasi.',
-            'recommendations' => [],
+            'content' => $response,
+            'recommendations' => $recommendations,
+            'context' => ['type' => 'fallback_response', 'reason' => 'groq_api_unavailable'],
         ];
     }
 
@@ -736,6 +700,103 @@ PROMPT;
             Log::warning('Local recommendation error: ' . $e->getMessage());
             return [];
         }
+    }
+
+    /**
+     * Format structured response with HTML and markdown
+     */
+    private function formatStructuredResponse(string $message, array $recommendations = []): string
+    {
+        $detectedLanguage = $this->detectLanguage($message);
+        
+        // Extract budget info for structured display
+        $budgetInfo = $this->extractBudgetInfo($message);
+        $budgetValue = $budgetInfo['value'] ?? null;
+        $budgetDirection = $budgetInfo['direction'] ?? null;
+        
+        // Extract mentioned cities
+        $mentionedCities = $this->getMentionedCities($message);
+        
+        // Extract business type
+        $businessType = $this->detectBusinessType($message);
+        
+        // Build structured HTML response
+        $html = '<div class="ai-structured-response">';
+        
+        // Main message section
+        $html .= '<div class="ai-main-message">';
+        $html .= '<h3 class="ai-section-title">💬 Pesan Utama</h3>';
+        $html .= '<div class="ai-message-content">' . $this->markdownConverter->convert($message) . '</div>';
+        $html .= '</div>';
+        
+        // Analysis section if we have recommendations
+        if (!empty($recommendations)) {
+            $html .= '<div class="ai-analysis-section">';
+            $html .= '<h3 class="ai-section-title">📊 Analisis Kebutuhan</h3>';
+            $html .= '<div class="ai-analysis-content">';
+            
+            // Budget analysis - REMOVED as requested
+            
+            // Location analysis
+            if (!empty($mentionedCities)) {
+                $html .= '<div class="ai-analysis-item">';
+                $html .= '<h4 class="ai-subtitle">📍 Lokasi Target</h4>';
+                $html .= '<p class="ai-description">' . implode(', ', $mentionedCities) . '</p>';
+                $html .= '</div>';
+            }
+            
+            // Business type analysis
+            if ($businessType !== 'umum') {
+                $html .= '<div class="ai-analysis-item">';
+                $html .= '<h4 class="ai-subtitle">🏢 Jenis Usaha</h4>';
+                $html .= '<p class="ai-description">' . ucfirst($businessType) . '</p>';
+                $html .= '</div>';
+            }
+            
+            $html .= '</div>';
+            $html .= '</div>';
+            
+            // Recommendations summary
+            $html .= '<div class="ai-recommendations-summary">';
+            $html .= '<h3 class="ai-section-title">🎯 Ringkasan Rekomendasi</h3>';
+            $html .= '<div class="ai-summary-content">';
+            $html .= '<p class="ai-description">Ditemukan <strong>' . count($recommendations) . ' lokasi</strong> yang sesuai dengan kriteria Anda:</p>';
+            
+            // Price range analysis
+            $prices = array_filter(array_column($recommendations, 'price_value'));
+            if (!empty($prices)) {
+                $minPrice = min($prices);
+                $maxPrice = max($prices);
+                $html .= '<div class="ai-price-range">';
+                $html .= '<h4 class="ai-subtitle">💵 Kisaran Harga</h4>';
+                $html .= '<p class="ai-description">IDR ' . number_format($minPrice, 0, ',', '.') . ' - IDR ' . number_format($maxPrice, 0, ',', '.') . ' per bulan</p>';
+                $html .= '</div>';
+            }
+            
+            // Top recommendations preview
+            $topRecs = array_slice($recommendations, 0, 3);
+            $html .= '<div class="ai-top-recommendations">';
+            $html .= '<h4 class="ai-subtitle">⭐ Rekomendasi Teratas</h4>';
+            $html .= '<ul class="ai-recommendations-list">';
+            foreach ($topRecs as $rec) {
+                $html .= '<li class="ai-recommendation-item">';
+                $html .= '<strong>' . htmlspecialchars($rec['title']) . '</strong>';
+                $html .= '<br><span class="ai-location">' . htmlspecialchars($rec['description']) . '</span>';
+                $html .= '<br><span class="ai-price">' . htmlspecialchars($rec['price']) . '</span>';
+                $html .= '</li>';
+            }
+            $html .= '</ul>';
+            $html .= '</div>';
+            
+            $html .= '</div>';
+            $html .= '</div>';
+        }
+        
+        // Tips section - REMOVED as requested
+        
+        $html .= '</div>';
+        
+        return $html;
     }
 
     /**

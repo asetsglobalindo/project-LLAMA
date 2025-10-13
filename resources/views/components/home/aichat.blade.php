@@ -20,7 +20,12 @@
                         <div class="flex" :class="msg.role === 'user' ? 'justify-end' : 'justify-start'">
                             <div class="max-w-[80%] text-sm rounded-lg px-3 py-2"
                                  :class="msg.role === 'user' ? 'bg-custom-primary text-white' : 'bg-gray-100 text-gray-800'">
-                                <p x-text="msg.content"></p>
+                                <template x-if="msg.isStructured">
+                                    <div x-html="msg.content" class="ai-structured-content"></div>
+                                </template>
+                                <template x-if="!msg.isStructured">
+                                    <p x-text="msg.content"></p>
+                                </template>
                                 <template x-if="(msg.recommendations || []).length">
                                     <div class="mt-3">
                                         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -119,6 +124,7 @@ function aiChatComponent() {
                 const data = await response.json();
                 console.log('[AI] data', data);
                 const content = data?.data?.message || 'Maaf, belum ada jawaban.';
+                const structuredContent = data?.data?.structured_message || content;
                 const recs = data?.data?.recommendations || [];
                 this.isTyping = true;
                 let shown = '';
@@ -136,7 +142,7 @@ function aiChatComponent() {
                         if (this.messages[this.messages.length - 1]?.role === 'assistant_typing') {
                             this.messages.pop();
                         }
-                        this.messages.push({ role: 'assistant', content, recommendations: recs });
+                        this.messages.push({ role: 'assistant', content: structuredContent, recommendations: recs, isStructured: true });
                         this.isTyping = false;
                         this.scrollToBottom();
                     }
@@ -159,5 +165,130 @@ function aiChatComponent() {
     }
 }
 </script>
+@endpush
+
+@push('styles')
+<style>
+    [x-cloak] { display: none !important; }
+    
+    /* AI Structured Response Styles */
+    .ai-structured-content {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    
+    .ai-structured-response {
+        max-width: 100%;
+    }
+    
+    .ai-section-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #374151;
+        margin: 0 0 0.75rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e5e7eb;
+    }
+    
+    .ai-subtitle {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #4b5563;
+        margin: 0 0 0.5rem 0;
+    }
+    
+    .ai-description {
+        font-size: 0.875rem;
+        color: #6b7280;
+        margin: 0 0 0.75rem 0;
+        line-height: 1.5;
+    }
+    
+    .ai-analysis-item {
+        background: #f9fafb;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0.75rem;
+        border-left: 3px solid #3b82f6;
+    }
+    
+    .ai-price-range {
+        background: #f0f9ff;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0.75rem;
+        border-left: 3px solid #0ea5e9;
+    }
+    
+    .ai-recommendations-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ai-recommendation-item {
+        background: #fef3c7;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-left: 3px solid #f59e0b;
+    }
+    
+    .ai-location {
+        font-size: 0.75rem;
+        color: #6b7280;
+        font-style: italic;
+    }
+    
+    .ai-price {
+        font-size: 0.75rem;
+        color: #059669;
+        font-weight: 600;
+    }
+    
+    .ai-tips-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ai-tips-list li {
+        background: #f0fdf4;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0.375rem;
+        margin-bottom: 0.5rem;
+        border-left: 3px solid #10b981;
+        font-size: 0.875rem;
+        color: #374151;
+    }
+    
+    .ai-tips-list li:before {
+        content: "✓ ";
+        color: #10b981;
+        font-weight: bold;
+    }
+    
+    .ai-main-message {
+        margin-bottom: 1rem;
+    }
+    
+    .ai-message-content {
+        background: #f3f4f6;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        border-left: 3px solid #6b7280;
+    }
+    
+    .ai-analysis-section,
+    .ai-recommendations-summary,
+    .ai-tips-section {
+        margin-bottom: 1rem;
+    }
+    
+    .ai-analysis-content,
+    .ai-summary-content,
+    .ai-tips-content {
+        padding-left: 0.5rem;
+    }
+</style>
 @endpush
 
