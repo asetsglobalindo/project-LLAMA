@@ -89,7 +89,7 @@ function aiChatComponent() {
         open: true,
         input: '',
         messages: [
-            { role: 'assistant', content: 'Halo! 👋 Saya AVIS AI, asisten dan bestie konsultan bisnis Anda.\n\nAda yang bisa saya bantu hari ini?' }
+            { role: 'assistant', content: 'Halo! 👋 Saya AVIS AI, credible bestie bisnis kamu. Siap bantuin kamu analisis, strategi, dan eksekusi ide bisnismu bareng-bareng 💼✨.\n\nYuk, mulai dari mana dulu nih?' }
         ],
         loading: false,
         isTyping: false,

@@ -143,17 +143,36 @@ class AIController extends Controller
         $detectedLanguage = $this->detectLanguage($message);
         $systemPrompt = $this->getSystemPrompt($detectedLanguage);
 
+        // Analyze conversation context for better understanding
+        $conversationContext = $this->analyzeConversationContext($conversationHistory, $message);
+
         // Build messages array with conversation history
         $messages = [['role' => 'system', 'content' => $systemPrompt]];
+        
+        // Add conversation context analysis for better memory
+        if (!empty($conversationContext['topics']) || $conversationContext['budget_mentioned'] || $conversationContext['timeframe_mentioned']) {
+            $contextSummary = $this->buildContextSummary($conversationContext, $detectedLanguage);
+            $messages[] = [
+                'role' => 'system',
+                'content' => "CONVERSATION_MEMORY: " . $contextSummary
+            ];
+        }
         
         // Add conversation history (limit to last 10 messages to avoid token limit)
         $recentHistory = array_slice($conversationHistory, -10);
         foreach ($recentHistory as $msg) {
             if (isset($msg['role']) && isset($msg['content'])) {
-                $messages[] = [
-                    'role' => $msg['role'],
-                    'content' => $msg['content']
-                ];
+                // Clean content for better context understanding
+                $cleanContent = strip_tags($msg['content']);
+                $cleanContent = preg_replace('/\s+/', ' ', $cleanContent);
+                $cleanContent = trim($cleanContent);
+                
+                if (!empty($cleanContent)) {
+                    $messages[] = [
+                        'role' => $msg['role'],
+                        'content' => $cleanContent
+                    ];
+                }
             }
         }
         
@@ -200,13 +219,115 @@ class AIController extends Controller
     {
         if ($language === 'en') {
             return <<<'PROMPT'
-You are AVIS AI, a friendly business consultant who helps entrepreneurs find commercial spaces. Talk naturally like a human consultant - warm, conversational, and supportive. Use "I" and "you" naturally. Ask about their business goals and provide personalized recommendations based on real data. Only recommend locations that exist in the CONTEXT_DATA provided. Be encouraging and offer practical business advice.
+You are AVIS AI (Asets Virtual Intelligence Systems) — a credible, communicative, and strategic business consultant.
+
+✨ Your Identity:
+"I'm AVIS AI, your credible business bestie — ready to be your loyal assistant and trusted executor for all things strategy, analysis, and business planning."
+
+🧠 Core Role & Capabilities:
+
+1. READ AND REMEMBER CONVERSATION CONTEXT
+- You MUST understand all previous messages (topics, goals, data, or decisions mentioned)
+- Never answer without reading context first
+- If user says something that connects to previous discussion, continue from there
+- If user suddenly says something weird, short, or unclear, interpret meaning from previous context first
+- If still ambiguous, ask for clarification with a light and friendly tone
+
+2. CONTEXTUAL AND RELEVANT
+- All answers must align with the latest conversation direction
+- Handle topics like investment, business strategy, market research, business ideas, product development
+- Use RAG (retrieval or knowledge base) when you need current data, real examples, or location references
+
+3. HANDLE WEIRD OR INFORMAL INPUT
+- If user uses emojis, typos, or jokes, respond with bestie style but stay professional
+- Convert unclear speech into meaningful sentences, then answer the main context
+- Example: User: "yang bisa ngebut tapi santai hehe" → You: "Hehe noted 😄 you want fast results but still stable right? Let me help you find balanced options."
+
+4. MULTI-DOMAIN (not just gold)
+- Handle investment, business planning, business ideas, market research, marketing strategy, operations, pricing, growth, technology, etc.
+- If user changes topics, connect smoothly
+
+5. COMMUNICATION STYLE:
+- Warm, smart, and engaging like a professional bestie
+- Use natural modern Indonesian but stay polite
+- Avoid being too rigid or formal
+- Use emojis moderately for human touch (✨, 💬, 🚀, 💡, etc.)
+
+6. IDEAL ANSWER STRUCTURE:
+💬 Context summary: what's being discussed or user's goal
+📊 Brief analysis: insights from context, data, or opportunities
+🎯 Recommendations/execution steps: concrete actions that can be taken
+(optional) 1-line clarification question if context is incomplete
+
+7. CONTINUOUS CONTEXT HANDLING (memory):
+- Save important details like: budget, location, business type, target time, user's risk style
+- Reuse in next conversation without user needing to repeat
+- If information changes, update old memory
+
+8. PROFESSIONAL BUT EMPATHETIC ATTITUDE:
+- If user seems hesitant, give positive support
+- If user asks for execution ("please create strategy, analysis, etc"), help directly with neat and actionable format
+
+Default opening: "Hello! 👋 I'm AVIS AI, your credible business bestie. Ready to help you analyze, strategize, and execute your business ideas together 💼✨."
+
+Default for weird/unclear input: "Hehe, do you mean this connects to the previous topic? Let me make sure so my answer is accurate."
 PROMPT;
         }
         
         // Default Indonesian prompt (grounded to provided context)
         return <<<'PROMPT'
-Saya AVIS AI, konsultan bisnis yang ramah yang membantu pengusaha menemukan ruang komersial. Bicara secara natural seperti konsultan manusia - hangat, conversational, dan suportif. Gunakan "saya" dan "Anda" secara natural. Tanyakan tentang tujuan bisnis mereka dan berikan rekomendasi yang dipersonalisasi berdasarkan data nyata. Hanya rekomendasikan lokasi yang ada dalam CONTEXT_DATA yang disediakan. Bersikap mendukung dan berikan saran bisnis yang praktis.
+Kamu adalah AVIS AI (Asets Virtual Intelligence Systems) — konsultan bisnis yang credible, komunikatif, dan berpikiran strategis.
+
+✨ Identitas kamu:
+"Saya AVIS AI, credible bestie bisnis kamu — siap jadi asisten setia dan eksekutor andalan buat bantuin semua hal soal strategi, analisis, dan rencana bisnis kamu."
+
+🧠 Peran & Kemampuan Utama:
+
+1. MEMBACA DAN MENGINGAT KONTEKS PERCAKAPAN
+- Kamu HARUS memahami semua pesan sebelumnya (topik, tujuan, data, atau keputusan yang sudah disebut)
+- Jangan jawab tanpa membaca konteks dulu
+- Jika user bilang sesuatu yang nyambung ke sebelumnya, lanjutkan dari situ
+- Jika user tiba-tiba ngomong aneh, singkat, atau nggak jelas, tafsirkan maknanya dari konteks sebelumnya dulu
+- Jika tetap ambigu, tanyakan klarifikasi dengan nada ringan dan ramah
+
+2. KONTEKSTUAL DAN RELEVAN
+- Semua jawaban harus menyesuaikan dengan arah pembicaraan terakhir
+- Tangani topik seperti investasi, strategi bisnis, riset pasar, ide usaha, pengembangan produk
+- Gunakan RAG (retrieval atau knowledge base) jika perlu data terkini, contoh nyata, atau referensi lokasi
+
+3. MENANGANI INPUT ANEH ATAU TIDAK FORMAL
+- Jika user pakai emoji, typo, atau bercanda, tanggapi dengan gaya bestie tapi tetap profesional
+- Ubah ucapan tidak jelas menjadi kalimat bermakna, lalu jawab konteks utamanya
+- Contoh: User: "yang bisa ngebut tapi santai hehe" → Kamu: "Hehe noted 😄 maksudnya kamu mau hasil cepat tapi tetap stabil ya? Aku bantu cariin opsi seimbangnya."
+
+4. MULTI-DOMAIN (tidak hanya emas)
+- Tangani investasi, perencanaan bisnis, ide usaha, riset pasar, strategi marketing, operasional, pricing, growth, teknologi, dll
+- Kalau user berganti topik, sambungkan dengan mulus
+
+5. GAYA KOMUNIKASI:
+- Hangat, smart, dan engaging seperti bestie profesional
+- Gunakan bahasa alami Indonesia modern tapi tetap sopan
+- Hindari terlalu kaku atau terlalu formal
+- Gunakan emoji secukupnya untuk human touch (✨, 💬, 🚀, 💡, dll)
+
+6. STRUKTUR JAWABAN IDEAL:
+💬 Ringkasan konteks: apa yang sedang dibahas atau tujuan user
+📊 Analisis singkat: insight dari konteks, data, atau peluangnya
+🎯 Rekomendasi / langkah eksekusi: tindakan konkret yang bisa dilakukan
+(opsional) pertanyaan klarifikasi 1 baris kalau konteks belum lengkap
+
+7. PENANGANAN KONTEKS BERKELANJUTAN (memori):
+- Simpan detail penting seperti: budget, lokasi, jenis bisnis, target waktu, dan gaya risiko user
+- Gunakan ulang di percakapan berikut tanpa user perlu ulangi
+- Jika informasi berubah, update memori lama
+
+8. SIKAP PROFESIONAL TAPI EMPATIK:
+- Jika user tampak ragu, beri dukungan positif
+- Jika user minta eksekusi ("tolong buatin strategi, analisis, dll"), langsung bantu dengan format rapi dan actionable
+
+Kalimat default pembuka: "Halo! 👋 Saya AVIS AI, credible bestie bisnis kamu. Siap bantuin kamu analisis, strategi, dan eksekusi ide bisnismu bareng-bareng 💼✨."
+
+Kalimat default jika input aneh / tidak nyambung: "Hehe, maksud kamu yang tadi masih nyambung ke topik sebelumnya ya? Biar aku pastiin dulu biar jawabanku tepat."
 PROMPT;
     }
 
@@ -378,7 +499,6 @@ PROMPT;
             // Summarize top 1-2 areas with budget reasoning
             $highlights = [];
             foreach (array_slice($recs, 0, 2) as $r) {
-                $title = $r['title'] ?? 'Area';
                 $desc = $r['description'] ?? '';
                 $reason = '';
                 if ($budgetValue !== null && isset($r['price_value']) && $r['price_value'] !== null) {
@@ -392,7 +512,7 @@ PROMPT;
                         $reason = $budgetLabelEn ? (' slightly above budget but still close to ' . $budgetLabelEn . ' per month') : ' slightly above but still close to your budget';
                     }
                 }
-                $highlights[] = $title . ' (' . $desc . ')' . $reason;
+                $highlights[] = $desc . $reason;
             }
             $mid = count($highlights) ? 'Examples: ' . implode('; ', $highlights) . '.' : '';
 
@@ -426,7 +546,6 @@ PROMPT;
         // Ringkas 1-2 area teratas dengan alasan kecocokan budget
         $highlights = [];
         foreach (array_slice($recs, 0, 2) as $r) {
-            $title = $r['title'] ?? 'Area';
             $desc = $r['description'] ?? '';
             $reason = '';
             if ($budgetValue !== null && isset($r['price_value']) && $r['price_value'] !== null) {
@@ -440,7 +559,7 @@ PROMPT;
                     $reason = $budgetLabelId ? (' sedikit di atas budget namun masih dekat dengan ' . $budgetLabelId . ' per bulan') : ' sedikit di atas namun masih dekat dengan budget Anda';
                 }
             }
-            $highlights[] = $title . ' (' . $desc . ')' . $reason;
+            $highlights[] = $desc . $reason;
         }
         $mid = count($highlights) ? 'Contoh: ' . implode('; ', $highlights) . '.' : '';
 
@@ -660,7 +779,6 @@ PROMPT;
             $top = array_slice($candidates, 0, 15);
             $recs = [];
             foreach ($top as $rec) {
-                $title = $rec['name'] ?? 'Unknown Location';
                 $priceLabel = isset($rec['price'])
                     ? 'IDR ' . number_format((float)$rec['price'], 0, ',', '.') . ($rec['price_type'] === 'm2' ? ' / m² / Month' : ' / Month')
                     : ($language === 'en' ? 'Contact for price' : 'Hubungi untuk harga');
@@ -680,7 +798,6 @@ PROMPT;
                 }
                 
                 $recs[] = [
-                    'title' => $title,
                     'description' => $rec['address'] ?? '',
                     'price' => $priceLabel,
                     'link' => '/detail-spbu/' . $rec['id'],
@@ -780,8 +897,7 @@ PROMPT;
             $html .= '<ul class="ai-recommendations-list">';
             foreach ($topRecs as $rec) {
                 $html .= '<li class="ai-recommendation-item">';
-                $html .= '<strong>' . htmlspecialchars($rec['title']) . '</strong>';
-                $html .= '<br><span class="ai-location">' . htmlspecialchars($rec['description']) . '</span>';
+                $html .= '<span class="ai-location">' . htmlspecialchars($rec['description']) . '</span>';
                 $html .= '<br><span class="ai-price">' . htmlspecialchars($rec['price']) . '</span>';
                 $html .= '</li>';
             }
@@ -1272,6 +1388,191 @@ PROMPT;
     }
 
     /**
+     * Analyze conversation context to understand user's current topic and needs
+     */
+    private function analyzeConversationContext(array $conversationHistory, string $currentMessage): array
+    {
+        $context = [
+            'topics' => [],
+            'budget_mentioned' => false,
+            'timeframe_mentioned' => false,
+            'location_mentioned' => false,
+            'business_type' => null,
+            'investment_type' => null,
+            'user_goals' => [],
+            'risk_profile' => null,
+            'previous_decisions' => []
+        ];
+
+        // Combine all conversation history
+        $fullConversation = '';
+        foreach ($conversationHistory as $msg) {
+            if (isset($msg['content']) && $msg['role'] === 'user') {
+                $fullConversation .= ' ' . $msg['content'];
+            }
+        }
+        $fullConversation .= ' ' . $currentMessage;
+
+        // Detect topics mentioned
+        $topics = [
+            'investasi' => ['investasi', 'investment', 'invest', 'modal', 'capital'],
+            'emas' => ['emas', 'gold', 'logam mulia', 'precious metal'],
+            'properti' => ['properti', 'property', 'rumah', 'tanah', 'real estate'],
+            'saham' => ['saham', 'stock', 'bursa', 'trading'],
+            'crypto' => ['crypto', 'bitcoin', 'ethereum', 'cryptocurrency', 'mata uang digital'],
+            'bisnis' => ['bisnis', 'business', 'usaha', 'wirausaha', 'entrepreneur'],
+            'ruang komersial' => ['ruang komersial', 'commercial space', 'kantor', 'toko', 'ruko', 'rukan'],
+            'teknologi' => ['teknologi', 'technology', 'tech', 'digital', 'software', 'aplikasi'],
+            'coding' => ['coding', 'programming', 'develop', 'kode', 'aplikasi', 'website'],
+            'marketing' => ['marketing', 'pemasaran', 'promosi', 'iklan', 'branding'],
+            'operasional' => ['operasional', 'operations', 'produksi', 'manajemen'],
+            'strategi' => ['strategi', 'strategy', 'perencanaan', 'planning']
+        ];
+
+        foreach ($topics as $topic => $keywords) {
+            foreach ($keywords as $keyword) {
+                if (stripos($fullConversation, $keyword) !== false) {
+                    $context['topics'][] = $topic;
+                    break;
+                }
+            }
+        }
+
+        // Detect budget mentions
+        $context['budget_mentioned'] = $this->extractBudgetInfo($fullConversation)['value'] !== null;
+        
+        // Detect timeframe mentions
+        $timeframeKeywords = ['bulan', 'month', 'tahun', 'year', 'minggu', 'week', 'hari', 'day', 'jangka pendek', 'jangka panjang', 'short term', 'long term', 'cepat', 'fast', 'lambat', 'slow'];
+        foreach ($timeframeKeywords as $keyword) {
+            if (stripos($fullConversation, $keyword) !== false) {
+                $context['timeframe_mentioned'] = true;
+                break;
+            }
+        }
+
+        // Detect location mentions
+        $context['location_mentioned'] = !empty($this->getMentionedCities($fullConversation));
+
+        // Detect business type
+        $context['business_type'] = $this->detectBusinessType($fullConversation);
+
+        // Detect investment type
+        $investmentTypes = ['emas', 'properti', 'saham', 'crypto', 'reksadana', 'obligasi'];
+        foreach ($investmentTypes as $type) {
+            if (stripos($fullConversation, $type) !== false) {
+                $context['investment_type'] = $type;
+                break;
+            }
+        }
+
+        // Detect risk profile
+        $riskKeywords = [
+            'konservatif' => ['konservatif', 'conservative', 'aman', 'safe', 'stabil'],
+            'moderat' => ['moderat', 'moderate', 'seimbang', 'balanced'],
+            'agresif' => ['agresif', 'aggressive', 'tinggi', 'high risk', 'spekulatif']
+        ];
+        foreach ($riskKeywords as $profile => $keywords) {
+            foreach ($keywords as $keyword) {
+                if (stripos($fullConversation, $keyword) !== false) {
+                    $context['risk_profile'] = $profile;
+                    break 2;
+                }
+            }
+        }
+
+        // Extract user goals from conversation
+        $goalKeywords = ['ingin', 'want', 'mau', 'tujuan', 'goal', 'target', 'rencana', 'plan', 'harapan', 'expectation'];
+        foreach ($conversationHistory as $msg) {
+            if (isset($msg['content']) && $msg['role'] === 'user') {
+                foreach ($goalKeywords as $keyword) {
+                    if (stripos($msg['content'], $keyword) !== false) {
+                        $context['user_goals'][] = $msg['content'];
+                        break;
+                    }
+                }
+            }
+        }
+
+        return $context;
+    }
+
+    /**
+     * Build a summary of conversation context for AI memory
+     */
+    private function buildContextSummary(array $conversationContext, string $language = 'id'): string
+    {
+        $summary = [];
+        
+        if ($language === 'en') {
+            if (!empty($conversationContext['topics'])) {
+                $summary[] = "Topics discussed: " . implode(', ', array_unique($conversationContext['topics']));
+            }
+            
+            if ($conversationContext['budget_mentioned']) {
+                $summary[] = "User has mentioned budget/financial information";
+            }
+            
+            if ($conversationContext['timeframe_mentioned']) {
+                $summary[] = "User has mentioned timeframe/deadline";
+            }
+            
+            if ($conversationContext['location_mentioned']) {
+                $summary[] = "User has mentioned specific locations";
+            }
+            
+            if ($conversationContext['business_type']) {
+                $summary[] = "Business type mentioned: " . $conversationContext['business_type'];
+            }
+            
+            if ($conversationContext['investment_type']) {
+                $summary[] = "Investment type mentioned: " . $conversationContext['investment_type'];
+            }
+            
+            if ($conversationContext['risk_profile']) {
+                $summary[] = "Risk profile: " . $conversationContext['risk_profile'];
+            }
+            
+            if (!empty($conversationContext['user_goals'])) {
+                $summary[] = "User goals mentioned: " . implode('; ', array_slice($conversationContext['user_goals'], 0, 3));
+            }
+        } else {
+            if (!empty($conversationContext['topics'])) {
+                $summary[] = "Topik yang dibahas: " . implode(', ', array_unique($conversationContext['topics']));
+            }
+            
+            if ($conversationContext['budget_mentioned']) {
+                $summary[] = "User sudah menyebutkan budget/informasi finansial";
+            }
+            
+            if ($conversationContext['timeframe_mentioned']) {
+                $summary[] = "User sudah menyebutkan timeframe/deadline";
+            }
+            
+            if ($conversationContext['location_mentioned']) {
+                $summary[] = "User sudah menyebutkan lokasi spesifik";
+            }
+            
+            if ($conversationContext['business_type']) {
+                $summary[] = "Jenis usaha yang disebutkan: " . $conversationContext['business_type'];
+            }
+            
+            if ($conversationContext['investment_type']) {
+                $summary[] = "Jenis investasi yang disebutkan: " . $conversationContext['investment_type'];
+            }
+            
+            if ($conversationContext['risk_profile']) {
+                $summary[] = "Profil risiko: " . $conversationContext['risk_profile'];
+            }
+            
+            if (!empty($conversationContext['user_goals'])) {
+                $summary[] = "Tujuan user yang disebutkan: " . implode('; ', array_slice($conversationContext['user_goals'], 0, 3));
+            }
+        }
+        
+        return implode('. ', $summary);
+    }
+
+    /**
      * Generate local recommendations with conversation context
      */
     private function generateLocalRecommendationsWithContext(string $userMessage, string $language = 'id', array $conversationHistory = []): array
@@ -1404,6 +1705,12 @@ PROMPT;
         $lower = mb_strtolower($message, 'UTF-8');
         
         $businessTypes = [
+            'investasi emas' => ['emas', 'gold', 'logam mulia', 'precious metal', 'investasi emas'],
+            'investasi properti' => ['properti', 'property', 'rumah', 'tanah', 'real estate', 'investasi properti'],
+            'investasi saham' => ['saham', 'stock', 'bursa', 'trading', 'investasi saham'],
+            'investasi crypto' => ['crypto', 'bitcoin', 'ethereum', 'cryptocurrency', 'mata uang digital', 'investasi crypto'],
+            'investasi reksadana' => ['reksadana', 'mutual fund', 'investasi reksadana'],
+            'investasi obligasi' => ['obligasi', 'bond', 'investasi obligasi'],
             'toko roti' => ['toko roti', 'bakery', 'roti', 'kue', 'pastry'],
             'toko bunga' => ['toko bunga', 'florist', 'bunga', 'karangan bunga', 'bouquet'],
             'restoran' => ['restoran', 'restaurant', 'warung makan', 'cafe', 'kafe'],
