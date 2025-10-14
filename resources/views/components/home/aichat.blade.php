@@ -1,25 +1,30 @@
-<div class="flex flex-col bg-white p-4 lg:p-5 shadow-md gap-2 lg:gap-5 w-full border-1 rounded-2xl">
+<div class="flex flex-col bg-white p-4 lg:p-5 shadow-lg gap-2 lg:gap-5 w-full border-1 rounded-2xl -mt-8">
 
 <div class="mb-6" x-data="aiChatComponent()">
-        <div class="bg-white border border-gray-200 rounded-2xl shadow-sm">
-            <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100">
-                <div class="flex items-center gap-2">
-                    <div class="w-8 h-8 bg-custom-primary rounded-full flex items-center justify-center text-white text-sm">AI</div>
+        <div class="bg-gradient-to-br from-white to-gray-50 border border-gray-200 rounded-2xl shadow-lg overflow-hidden">
+            <div class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white text-sm font-bold shadow-lg overflow-hidden">
+                        <img src="/assets/img/llama.gif" alt="AVIS AI" class="w-full h-full object-cover rounded-full">
+                    </div>
                     <div>
-                        <p class="text-sm font-semibold text-gray-900">AVIS</p>
-                        <p class="text-xs text-green-600">● Online</p>
+                        <p class="text-base font-bold text-white">AVIS AI Assistant</p>
+                        <p class="text-xs text-green-200 flex items-center gap-1">
+                            <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                            Online & Ready to Help
+                        </p>
                     </div>
                 </div>
-                <button @click="toggle()" class="text-xs text-custom-primary hover:underline">
-                    <span x-text="open ? 'Tutup' : 'Buka'"></span>
+                <button @click="toggle()" class="text-sm text-white/80 hover:text-white hover:bg-white/10 px-3 py-1.5 rounded-lg transition-all duration-200 font-medium">
+                    <span x-text="open ? 'Minimize' : 'Expand'"></span>
                 </button>
             </div>
             <div x-show="open" x-cloak>
-                <div class="p-4 space-y-3 max-h-80 overflow-y-auto" x-ref="container">
+                <div class="p-6 space-y-4 max-h-[48rem] overflow-y-auto bg-gradient-to-b from-gray-50 to-white" x-ref="container">
                     <template x-for="(msg, idx) in messages" :key="idx">
                         <div class="flex" :class="msg.role === 'user' ? 'justify-end' : 'justify-start'">
-                            <div class="max-w-[80%] text-sm rounded-lg px-3 py-2"
-                                 :class="msg.role === 'user' ? 'bg-custom-primary text-white' : 'bg-gray-100 text-gray-800'">
+                            <div class="max-w-[85%] text-sm rounded-2xl px-4 py-3 shadow-sm"
+                                 :class="msg.role === 'user' ? 'bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white' : 'bg-white text-gray-800 border border-gray-200'">
                                 <template x-if="msg.isStructured">
                                     <div x-html="msg.content" class="ai-structured-content"></div>
                                 </template>
@@ -28,9 +33,9 @@
                                 </template>
                                 <template x-if="(msg.recommendations || []).length">
                                     <div class="mt-3">
-                                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                                             <template x-for="(rec, rIdx) in msg.recommendations" :key="rIdx">
-                                                <div class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden flex flex-col h-full">
+                                                <div class="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col h-full group hover:-translate-y-1">
                                                     <!-- Image -->
                                                     <div class="w-full h-32 bg-gray-100 flex items-center justify-center">
                                                         <template x-if="rec.image">
@@ -50,9 +55,9 @@
                                                             <p class="text-xs text-gray-600 mb-2 overflow-hidden" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;" x-text="rec.description || ''"></p>
                                                         </div>
                                                         <div class="flex items-center justify-between mt-auto">
-                                                            <span class="text-xs font-medium text-custom-primary" x-text="rec.price || ''"></span>
-                                                            <button @click="navigateToRecommendation(rec)" class="text-xs bg-custom-primary text-white px-2 py-1 rounded hover:bg-custom-primary/90 transition-colors">
-                                                                Lihat
+                                                            <span class="text-xs font-semibold text-custom-primary" x-text="rec.price || ''"></span>
+                                                            <button @click="navigateToRecommendation(rec)" class="text-xs bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white px-3 py-1.5 rounded-lg hover:shadow-md transition-all duration-200 font-medium">
+                                                                View Details
                                                             </button>
                                                         </div>
                                                     </div>
@@ -64,17 +69,38 @@
                             </div>
                         </div>
                     </template>
-                    <div x-show="isTyping" class="flex items-center gap-2 text-xs text-gray-500">
-                        <span>AI sedang mengetik</span>
-                        <div class="flex gap-1"><span class="w-1.5 h-1.5 bg-custom-primary rounded-full animate-bounce"></span><span class="w-1.5 h-1.5 bg-custom-primary rounded-full animate-bounce" style="animation-delay:150ms"></span><span class="w-1.5 h-1.5 bg-custom-primary rounded-full animate-bounce" style="animation-delay:300ms"></span></div>
+                    <div x-show="isTyping" class="flex items-center gap-3 text-sm text-gray-600 bg-white border border-gray-200 rounded-2xl px-4 py-3 shadow-sm">
+                        <div class="flex items-center gap-2">
+                            <div class="w-2 h-2 bg-custom-primary rounded-full animate-bounce"></div>
+                            <div class="w-2 h-2 bg-custom-primary rounded-full animate-bounce" style="animation-delay:150ms"></div>
+                            <div class="w-2 h-2 bg-custom-primary rounded-full animate-bounce" style="animation-delay:300ms"></div>
+                        </div>
+                        <span class="font-medium">AVIS AI is thinking...</span>
                     </div>
                 </div>
-                <div class="border-t border-gray-100 p-3 flex items-center gap-2">
-                    <input type="text" x-model="input" @keydown.enter.prevent="send()" :disabled="loading"
-                           class="flex-1 px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-custom-primary/40"
-                           placeholder="Tanya lokasi: kota, ukuran, dan budget per bulan...">
-                    <button @click="send()" :disabled="loading || !input.trim()"
-                            class="bg-custom-primary text-white text-sm px-3 py-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed">Kirim</button>
+                <div class="border-t border-gray-200 bg-white p-4">
+                    <div class="flex items-center gap-3">
+                        <div class="flex-1 relative">
+                            <input type="text" x-model="input" @keydown.enter.prevent="send()" :disabled="loading"
+                                   class="w-full px-4 py-3 pr-12 border border-gray-300 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-custom-primary/30 focus:border-custom-primary transition-all duration-200 bg-gray-50 focus:bg-white"
+                                   placeholder="Tanya tentang bisnis, lokasi, atau strategi...">
+                            <div class="absolute right-3 top-1/2 transform -translate-y-1/2">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <button @click="send()" :disabled="loading || !input.trim()"
+                                class="bg-custom-primary text-white text-sm px-6 py-3 rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-lg transition-all duration-200 font-medium flex items-center gap-2">
+                            <span x-show="!loading">Send</span>
+                            <span x-show="loading" class="flex items-center gap-1">
+                                <svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                                </svg>
+                                Sending...
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
