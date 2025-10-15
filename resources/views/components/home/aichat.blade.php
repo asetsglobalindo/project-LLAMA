@@ -1,26 +1,54 @@
-<div class="flex flex-col bg-white p-4 lg:p-5 shadow-lg gap-2 lg:gap-5 w-full border-1 rounded-2xl -mt-8">
-
-<div class="mb-6" x-data="aiChatComponent()">
-        <div class="bg-gradient-to-br from-white to-gray-50 border border-gray-200 rounded-2xl shadow-lg overflow-hidden">
-            <div class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white text-sm font-bold shadow-lg overflow-hidden">
-                        <img src="/assets/img/llama.gif" alt="AVIS AI" class="w-full h-full object-cover rounded-full">
+<!-- AI Chat Widget - Di dalam Hero Section -->
+<div class="w-full max-w-6xl mx-auto" x-data="aiChatComponent()">
+    <div class="ai-widget bg-gradient-to-br from-white to-gray-50 border border-gray-200 rounded-2xl shadow-2xl overflow-hidden relative transition-all duration-300 backdrop-blur-sm">
+        <!-- Header dengan efek menarik -->
+        <div class="relative bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white overflow-hidden">
+            <!-- Background pattern -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/20 to-transparent"></div>
+                <div class="absolute bottom-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
+            </div>
+            
+            <div class="relative flex items-center justify-between px-6 py-5">
+                <div class="flex items-center gap-4">
+                    <div class="relative">
+                        <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+                            <img src="/assets/img/llama.gif" alt="AVIS AI" class="w-full h-full object-cover rounded-full">
+                        </div>
+                        <!-- Online indicator -->
+                        <div class="absolute -top-1 -right-1 w-5 h-5 bg-green-400 rounded-full border-3 border-white animate-pulse"></div>
+                        <!-- Pulse ring -->
+                        <div class="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-30"></div>
                     </div>
                     <div>
-                        <p class="text-base font-bold text-white">AVIS AI Assistant</p>
-                        <p class="text-xs text-green-200 flex items-center gap-1">
+                        <h3 class="text-xl font-bold text-white mb-1">AVIS AI Assistant</h3>
+                        <p class="text-sm text-green-200 flex items-center gap-2">
                             <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                            Online & Ready to Help
+                            Online & Ready to Help Your Business
                         </p>
                     </div>
                 </div>
-                <button @click="toggle()" class="text-sm text-white/80 hover:text-white hover:bg-white/10 px-3 py-1.5 rounded-lg transition-all duration-200 font-medium">
-                    <span x-text="open ? 'Minimize' : 'Expand'"></span>
-                </button>
+                
+                <!-- CTA Button -->
+                <div class="flex items-center gap-3">
+                    <div class="hidden sm:block text-right">
+                        <p class="text-xs text-white/80 mb-1">Ask anything about</p>
+                        <p class="text-sm font-medium text-white">Business & Investment</p>
+                    </div>
+                    <button @click="toggle()" 
+                            class="bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-xl transition-all duration-200 font-medium flex items-center gap-2 backdrop-blur-sm">
+                        <span x-text="open ? 'Minimize' : 'Start Chat'"></span>
+                        <svg class="w-4 h-4 transition-transform duration-200" :class="open ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div x-show="open" x-cloak>
-                <div class="p-6 space-y-4 max-h-[48rem] overflow-y-auto bg-gradient-to-b from-gray-50 to-white" x-ref="container">
+        </div>
+        <!-- Chat Interface -->
+        <div x-show="open" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 max-h-0" x-transition:enter-end="opacity-100 max-h-96" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 max-h-96" x-transition:leave-end="opacity-0 max-h-0">
+            <!-- Chat Messages -->
+            <div class="p-6 space-y-4 max-h-80 overflow-y-auto bg-gradient-to-b from-gray-50 to-white" x-ref="container">
                     <template x-for="(msg, idx) in messages" :key="idx">
                         <div class="flex" :class="msg.role === 'user' ? 'justify-end' : 'justify-start'">
                             <div class="max-w-[85%] text-sm rounded-2xl px-4 py-3 shadow-sm"
@@ -77,42 +105,43 @@
                         </div>
                         <span class="font-medium">AVIS AI is thinking...</span>
                     </div>
-                </div>
-                <div class="border-t border-gray-200 bg-white p-4">
-                    <div class="flex items-center gap-3">
-                        <div class="flex-1 relative">
-                            <input type="text" x-model="input" @keydown.enter.prevent="send()" :disabled="loading"
-                                   class="w-full px-4 py-3 pr-12 border border-gray-300 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-custom-primary/30 focus:border-custom-primary transition-all duration-200 bg-gray-50 focus:bg-white"
-                                   placeholder="Tanya tentang bisnis, lokasi, atau strategi...">
-                            <div class="absolute right-3 top-1/2 transform -translate-y-1/2">
-                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
-                                </svg>
-                            </div>
+            </div>
+            
+            <!-- Input Area -->
+            <div class="border-t border-gray-200 bg-white p-4">
+                <div class="flex items-center gap-3">
+                    <div class="flex-1 relative">
+                        <input type="text" x-model="input" @keydown.enter.prevent="send()" :disabled="loading"
+                               class="w-full px-4 py-3 pr-12 border border-gray-300 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-custom-primary/30 focus:border-custom-primary transition-all duration-200 bg-gray-50 focus:bg-white"
+                               placeholder="Tanya tentang bisnis, lokasi, atau strategi investasi...">
+                        <div class="absolute right-3 top-1/2 transform -translate-y-1/2">
+                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                            </svg>
                         </div>
-                        <button @click="send()" :disabled="loading || !input.trim()"
-                                class="bg-custom-primary text-white text-sm px-6 py-3 rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-lg transition-all duration-200 font-medium flex items-center gap-2">
-                            <span x-show="!loading">Send</span>
-                            <span x-show="loading" class="flex items-center gap-1">
-                                <svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
-                                </svg>
-                                Sending...
-                            </span>
-                        </button>
                     </div>
+                    <button @click="send()" :disabled="loading || !input.trim()"
+                            class="bg-gradient-to-r from-custom-primary to-[#8dc0ca] text-white text-sm px-6 py-3 rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-lg transition-all duration-200 font-medium flex items-center gap-2">
+                        <span x-show="!loading">Send</span>
+                        <span x-show="loading" class="flex items-center gap-1">
+                            <svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                            </svg>
+                            Sending...
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    
 </div>
 
 @push('scripts')
 <script>
 function aiChatComponent() {
     return {
-        open: true,
+        open: false, // Default tertutup, user harus klik "Start Chat"
+        showNotification: false,
         input: '',
         messages: [
             { role: 'assistant', content: 'Halo! 👋 Saya AVIS AI, credible bestie bisnis kamu. Siap bantuin kamu analisis, strategi, dan eksekusi ide bisnismu bareng-bareng 💼✨.\n\nYuk, mulai dari mana dulu nih?' }
@@ -196,6 +225,45 @@ function aiChatComponent() {
 @push('styles')
 <style>
     [x-cloak] { display: none !important; }
+    
+    /* AI Widget Styles */
+    .ai-widget {
+        position: relative;
+        z-index: 10;
+    }
+    
+    /* Pulse animation for notification */
+    @keyframes pulse-glow {
+        0%, 100% { 
+            box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+        }
+        50% { 
+            box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+        }
+    }
+    
+    .ai-pulse-glow {
+        animation: pulse-glow 2s infinite;
+    }
+    
+    /* Smooth transitions */
+    .ai-transition {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* Widget hover effects */
+    .ai-widget:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    
+    /* Gradient text effect */
+    .ai-gradient-text {
+        background: linear-gradient(135deg, #3b82f6, #8dc0ca);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
     
     /* AI Structured Response Styles */
     .ai-structured-content {

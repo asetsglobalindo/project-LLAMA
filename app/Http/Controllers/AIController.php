@@ -6,19 +6,16 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use App\Services\ExternalApiService;
 use League\CommonMark\CommonMarkConverter;
 
 class AIController extends Controller
 {
     private string $groqApiUrl = 'https://api.groq.com/openai/v1/chat/completions';
     private string $model = 'llama-3.1-8b-instant';
-    private ExternalApiService $externalApiService;
     private CommonMarkConverter $markdownConverter;
 
-    public function __construct(ExternalApiService $externalApiService)
+    public function __construct()
     {
-        $this->externalApiService = $externalApiService;
         $this->markdownConverter = new CommonMarkConverter();
     }
 
@@ -601,53 +598,28 @@ PROMPT;
     }
 
     /**
-     * Test external API integration
+     * Test local JSON data integration
      */
-    public function testExternalApi(): JsonResponse
+    public function testLocalData(): JsonResponse
     {
         try {
-            $listings = $this->externalApiService->fetchListings();
-            $spaces = $this->externalApiService->fetchSpaceAvailable();
+            $locations = $this->loadAllLocationData();
             
             return response()->json([
                 'success' => true,
                 'data' => [
-                    'listings_count' => count($listings),
-                    'spaces_count' => count($spaces),
-                    'listings_sample' => array_slice($listings, 0, 3),
-                    'spaces_sample' => array_slice($spaces, 0, 3),
+                    'total_locations' => count($locations),
+                    'sample_locations' => array_slice($locations, 0, 3),
                 ],
-                'message' => 'External API integration test successful'
+                'message' => 'Local JSON data integration test successful'
             ]);
         } catch (\Exception $e) {
-            Log::error('External API Test Error: ' . $e->getMessage());
+            Log::error('Local Data Test Error: ' . $e->getMessage());
             
             return response()->json([
                 'success' => false,
-                'message' => 'External API test failed: ' . $e->getMessage(),
+                'message' => 'Local data test failed: ' . $e->getMessage(),
                 'data' => []
-            ]);
-        }
-    }
-
-    /**
-     * Clear external API cache
-     */
-    public function clearApiCache(): JsonResponse
-    {
-        try {
-            $this->externalApiService->clearCache();
-            
-            return response()->json([
-                'success' => true,
-                'message' => 'External API cache cleared successfully'
-            ]);
-        } catch (\Exception $e) {
-            Log::error('Clear Cache Error: ' . $e->getMessage());
-            
-            return response()->json([
-                'success' => false,
-                'message' => 'Failed to clear cache: ' . $e->getMessage()
             ]);
         }
     }
@@ -2004,21 +1976,11 @@ PROMPT;
     }
 
     /**
-     * Load all location data from external APIs
+     * Load all location data from local JSON files
      */
     private function loadAllLocationData(): array
     {
-        try {
-            // Use ExternalApiService to fetch data from APIs
-            return $this->externalApiService->getAllLocationData();
-        } catch (\Exception $e) {
-            Log::error('Failed to load location data from external APIs', [
-                'message' => $e->getMessage()
-            ]);
-            
-            // Fallback to local JSON files if API fails
-            return $this->loadAllLocationDataFromFiles();
-        }
+        return $this->loadAllLocationDataFromFiles();
     }
 
     /**
